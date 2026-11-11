@@ -108,7 +108,7 @@
         h("p", { class: "area-capa" }, areasDe(lista)),
         /* o selo de Iyar (Touro), por pedido do usuário */
         h("div", { class: "selo", "aria-hidden": "true" }, h("span", { class: "signo" }, "\u2649"), h("span", { class: "mes" }, "Iyar"))),
-      h("p", { class: "lema" }, `Questões reais das provas de acesso direto da banca ${B.meta.banca} (${EDICOES.filter(f => lista.some(q => q.fonte === f.id)).map(f => f.rotulo).join(", ")}), para a ${B.meta.concurso}. Prova: ${B.meta.prova}.`),
+      h("p", { class: "lema" }, `Questões reais das provas teóricas da banca ${B.meta.banca} (${EDICOES.filter(f => lista.some(q => q.fonte === f.id)).map(f => f.rotulo).join(", ")}), para a ${B.meta.concurso}. Prova: ${B.meta.prova}.`),
       h("dl", { class: "fatos" },
         h("div", null, h("dt", null, "Questões"), h("dd", null, String(lista.length))),
         EDICOES.filter(f => lista.some(q => q.fonte === f.id)).map(f => h("div", null, h("dt", null, f.rotulo), h("dd", null, String(lista.filter(q => q.fonte === f.id).length))))),

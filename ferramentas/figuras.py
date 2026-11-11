@@ -26,9 +26,57 @@ CANDIDATOS = os.path.join(PASTA, "candidatos.json")
 ESCOLHAS = os.path.join(PASTA, "escolhas.json")
 
 CONSULTAS = {
-  # Obstetrícia — TEGO Obstetrícia 2025 (obst01 = questão 1, obst02 = questão 2)
+  # Obstetrícia — TEGO Obstetrícia 2025: obst01–obst50 = questões 1, 2, 4, 5, 6, 9, 10, 12, 13, 15, 16, 17, 18, 20, 22, 23, 24, 25, 26, 27, 28, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 57, 58, 59, 60
   "obst01": ["monochorionic diamniotic twin pregnancy ultrasound", "twin pregnancy ultrasound", "twins ultrasound"],
   "obst02": ["Toxoplasma gondii tachyzoites", "congenital toxoplasmosis intracranial calcification", "Toxoplasma gondii"],
+  "obst03": ["acute pulmonary edema chest x-ray", "pulmonary edema radiograph", "pulmonary edema"],
+  "obst04": ["hepatitis B virus", "tenofovir tablets", "hepatitis B"],
+  "obst05": ["Bakri balloon", "intrauterine balloon tamponade", "postpartum hemorrhage uterus"],
+  "obst06": ["Kielland forceps", "obstetric forceps", "forceps delivery"],
+  "obst07": ["schistocytes blood smear", "peripheral blood smear fragmented red cells", "HELLP syndrome"],
+  "obst08": ["genital herpes lesions", "herpes simplex virus", "herpes labialis vesicles"],
+  "obst09": ["Wernicke encephalopathy MRI", "thiamine", "hyperemesis gravidarum"],
+  "obst10": ["breastfeeding newborn latch", "breastfeeding", "lactation"],
+  "obst11": ["Graves disease goiter", "propylthiouracil", "thyroid gland"],
+  "obst12": ["omphalocele newborn", "omphalocele", "gastroschisis"],
+  "obst13": ["placenta histology villi", "chorangiosis", "placental villi microscopy"],
+  "obst14": ["umbilical artery doppler ultrasound", "fetal growth restriction ultrasound", "doppler ultrasound pregnancy"],
+  "obst15": ["sickle cells blood smear", "hemoglobin electrophoresis", "sickle cell disease"],
+  "obst16": ["respiratory syncytial virus", "RSV electron micrograph", "vaccination pregnant woman"],
+  "obst17": ["Treponema pallidum dark field", "VDRL test", "syphilis serology"],
+  "obst18": ["blood pressure measurement sphygmomanometer", "blood pressure cuff arm", "sphygmomanometer"],
+  "obst19": ["Plasmodium falciparum gametocyte", "malaria blood smear", "Anopheles mosquito"],
+  "obst20": ["HTLV-1 virus", "human T-lymphotropic virus", "retrovirus electron micrograph"],
+  "obst21": ["breech birth", "breech presentation", "frank breech"],
+  "obst22": ["pregnant teenager", "hospital consultation adolescent", "pregnancy test"],
+  "obst23": ["chorioamnionitis histology", "preterm labor", "amniotic membranes"],
+  "obst24": ["fetal circulation diagram", "ductus venosus", "fetal circulation"],
+  "obst25": ["cervical length transvaginal ultrasound", "cervical cerclage", "cervix ultrasound"],
+  "obst26": ["cesarean scar pregnancy ultrasound", "ectopic pregnancy ultrasound", "methotrexate"],
+  "obst27": ["cesarean section incision uterus", "classical cesarean section", "cesarean section"],
+  "obst28": ["dengue virus", "Aedes aegypti", "dengue rash"],
+  "obst29": ["surgical sponge count", "retained surgical sponge x-ray", "gossypiboma"],
+  "obst30": ["middle cerebral artery doppler fetal", "cordocentesis", "Rh disease"],
+  "obst31": ["pulmonary embolism CT angiography", "enoxaparin syringe", "pulmonary embolism"],
+  "obst32": ["cervical cerclage", "McDonald cerclage", "cervical insufficiency"],
+  "obst33": ["lupus anticoagulant test", "antiphospholipid syndrome", "aspirin tablets"],
+  "obst34": ["magnesium sulfate injection", "intramuscular injection gluteal", "magnesium sulfate"],
+  "obst35": ["postpartum depression", "sertraline tablets", "mother and newborn sad"],
+  "obst36": ["mitral valve prolapse echocardiogram", "mitral valve", "heart valves anatomy"],
+  "obst37": ["hemorrhagic shock", "blood transfusion bag", "postpartum hemorrhage"],
+  "obst38": ["misoprostol tablets", "manual vacuum aspiration", "misoprostol"],
+  "obst39": ["external cephalic version", "breech presentation ultrasound", "breech presentation"],
+  "obst40": ["monochorionic twins ultrasound T sign", "twin pregnancy ultrasound", "monochorionic twins"],
+  "obst41": ["B-Lynch suture", "uterine compression suture", "uterus surgery"],
+  "obst42": ["cardiotocography early deceleration", "cardiotocography", "CTG trace"],
+  "obst43": ["Ogilvie syndrome abdominal x-ray", "colonic pseudo-obstruction", "abdominal x-ray distended colon"],
+  "obst44": ["tranexamic acid", "tranexamic acid ampoule", "postpartum hemorrhage"],
+  "obst45": ["placenta accreta", "placenta accreta ultrasound", "hysterectomy specimen"],
+  "obst46": ["vacuum extractor", "ventouse delivery", "Kiwi vacuum"],
+  "obst47": ["phenytoin", "levetiracetam tablets", "EEG seizure"],
+  "obst48": ["thyroid storm", "Graves ophthalmopathy exophthalmos", "propylthiouracil"],
+  "obst49": ["hydralazine", "hydralazine injection", "blood pressure monitor"],
+  "obst50": ["ductus venosus doppler", "fetal growth restriction", "umbilical artery doppler absent end diastolic flow"],
 }
 
 MIN_LADO = 400
@@ -136,10 +184,20 @@ def folha(ids=None):
 # cm17, cm23–cm25, cm27, cm30, cm39, cm40, cm42, cm46, cm48–cm50) estão no histórico
 # do git (commit 1e913eb); os candidatos que elas acharam seguem em figuras/candidatos.json.
 CONSULTAS2 = {
+  # os que a 1ª rodada devolveu fora do tema (choque → válvula industrial; versão cefálica → "ECV" aviões e carros)
+  "obst37": ["packed red blood cells transfusion bag", "blood transfusion", "massive transfusion"],
+  "obst39": ["breech presentation fetus drawing", "breech baby ultrasound", "frank breech birth"],
 }
 CONSULTAS3 = {
+  # 3ª rodada: a 1ª deu uma página de revista (obst05), um rabisco (obst35) e um corte sem os gêmeos (obst40)
+  "obst05": ["Foley catheter balloon inflated", "urinary catheter balloon", "Foley catheter"],
+  "obst35": ["sertraline tablets", "Zoloft pills", "antidepressant tablets blister"],
+  "obst40": ["twin fetuses ultrasound first trimester", "dichorionic twins ultrasound lambda sign", "twins ultrasound 12 weeks"],
 }
 CONSULTAS4 = {
+  # 4ª rodada: fora do envelope (obst46 540×1110; obst50 3240×1000) e "FGR" devolveu aviões
+  "obst46": ["vacuum extraction cup newborn", "ventouse obstetric cup", "obstetric vacuum delivery illustration"],
+  "obst50": ["ductus venosus doppler waveform", "fetal doppler ultrasound waveform", "small for gestational age fetus ultrasound"],
 }
 
 def candidatos2(tabela=None):

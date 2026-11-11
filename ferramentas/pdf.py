@@ -46,7 +46,10 @@ def rotulos(area):
     import json
     r = subprocess.run(["node", os.path.join(RAIZ, "ferramentas", "questoes_json.js")], capture_output=True, text=True, encoding="utf-8")
     qs = [q for q in json.loads(r.stdout) if q["area"] == area]
-    return ["%s %s · Questão %02d" % (q["fonte"][:6].upper(), q["fonte"][6:], q["numero"]) for q in qs]
+    # a etiqueta da ficha é "Questão NN · <rótulo da fonte>" (caderno.js); o rótulo vem de meta.js
+    m = subprocess.run(["node", "-e", "console.log(JSON.stringify(require(%s).fontes))" % json.dumps(os.path.join(RAIZ, "ferramentas", "meta.js"))], capture_output=True, text=True, encoding="utf-8")
+    rotulo = {f["id"]: f["rotulo"] for f in json.loads(m.stdout)}
+    return ["Questão %02d · %s" % (q["numero"], rotulo[q["fonte"]]) for q in qs]
 
 def inicios(caminho, etiquetas):
     """em que página (1-based) cada ficha começa: a etiqueta só sai no cabeçalho dela"""

@@ -298,7 +298,7 @@
     const provas = EDICOES.map(f => f.rotulo).join(", ");
     return h("section", { class: "capa" },
       h("p", { class: "lead", html:
-        `<b>${Q.length} questões comentadas</b> de ${listaAreas} — <b>todas reais</b>, aplicadas pela banca <b>${B.meta.banca}</b> em provas de acesso direto (${provas}), com o gabarito oficial. ` +
+        `<b>${Q.length} questões comentadas</b> de ${listaAreas} — <b>todas reais</b>, aplicadas pela banca <b>${B.meta.banca}</b> nas provas teóricas do TEGO (${provas}), com o gabarito oficial. ` +
         `Cada questão sai com as alternativas que tinha na prova (quatro, de A a D, como a banca as faz), e o comentário explica o gabarito <b>e cada distrator</b>, diz o que a banca está testando e de onde vem a resposta.` }),
       h("div", { class: "fatos" },
         h("div", null, h("b", null, String(NUM.questoes)), h("span", null, "questões na prova")),

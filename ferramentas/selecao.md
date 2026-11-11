@@ -31,10 +31,23 @@ Só Obstetrícia chega a 50 com duas edições. As outras quatro apostilas saem
 com o que há e crescem quando entrar a terceira fonte (decisão do usuário:
 Guia 2024 do Estratégia, cadernos da área do candidato, ou outra).
 
-## Obstetrícia (sessão 0: banco de fumaça — 2 questões)
+## Obstetrícia (sessão 1, 2026-11-11 — 50 questões, todas do TEGO Obstetrícia 2025)
 
-- `obst01` = Obstetrícia 2025 nº 1 — gemelar monocoriônica diamniótica a termo: parto com 37 semanas.
-- `obst02` = Obstetrícia 2025 nº 2 — toxoplasmose com acometimento fetal: esquema tríplice imediato.
+A prova de Obstetrícia de 2025 tem 56 questões obstétricas (as outras quatro
+são de Mastologia — 8 e 21 —, Oncologia — 11 — e Reprodução — 41). Pela regra
+"edição mais nova primeiro", as 50 vêm todas de 2025; ficaram de fora seis que
+repetiam um tema já coberto por outra questão da mesma prova:
 
-A escolha das 50 (todas as obstétricas de 2025 que couberem, depois 2022 por
-tema) é a sessão 1.
+- 3 (fórceps de Simpson que falha — o parto instrumental está nas 9 e 55);
+- 7 (perda ponderal fisiológica de 1 kg com 12 semanas);
+- 14 (alterações metabólicas da hiperêmese — a conduta está na 13);
+- 19 (gestante pós-bariátrica com dor epigástrica — a bariátrica está na 13);
+- 29 (ascaridíase na gestação);
+- 56 (eclâmpsia iminente no puerpério — o sulfato de magnésio está nas 43 e 59).
+
+`obst01`–`obst50` = Obstetrícia 2025 nº 1, 2, 4, 5, 6, 9, 10, 12, 13, 15, 16, 17, 18, 20,
+22, 23, 24, 25, 26, 27, 28, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 42, 43, 44,
+45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 57, 58, 59, 60 (ordem do caderno).
+
+As 59 questões obstétricas de **Obstetrícia 2022** ficam disponíveis para uma
+segunda apostila de Obstetrícia ou para trocas que o cliente peça.

@@ -18,17 +18,19 @@ marca-texto e post-its em OpenDyslexic, uma apostila por área).
 | Caderno para imprimir | https://tego-febrasgo.vercel.app/caderno/ |
 | Vídeos — página de revisão (para o cliente) | https://tego-febrasgo.vercel.app/videos/ (os links curtos dos QR codes: `/v/<id>/q`, `/m`, `/mais`, `/flash`, `/mapa`) |
 | Deploy | `python ferramentas/pdf.py` e depois `npx vercel deploy --prod --yes`, a partir de `med/tego/` (projeto `tego`, domínio `tego-febrasgo.vercel.app` — `tego.vercel.app` já era de outra conta; git em `main`, remoto privado `crispinekkovendas-blip/med-tego`). Só pela CLI: `vercel.json` desliga o deploy automático do GitHub, porque um build a partir do git não teria os PDFs |
-| PDFs prontos | https://tego-febrasgo.vercel.app/pdf/caderno-obst.pdf (`gine`, `onco`, `repro` e `masto` quando existirem): uma apostila por área, paginada — links no painel do caderno |
+| PDFs prontos | https://tego-febrasgo.vercel.app/pdf/caderno-obst.pdf (`gine`, `onco`, `repro` e `masto` quando existirem): uma apostila por área, paginada, com o índice dizendo a página de cada ficha — links no painel do caderno |
 
-## Números (2026-11-11, sessão 0: banco de fumaça)
+## Números (2026-11-11, sessão 1: Obstetrícia completa)
 
 | Área | TEGO Ginecologia 2025 | TEGO Obstetrícia 2025 | TEGO Ginecologia 2022 | TEGO Obstetrícia 2022 | Total |
 |---|---|---|---|---|---|
-| Obstetrícia | 0 | 2 | 0 | 0 | 2 |
-| **Total** | **0** | **2** | **0** | **0** | **2** |
+| Obstetrícia | 0 | 50 | 0 | 0 | 50 |
+| **Total** | **0** | **50** | **0** | **0** | **50** |
 
-Hoje o banco tem **2 questões** (as duas primeiras de Obstetrícia, para provar
-o motor); as áreas entram uma a uma, na ordem Obstetrícia → Ginecologia →
+Hoje o banco tem **50 questões** — a apostila de **Obstetrícia** completa, com
+as 50 vindas da prova de Obstetrícia do TEGO 2025 (a prova tem 56 questões
+obstétricas; ficaram de fora seis que repetiam tema: 3, 7, 14, 19, 29 e 56 —
+ver `selecao.md`); as áreas entram uma a uma, na ordem Obstetrícia → Ginecologia →
 Oncologia → Reprodução → Mastologia, cada uma com as suas questões, figuras e
 mini-aulas. Ids `obst01–obst50`, `gine01–…`, `onco01–…`, `repro01–…`,
 `masto01–…`; dentro da área, as fontes na ordem de `meta.fontes`

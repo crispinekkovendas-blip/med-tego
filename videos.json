@@ -14,5 +14,389 @@
   "q": null,
   "m": null,
   "busca": "Toxoplasmose na gestação com acometimento fetal — tratamento tríplice"
+ },
+ "obst03": {
+  "fonte": "tego2025o",
+  "numero": 4,
+  "tema": "Edema agudo de pulmão na pré-eclâmpsia — sobrecarga de volume",
+  "q": null,
+  "m": null,
+  "busca": "Edema agudo de pulmão na pré-eclâmpsia — sobrecarga de volume"
+ },
+ "obst04": {
+  "fonte": "tego2025o",
+  "numero": 5,
+  "tema": "Hepatite B na gestação — tenofovir das 28 semanas ao parto",
+  "q": null,
+  "m": null,
+  "busca": "Hepatite B na gestação — tenofovir das 28 semanas ao parto"
+ },
+ "obst05": {
+  "fonte": "tego2025o",
+  "numero": 6,
+  "tema": "Balão de tamponamento intrauterino na atonia — volume e tempo",
+  "q": null,
+  "m": null,
+  "busca": "Balão de tamponamento intrauterino na atonia — volume e tempo"
+ },
+ "obst06": {
+  "fonte": "tego2025o",
+  "numero": 9,
+  "tema": "Fórcipe de Kielland na variedade transversa — ordem das colheres",
+  "q": null,
+  "m": null,
+  "busca": "Fórcipe de Kielland na variedade transversa — ordem das colheres"
+ },
+ "obst07": {
+  "fonte": "tego2025o",
+  "numero": 10,
+  "tema": "Síndrome HELLP com 29 semanas — sulfato, corticoide e parto em 48 h",
+  "q": null,
+  "m": null,
+  "busca": "Síndrome HELLP com 29 semanas — sulfato, corticoide e parto em 48 h"
+ },
+ "obst08": {
+  "fonte": "tego2025o",
+  "numero": 12,
+  "tema": "Herpes genital na gestação — aciclovir oral e supressão das 36 semanas",
+  "q": null,
+  "m": null,
+  "busca": "Herpes genital na gestação — aciclovir oral e supressão das 36 semanas"
+ },
+ "obst09": {
+  "fonte": "tego2025o",
+  "numero": 13,
+  "tema": "Hiperêmese gravídica pós-bariátrica — jejum, soro e tiamina",
+  "q": null,
+  "m": null,
+  "busca": "Hiperêmese gravídica pós-bariátrica — jejum, soro e tiamina"
+ },
+ "obst10": {
+  "fonte": "tego2025o",
+  "numero": 15,
+  "tema": "Queda da produção de leite — sucção, prolactina e ejeção",
+  "q": null,
+  "m": null,
+  "busca": "Queda da produção de leite — sucção, prolactina e ejeção"
+ },
+ "obst11": {
+  "fonte": "tego2025o",
+  "numero": 16,
+  "tema": "Graves no 1º trimestre — propiltiouracil no lugar do metimazol",
+  "q": null,
+  "m": null,
+  "busca": "Graves no 1º trimestre — propiltiouracil no lugar do metimazol"
+ },
+ "obst12": {
+  "fonte": "tego2025o",
+  "numero": 17,
+  "tema": "Onfalocele na ultrassonografia de 16 semanas",
+  "q": null,
+  "m": null,
+  "busca": "Onfalocele na ultrassonografia de 16 semanas"
+ },
+ "obst13": {
+  "fonte": "tego2025o",
+  "numero": 18,
+  "tema": "Histopatologia da placenta — hemorragia intervilosa e corangiose",
+  "q": null,
+  "m": null,
+  "busca": "Histopatologia da placenta — hemorragia intervilosa e corangiose"
+ },
+ "obst14": {
+  "fonte": "tego2025o",
+  "numero": 20,
+  "tema": "RCF tardia com artéria umbilical alterada — vigilância e parto com 37",
+  "q": null,
+  "m": null,
+  "busca": "RCF tardia com artéria umbilical alterada — vigilância e parto com 37"
+ },
+ "obst15": {
+  "fonte": "tego2025o",
+  "numero": 22,
+  "tema": "Eletroforese com HbS e HbC — doença falciforme SC",
+  "q": null,
+  "m": null,
+  "busca": "Eletroforese com HbS e HbC — doença falciforme SC"
+ },
+ "obst16": {
+  "fonte": "tego2025o",
+  "numero": 23,
+  "tema": "Vacina contra o vírus sincicial respiratório — das 28 semanas",
+  "q": null,
+  "m": null,
+  "busca": "Vacina contra o vírus sincicial respiratório — das 28 semanas"
+ },
+ "obst17": {
+  "fonte": "tego2025o",
+  "numero": 24,
+  "tema": "VDRL reagente com testes treponêmicos negativos — falso-positivo",
+  "q": null,
+  "m": null,
+  "busca": "VDRL reagente com testes treponêmicos negativos — falso-positivo"
+ },
+ "obst18": {
+  "fonte": "tego2025o",
+  "numero": 25,
+  "tema": "PA na gestante obesa — posição sentada e tabela de correção",
+  "q": null,
+  "m": null,
+  "busca": "PA na gestante obesa — posição sentada e tabela de correção"
+ },
+ "obst19": {
+  "fonte": "tego2025o",
+  "numero": 26,
+  "tema": "Malária falciparum no 2º trimestre — artemeter e lumefantrina",
+  "q": null,
+  "m": null,
+  "busca": "Malária falciparum no 2º trimestre — artemeter e lumefantrina"
+ },
+ "obst20": {
+  "fonte": "tego2025o",
+  "numero": 27,
+  "tema": "HTLV-1 na gestação — via obstétrica e supressão da lactação",
+  "q": null,
+  "m": null,
+  "busca": "HTLV-1 na gestação — via obstétrica e supressão da lactação"
+ },
+ "obst21": {
+  "fonte": "tego2025o",
+  "numero": 28,
+  "tema": "Cabeça derradeira em quatro apoios — empurrar o tronco para o ventre",
+  "q": null,
+  "m": null,
+  "busca": "Cabeça derradeira em quatro apoios — empurrar o tronco para o ventre"
+ },
+ "obst22": {
+  "fonte": "tego2025o",
+  "numero": 30,
+  "tema": "Aborto legal na adolescente — consentimento e Conselho Tutelar",
+  "q": null,
+  "m": null,
+  "busca": "Aborto legal na adolescente — consentimento e Conselho Tutelar"
+ },
+ "obst23": {
+  "fonte": "tego2025o",
+  "numero": 31,
+  "tema": "Corioamnionite em trabalho de parto pré-termo — deixar evoluir",
+  "q": null,
+  "m": null,
+  "busca": "Corioamnionite em trabalho de parto pré-termo — deixar evoluir"
+ },
+ "obst24": {
+  "fonte": "tego2025o",
+  "numero": 32,
+  "tema": "Ducto venoso — o shunt que denuncia a pressão no ventrículo direito",
+  "q": null,
+  "m": null,
+  "busca": "Ducto venoso — o shunt que denuncia a pressão no ventrículo direito"
+ },
+ "obst25": {
+  "fonte": "tego2025o",
+  "numero": 33,
+  "tema": "Medida do colo uterino — compressão com o transdutor e colo curto",
+  "q": null,
+  "m": null,
+  "busca": "Medida do colo uterino — compressão com o transdutor e colo curto"
+ },
+ "obst26": {
+  "fonte": "tego2025o",
+  "numero": 34,
+  "tema": "Gestação ectópica em cicatriz de cesariana — metotrexato e cirurgia",
+  "q": null,
+  "m": null,
+  "busca": "Gestação ectópica em cicatriz de cesariana — metotrexato e cirurgia"
+ },
+ "obst27": {
+  "fonte": "tego2025o",
+  "numero": 35,
+  "tema": "Cesariana com histerotomia corporal — incisão longitudinal no corpo",
+  "q": null,
+  "m": null,
+  "busca": "Cesariana com histerotomia corporal — incisão longitudinal no corpo"
+ },
+ "obst28": {
+  "fonte": "tego2025o",
+  "numero": 36,
+  "tema": "Dengue grave na gestante — cristaloides e monitorização",
+  "q": null,
+  "m": null,
+  "busca": "Dengue grave na gestante — cristaloides e monitorização"
+ },
+ "obst29": {
+  "fonte": "tego2025o",
+  "numero": 37,
+  "tema": "Contagem discordante de compressas — radiografia na sala de cirurgia",
+  "q": null,
+  "m": null,
+  "busca": "Contagem discordante de compressas — radiografia na sala de cirurgia"
+ },
+ "obst30": {
+  "fonte": "tego2025o",
+  "numero": 38,
+  "tema": "Aloimunização Rh com pico da cerebral média alto — cordocentese",
+  "q": null,
+  "m": null,
+  "busca": "Aloimunização Rh com pico da cerebral média alto — cordocentese"
+ },
+ "obst31": {
+  "fonte": "tego2025o",
+  "numero": 39,
+  "tema": "Tromboembolismo pulmonar na gestação — anticoagulação até o puerpério",
+  "q": null,
+  "m": null,
+  "busca": "Tromboembolismo pulmonar na gestação — anticoagulação até o puerpério"
+ },
+ "obst32": {
+  "fonte": "tego2025o",
+  "numero": 40,
+  "tema": "Insuficiência cervical com perda prévia do 2º trimestre — cerclagem",
+  "q": null,
+  "m": null,
+  "busca": "Insuficiência cervical com perda prévia do 2º trimestre — cerclagem"
+ },
+ "obst33": {
+  "fonte": "tego2025o",
+  "numero": 42,
+  "tema": "Anticoagulante lúpico isolado e fator V de Leiden — só AAS",
+  "q": null,
+  "m": null,
+  "busca": "Anticoagulante lúpico isolado e fator V de Leiden — só AAS"
+ },
+ "obst34": {
+  "fonte": "tego2025o",
+  "numero": 43,
+  "tema": "Sulfato de magnésio sem bomba de infusão — ataque EV e manutenção IM",
+  "q": null,
+  "m": null,
+  "busca": "Sulfato de magnésio sem bomba de infusão — ataque EV e manutenção IM"
+ },
+ "obst35": {
+  "fonte": "tego2025o",
+  "numero": 44,
+  "tema": "Depressão pós-parto — sertralina com aleitamento mantido",
+  "q": null,
+  "m": null,
+  "busca": "Depressão pós-parto — sertralina com aleitamento mantido"
+ },
+ "obst36": {
+  "fonte": "tego2025o",
+  "numero": 45,
+  "tema": "Prolapso mitral na gestação — sem profilaxia de endocardite no parto",
+  "q": null,
+  "m": null,
+  "busca": "Prolapso mitral na gestação — sem profilaxia de endocardite no parto"
+ },
+ "obst37": {
+  "fonte": "tego2025o",
+  "numero": 46,
+  "tema": "Choque hemorrágico na HPP — classificação pelo pior sinal",
+  "q": null,
+  "m": null,
+  "busca": "Choque hemorrágico na HPP — classificação pelo pior sinal"
+ },
+ "obst38": {
+  "fonte": "tego2025o",
+  "numero": 47,
+  "tema": "Óbito fetal com 15 semanas — misoprostol antes do esvaziamento",
+  "q": null,
+  "m": null,
+  "busca": "Óbito fetal com 15 semanas — misoprostol antes do esvaziamento"
+ },
+ "obst39": {
+  "fonte": "tego2025o",
+  "numero": 48,
+  "tema": "Versão cefálica externa — o que aumenta a chance de sucesso",
+  "q": null,
+  "m": null,
+  "busca": "Versão cefálica externa — o que aumenta a chance de sucesso"
+ },
+ "obst40": {
+  "fonte": "tego2025o",
+  "numero": 49,
+  "tema": "Gemelar monocoriônica — ultrassonografia quinzenal das 16 semanas",
+  "q": null,
+  "m": null,
+  "busca": "Gemelar monocoriônica — ultrassonografia quinzenal das 16 semanas"
+ },
+ "obst41": {
+  "fonte": "tego2025o",
+  "numero": 50,
+  "tema": "Suturas compressivas na atonia — o teste de compressão manual",
+  "q": null,
+  "m": null,
+  "busca": "Suturas compressivas na atonia — o teste de compressão manual"
+ },
+ "obst42": {
+  "fonte": "tego2025o",
+  "numero": 51,
+  "tema": "Desacelerações precoces na cardiotocografia — vigilância",
+  "q": null,
+  "m": null,
+  "busca": "Desacelerações precoces na cardiotocografia — vigilância"
+ },
+ "obst43": {
+  "fonte": "tego2025o",
+  "numero": 52,
+  "tema": "Síndrome de Ogilvie depois da cesariana — pseudo-obstrução colônica",
+  "q": null,
+  "m": null,
+  "busca": "Síndrome de Ogilvie depois da cesariana — pseudo-obstrução colônica"
+ },
+ "obst44": {
+  "fonte": "tego2025o",
+  "numero": 53,
+  "tema": "Ácido tranexâmico na hemorragia pós-parto — logo ao diagnóstico",
+  "q": null,
+  "m": null,
+  "busca": "Ácido tranexâmico na hemorragia pós-parto — logo ao diagnóstico"
+ },
+ "obst45": {
+  "fonte": "tego2025o",
+  "numero": 54,
+  "tema": "Acretismo com hemorragia no parto vaginal — histerectomia de urgência",
+  "q": null,
+  "m": null,
+  "busca": "Acretismo com hemorragia no parto vaginal — histerectomia de urgência"
+ },
+ "obst46": {
+  "fonte": "tego2025o",
+  "numero": 55,
+  "tema": "Vácuo-extrator — verificar a pega antes de tracionar",
+  "q": null,
+  "m": null,
+  "busca": "Vácuo-extrator — verificar a pega antes de tracionar"
+ },
+ "obst47": {
+  "fonte": "tego2025o",
+  "numero": 57,
+  "tema": "Estado de mal epiléptico na gestante — fenitoína e levetiracetam",
+  "q": null,
+  "m": null,
+  "busca": "Estado de mal epiléptico na gestante — fenitoína e levetiracetam"
+ },
+ "obst48": {
+  "fonte": "tego2025o",
+  "numero": 58,
+  "tema": "Crise tireotóxica no puerpério — betabloqueador, PTU e corticoide",
+  "q": null,
+  "m": null,
+  "busca": "Crise tireotóxica no puerpério — betabloqueador, PTU e corticoide"
+ },
+ "obst49": {
+  "fonte": "tego2025o",
+  "numero": 59,
+  "tema": "Hidralazina em bólus alto — a queda brusca da pressão também mata",
+  "q": null,
+  "m": null,
+  "busca": "Hidralazina em bólus alto — a queda brusca da pressão também mata"
+ },
+ "obst50": {
+  "fonte": "tego2025o",
+  "numero": 60,
+  "tema": "RCF precoce com diástole zero na umbilical — vigilância e parto com 34",
+  "q": null,
+  "m": null,
+  "busca": "RCF precoce com diástole zero na umbilical — vigilância e parto com 34"
  }
 }
