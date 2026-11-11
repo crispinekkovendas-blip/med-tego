@@ -1,0 +1,13 @@
+{
+  "git": {
+    "deploymentEnabled": {
+      "main": false,
+      "construcao": false,
+      "videos": false
+    }
+  },
+  "rewrites": [
+    { "source": "/v/:id/:qual", "destination": "/v/" },
+    { "source": "/v/:id", "destination": "/v/" }
+  ]
+}

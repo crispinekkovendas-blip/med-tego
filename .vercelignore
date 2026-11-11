@@ -1,0 +1,14 @@
+# ferramentas e documentação não vão para o ar
+verificar.js
+controles.js
+ferramentas
+docs
+README.md
+.superpowers
+.git
+# da pasta de figuras, só as imagens e o FONTES.md vão para o ar
+figuras/candidatos.json
+figuras/escolhas.json
+figuras/figuras.json
+figuras/_folha-*.png
+# os PDFs do caderno (pdf/, gerados por ferramentas/pdf.py) vão para o ar: gere-os antes do deploy

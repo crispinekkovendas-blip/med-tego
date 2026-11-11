@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<meta name="color-scheme" content="light">
+<title>Vídeos — Banco TEGO</title>
+<style>
+  :root { --ink: #10151B; --ink-2: #48525F; --ink-3: #7A8391; --line: #E1E5EA; --accent: #0F4C5C; --accent-2: #17708A; --bg: #F5F7F9; }
+  * { box-sizing: border-box; }
+  body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: var(--bg); color: var(--ink); font: 16px/1.5 "IBM Plex Sans", "Segoe UI", system-ui, sans-serif; }
+  main { width: min(92vw, 460px); background: #fff; border: 1px solid var(--line); border-radius: 10px; padding: 22px 22px 18px; }
+  .rot { font-size: 11px; font-weight: 600; letter-spacing: .11em; text-transform: uppercase; color: var(--ink-3); margin: 0 0 6px; }
+  h1 { font-size: 19px; margin: 0 0 4px; line-height: 1.3; }
+  p { margin: 0 0 14px; color: var(--ink-2); }
+  .botoes { display: grid; gap: 8px; }
+  a.botao { display: block; padding: 11px 14px; border: 1px solid var(--line); border-radius: 8px; color: var(--ink); text-decoration: none; font-weight: 500; }
+  a.botao.primario { background: var(--accent-2); border-color: var(--accent-2); color: #fff; }
+  a.botao[hidden] { display: none; }
+  .aviso { font-size: 13px; color: var(--ink-3); margin: 14px 0 0; }
+</style>
+</head>
+<body>
+<main id="caixa" aria-busy="true">
+  <p class="rot" id="etiqueta">Banco TEGO · vídeos</p>
+  <h1 id="titulo">Abrindo o vídeo…</h1>
+  <p id="texto">Se nada acontecer em alguns segundos, use os botões.</p>
+  <div class="botoes">
+    <a class="botao primario" id="botao-q" hidden>Vídeo da questão</a>
+    <a class="botao primario" id="botao-m" hidden>Vídeo da matéria</a>
+    <a class="botao" id="botao-mais" hidden>Mais vídeos do tema</a>
+    <a class="botao" id="botao-site" hidden>Abrir a questão no site</a>
+    <a class="botao" id="botao-inicio" href="/">Início</a>
+  </div>
+  <p class="aviso">Os vídeos são de canais públicos do YouTube, escolhidos por tema; o banco não os produz.</p>
+</main>
+<script src="/v/destino.js"></script>
+<script>
+(function () {
+  "use strict";
+  /* o caminho é /v/<id>/<qual> (reescrito para esta página pelo vercel.json) */
+  var partes = location.pathname.replace(/^\/v\/?/, "").split("/").filter(Boolean);
+  var id = (partes[0] || "").toLowerCase(), qual = partes[1] || "";
+  var $ = function (i) { return document.getElementById(i); };
+  function mostrar(videos) {
+    var v = videos && videos[id];
+    $("caixa").setAttribute("aria-busy", "false");
+    if (!v) {
+      $("titulo").textContent = videos ? "Questão não encontrada" : "Não foi possível carregar a lista de vídeos";
+      $("texto").textContent = videos ? "O código lido não corresponde a nenhuma questão do banco." : "Tente de novo em instantes ou abra o banco.";
+      if (id) { $("botao-site").href = "/#" + id; $("botao-site").hidden = false; }
+      return;
+    }
+    $("etiqueta").textContent = "Banco TEGO · " + (v.rotulo || v.fonte) + " · Questão " + String(v.numero).padStart(2, "0");
+    $("titulo").textContent = v.tema;
+    $("texto").textContent = qual === "q" || qual === "m" ? "Este vídeo ainda não foi escolhido. Enquanto isso:" : "Escolha o que abrir:";
+    ["q", "m"].forEach(function (k) { var d = destino(id, k, videos); if (d.url) { $("botao-" + k).href = d.url; $("botao-" + k).hidden = false; } });
+    $("botao-mais").href = destino(id, "mais", videos).url; $("botao-mais").hidden = false;
+    $("botao-site").href = "/#" + id; $("botao-site").hidden = false;
+  }
+  fetch("/videos.json", { cache: "no-cache" })
+    .then(function (r) { return r.ok ? r.json() : null; })
+    .catch(function () { return null; })
+    .then(function (videos) {
+      var d = destino(id, qual, videos);
+      if (d.url) { location.replace(d.url); return; }
+      mostrar(videos);
+    });
+})();
+</script>
+</body>
+</html>

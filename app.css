@@ -1,0 +1,272 @@
+/* ============================================================================
+   BANCO TEGO — a folha de estilo.
+
+   Herdada do banco INEPAM (mesma família de bancos comentados), com um
+   tom por área. Nada de canvas aqui: é uma lista de
+   questões, e o que ela precisa é de leitura confortável e de estados
+   inequívocos — respondida, certa, errada.
+   ========================================================================== */
+:root {
+  --bg: #FFFFFF; --bg-2: #F6F7F9; --bg-3: #EDEFF3;
+  --line: #E1E5EA; --line-2: #C9D0D9;
+  --ink: #10151B; --ink-2: #48525F; --ink-3: #7A8391;
+  --accent: #0F4C5C; --accent-2: #17708A; --accent-bg: #E7F1F4;
+  --ok: #1A6B4B; --ok-bg: #E8F4EE; --ok-line: #BFE0CF;
+  --erro: #9E2C2C; --erro-bg: #FBECEC; --erro-line: #F0C4C4;
+  --obst: #123A5E;  --obst-bg: #EAF1F8;
+  --gine: #7A2E5F;  --gine-bg: #F7E9F1;
+  --onco: #8A3A1B;  --onco-bg: #F9EBE4;
+  --repro: #1F6F50; --repro-bg: #E6F3EC;
+  --masto: #7A5A12; --masto-bg: #F8F1DF;
+  --r: 6px;
+  --sans: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --sombra: 0 1px 2px rgba(16,21,27,.06), 0 4px 14px rgba(16,21,27,.05);
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; background: var(--bg-2); color: var(--ink); }
+body { font: 15px/1.55 var(--sans); -webkit-font-smoothing: antialiased; padding-bottom: 60px; }
+button { font: inherit; color: inherit; cursor: pointer; }
+:where(a, button):focus-visible { outline: 2px solid var(--accent-2); outline-offset: 2px; }
+.rot { font-size: 10.5px; font-weight: 600; letter-spacing: .11em; text-transform: uppercase; color: var(--ink-3); }
+.num { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+
+/* --- a barra ------------------------------------------------------------ */
+#barra {
+  position: sticky; top: 0; z-index: 20;
+  background: rgba(255,255,255,.94); backdrop-filter: saturate(180%) blur(10px);
+  border-bottom: 1px solid var(--line);
+  padding: 0 16px; padding-top: env(safe-area-inset-top, 0px);
+}
+#barra .miolo { max-width: 960px; margin: 0 auto; display: flex; align-items: center; gap: 14px; min-height: 56px; }
+#barra .sigla {
+  flex: 0 0 auto; min-width: 34px; height: 34px; padding: 0 8px; border-radius: var(--r);
+  background: var(--accent); color: #fff; display: grid; place-items: center;
+  font-family: var(--mono); font-size: 11px; font-weight: 500; letter-spacing: .02em;
+}
+#barra .titulo { flex: 1 1 auto; min-width: 0; }
+#barra h1 { margin: 0; font-size: 15px; font-weight: 600; letter-spacing: -.01em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+#barra .sub { margin: 1px 0 0; font-size: 12px; color: var(--ink-3); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+#barra .voltar { flex: 0 0 auto; color: var(--ink-3); text-decoration: none; font-size: 13px; padding: 6px 10px; border: 1px solid var(--line); border-radius: var(--r); background: #fff; }
+#barra .voltar:hover { color: var(--ink); border-color: var(--line-2); }
+
+/* --- a capa ------------------------------------------------------------- */
+main { max-width: 960px; margin: 0 auto; padding: 22px 16px 0; }
+.capa { display: grid; grid-template-columns: 1fr; gap: 14px; margin-bottom: 18px; }
+.capa .lead { margin: 0; max-width: 68ch; font-size: 15px; line-height: 1.55; color: var(--ink-2); }
+.capa .lead b { color: var(--ink); font-weight: 600; }
+.fatos { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; border: 1px solid var(--line); border-radius: var(--r); background: #fff; overflow: hidden; }
+.fatos div { padding: 12px 14px; border-right: 1px solid var(--line); }
+.fatos div:last-child { border-right: 0; }
+.fatos b { display: block; font-family: var(--mono); font-size: 20px; font-weight: 500; line-height: 1.1; letter-spacing: -.02em; font-variant-numeric: tabular-nums; }
+.fatos span { display: block; margin-top: 4px; font-size: 10.5px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-3); }
+.aviso { margin: 0; padding: 12px 14px; border: 1px solid var(--line); border-left: 3px solid var(--accent-2); border-radius: var(--r); background: #fff; font-size: 13.5px; color: var(--ink-2); }
+.aviso b { color: var(--ink); font-weight: 600; }
+
+/* --- a régua de controle ------------------------------------------------ */
+#regua {
+  position: sticky; top: calc(56px + env(safe-area-inset-top, 0px)); z-index: 15;
+  margin: 0 -16px 16px; padding: 10px 16px;
+  background: rgba(246,247,249,.94); backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--line);
+}
+#regua .miolo { max-width: 960px; margin: 0 auto; display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; }
+.seg { display: inline-flex; border: 1px solid var(--line); border-radius: var(--r); background: #fff; overflow: hidden; }
+.seg button { border: 0; border-right: 1px solid var(--line); background: transparent; padding: 8px 13px; font-size: 13px; color: var(--ink-2); display: inline-flex; align-items: center; gap: 7px; }
+.seg button:last-child { border-right: 0; }
+.seg button[aria-pressed="true"] { background: var(--accent); color: #fff; }
+.seg button .n { font-family: var(--mono); font-size: 11px; opacity: .75; }
+.seg button[aria-pressed="true"] .n { opacity: .85; }
+/* os três links de vídeo no fim do painel Comentário */
+.comentario .videos { margin: 10px 0 0; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.comentario .videos .rot { margin-right: 2px; }
+.comentario .video { border: 1px solid var(--line); border-radius: var(--r); padding: 5px 10px; font-size: 13px; color: var(--ink-2); text-decoration: none; background: #fff; }
+.comentario .video:hover { border-color: var(--line-2); color: var(--ink); }
+/* o cartão aberto por link direto (/#<id>, vindo da página v/) */
+.q.alvo { outline: 2px solid var(--accent-2); outline-offset: 3px; }
+.acao { border: 1px solid var(--line); border-radius: var(--r); background: #fff; padding: 8px 13px; font-size: 13px; color: var(--ink-2); }
+.acao:hover { border-color: var(--line-2); color: var(--ink); }
+.acao.primaria { background: var(--accent-2); border-color: var(--accent-2); color: #fff; font-weight: 500; }
+.acao.primaria:hover { background: var(--accent); border-color: var(--accent); color: #fff; }
+.placar { margin-left: auto; display: flex; align-items: center; gap: 12px; font-size: 12.5px; color: var(--ink-3); white-space: nowrap; }
+.placar b { font-family: var(--mono); font-weight: 500; color: var(--ink); font-variant-numeric: tabular-nums; }
+.placar .trilho { width: 120px; height: 5px; border-radius: 3px; background: var(--bg-3); overflow: hidden; }
+.placar .trilho i { display: block; height: 100%; background: var(--accent-2); transition: width .25s ease; }
+.placar .trilho i.ok { background: var(--ok); }
+
+/* --- a questão ---------------------------------------------------------- */
+.lista { display: grid; gap: 14px; }
+.q {
+  background: #fff; border: 1px solid var(--line); border-radius: var(--r);
+  box-shadow: var(--sombra); padding: 18px 20px 16px;
+  scroll-margin-top: 130px;
+}
+.q:focus-within { border-color: var(--line-2); }
+.q .cab { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-bottom: 12px; }
+.q .idx { font-family: var(--mono); font-size: 12px; font-weight: 500; color: var(--ink-3); min-width: 28px; }
+.tag { display: inline-flex; align-items: center; padding: 3px 8px; border-radius: 4px; font-size: 11px; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; }
+.tag.obst { background: var(--obst-bg); color: var(--obst); }
+.tag.gine { background: var(--gine-bg); color: var(--gine); }
+.tag.onco { background: var(--onco-bg); color: var(--onco); }
+.tag.repro { background: var(--repro-bg); color: var(--repro); }
+.tag.masto { background: var(--masto-bg); color: var(--masto); }
+.tag.tema { background: var(--bg-3); color: var(--ink-2); text-transform: none; letter-spacing: 0; font-weight: 500; }
+.tag.origem { margin-left: auto; text-transform: none; letter-spacing: 0; font-weight: 500; border: 1px solid var(--line); background: #fff; color: var(--ink-3); cursor: help; font-variant-numeric: tabular-nums; }
+.tag.origem { border-color: var(--ok-line); color: var(--ok); background: var(--ok-bg); font-weight: 600; }
+.q .texto { margin: 0 0 12px; padding: 12px 16px; border: 1px solid var(--line); border-radius: var(--r); background: var(--bg-2); font-family: var(--serif); font-size: 15.5px; line-height: 1.6; color: var(--ink); }
+.q .texto p { margin: 0; }
+.q .texto p + p { margin-top: 8px; }
+.q .enunciado { margin: 0 0 12px; font-size: 15.5px; line-height: 1.55; }
+.q .enunciado em { font-family: var(--serif); font-size: 16px; }
+.alts { display: grid; gap: 6px; margin: 0; padding: 0; list-style: none; }
+.alt {
+  display: grid; grid-template-columns: 30px 1fr; align-items: start; gap: 10px;
+  width: 100%; text-align: left; padding: 9px 12px 9px 10px;
+  border: 1px solid var(--line); border-radius: var(--r); background: #fff;
+  line-height: 1.45; transition: background .12s, border-color .12s;
+}
+.alt:hover { background: var(--bg-2); border-color: var(--line-2); }
+.alt .letra {
+  width: 26px; height: 26px; border-radius: 50%; display: grid; place-items: center;
+  font-family: var(--mono); font-size: 12px; font-weight: 500;
+  background: var(--bg-3); color: var(--ink-2); margin-top: 1px;
+}
+.alt[disabled] { cursor: default; }
+.alt[disabled]:hover { background: #fff; border-color: var(--line); }
+.alt.escolhida { border-color: var(--accent-2); background: var(--accent-bg); }
+.alt.escolhida .letra { background: var(--accent-2); color: #fff; }
+.alt.certa { border-color: var(--ok-line); background: var(--ok-bg); }
+.alt.certa .letra { background: var(--ok); color: #fff; }
+.alt.errada { border-color: var(--erro-line); background: var(--erro-bg); }
+.alt.errada .letra { background: var(--erro); color: #fff; }
+.alt.apagada { opacity: .55; }
+.veredito { margin: 12px 0 0; display: flex; align-items: center; gap: 10px; font-size: 13.5px; font-weight: 500; }
+.veredito .selo { padding: 4px 10px; border-radius: 4px; font-family: var(--mono); font-size: 12px; }
+.veredito .selo.ok { background: var(--ok-bg); color: var(--ok); }
+.veredito .selo.erro { background: var(--erro-bg); color: var(--erro); }
+.veredito .selo.pendente { background: var(--bg-3); color: var(--ink-3); }
+.comentario { margin: 12px 0 0; padding: 14px 16px; border: 1px solid var(--line); border-radius: var(--r); background: var(--bg-2); font-size: 14.5px; line-height: 1.6; color: var(--ink-2); }
+.comentario p { margin: 0; }
+.comentario p + p { margin-top: 10px; }
+.comentario strong { color: var(--ink); font-weight: 600; }
+.comentario code { font-family: var(--mono); font-size: 13px; background: var(--bg-3); padding: 1px 5px; border-radius: 3px; }
+.comentario .fonte { margin-top: 12px; padding-top: 10px; border-top: 1px dashed var(--line-2); font-size: 12px; color: var(--ink-3); }
+.comentario .fonte a { color: var(--accent-2); }
+/* as duas abas da explicação: "Comentário" (o texto da banca) e
+   "Simplificando" (a mesma coisa contada para uma criança) */
+.explicacao { margin: 12px 0 0; }
+.abas { display: flex; gap: 4px; padding: 0 10px; }
+.aba { border: 1px solid transparent; border-bottom: 0; border-radius: var(--r) var(--r) 0 0; background: transparent; padding: 7px 12px 8px; margin-bottom: -1px; font: inherit; font-size: 11.5px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-3); cursor: pointer; position: relative; }
+.aba:hover { color: var(--ink); }
+.aba.ativa { background: var(--bg-2); border-color: var(--line); color: var(--accent); z-index: 1; }
+.explicacao .comentario { margin-top: 0; }
+.comentario[hidden] { display: none; }
+.comentario.simples { font-size: 15.5px; line-height: 1.7; color: var(--ink); }
+.comentario.simples p + p { margin-top: 12px; }
+.comentario.simples em { font-style: normal; background: #fff; padding: 0 4px; border-radius: 3px; border: 1px solid var(--line); }
+/* "Sobre a matéria": a página de livro-texto — títulos pequenos em
+   versalete, termos-chave em lista de definição, o Ponto clínico numa caixa
+   e as respostas do "Verifique o que aprendeu" escondidas até o clique */
+.comentario.materia { color: var(--ink); }
+.comentario.materia h4 { margin: 16px 0 6px; font-size: 11px; font-weight: 600; letter-spacing: .11em; text-transform: uppercase; color: var(--accent); }
+.comentario.materia h4:first-child { margin-top: 0; }
+.comentario.materia ul, .comentario.materia ol { margin: 0; padding-left: 20px; }
+.comentario.materia li + li { margin-top: 4px; }
+.comentario.materia dl { margin: 0; display: grid; grid-template-columns: minmax(0, max-content) 1fr; gap: 4px 12px; }
+.comentario.materia dt { font-weight: 600; color: var(--ink); }
+.comentario.materia dd { margin: 0; color: var(--ink-2); }
+.comentario.materia .ponto { margin: 14px 0 0; padding: 10px 14px; border-left: 3px solid var(--accent); background: #fff; border-radius: 0 var(--r) var(--r) 0; }
+.comentario.materia .ponto h4 { margin-top: 0; }
+.comentario.materia details { margin-top: 3px; }
+.comentario.materia summary { cursor: pointer; font-size: 11.5px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--accent-2); }
+.comentario.materia details[open] { padding: 6px 10px; background: #fff; border: 1px solid var(--line); border-radius: var(--r); }
+.comentario.materia details[open] summary { margin-bottom: 4px; }
+
+/* tabela dentro de um enunciado */
+table.tabela { border-collapse: collapse; font-family: var(--sans); font-size: 14px; min-width: 260px; }
+table.tabela th, table.tabela td { padding: 6px 14px; border: 1px solid var(--line-2); text-align: left; }
+table.tabela th { background: var(--bg-3); font-weight: 600; font-size: 12px; letter-spacing: .04em; text-transform: uppercase; color: var(--ink-2); }
+table.tabela td:last-child { font-family: var(--mono); text-align: right; font-variant-numeric: tabular-nums; }
+
+/* --- o simulado --------------------------------------------------------- */
+.simulado-cab { display: grid; grid-template-columns: 1fr auto; gap: 12px; align-items: center; margin-bottom: 16px; padding: 14px 16px; border: 1px solid var(--line); border-radius: var(--r); background: #fff; }
+.simulado-cab p { margin: 0; font-size: 13.5px; color: var(--ink-2); }
+.simulado-cab .relogio { font-family: var(--mono); font-size: 22px; font-weight: 500; letter-spacing: -.02em; color: var(--ink); font-variant-numeric: tabular-nums; }
+.resultado { margin-bottom: 16px; padding: 18px 20px; border: 1px solid var(--line); border-radius: var(--r); background: #fff; box-shadow: var(--sombra); }
+.resultado h2 { margin: 0 0 8px; font-size: 18px; font-weight: 600; letter-spacing: -.01em; }
+.resultado .nums { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0; border: 1px solid var(--line); border-radius: var(--r); overflow: hidden; margin: 12px 0; }
+.resultado .nums div { padding: 10px 12px; border-right: 1px solid var(--line); }
+.resultado .nums div:last-child { border-right: 0; }
+.resultado .nums b { display: block; font-family: var(--mono); font-size: 22px; font-weight: 500; }
+.resultado .nums span { display: block; margin-top: 3px; font-size: 10.5px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-3); }
+.resultado p { margin: 6px 0 0; font-size: 13.5px; color: var(--ink-2); }
+.resultado .ok { color: var(--ok); font-weight: 600; }
+.resultado .erro { color: var(--erro); font-weight: 600; }
+
+/* --- rodapé ------------------------------------------------------------- */
+footer { max-width: 960px; margin: 28px auto 0; padding: 18px 16px 0; border-top: 1px solid var(--line); font-size: 12.5px; color: var(--ink-3); line-height: 1.6; }
+footer p { margin: 0 0 6px; }
+footer a { color: var(--accent-2); }
+.fontes { margin: 8px 0 0; padding-left: 18px; }
+.fontes li { margin: 2px 0; }
+.vazio { padding: 40px 16px; text-align: center; color: var(--ink-3); }
+
+/* --- telas estreitas ---------------------------------------------------- */
+@media (max-width: 720px) {
+  .seg { flex-wrap: wrap; }
+  .seg button { border-bottom: 1px solid var(--line); }
+  .fatos { grid-template-columns: repeat(2, 1fr); }
+  .fatos div:nth-child(2) { border-right: 0; }
+  .fatos div:nth-child(-n+2) { border-bottom: 1px solid var(--line); }
+  .placar { margin-left: 0; width: 100%; }
+  .placar .trilho { flex: 1 1 auto; width: auto; }
+  .q { padding: 14px 14px 12px; }
+  .q .cab { gap: 6px; }
+  .tag.origem { margin-left: 0; }
+  .simulado-cab { grid-template-columns: 1fr; }
+  .resultado .nums { grid-template-columns: 1fr; }
+  .resultado .nums div { border-right: 0; border-bottom: 1px solid var(--line); }
+  .resultado .nums div:last-child { border-bottom: 0; }
+}
+@media (pointer: coarse) {
+  .alt { padding: 12px 12px 12px 10px; }
+  .seg button, .acao { padding: 10px 14px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .alt, .placar .trilho i { transition: none; }
+}
+
+/* referências e relógio */
+.comentario .referencias { margin: 14px 0 0; padding-top: 10px; border-top: 1px dashed var(--line); font-size: 12.5px; line-height: 1.5; color: var(--ink-2); }
+.comentario .referencias .rot { margin-right: 6px; }
+.relogio.estourou { color: var(--erro); }
+
+/* a figura do comentário (entre o texto e as referências) e a versão
+   ampliada, que cobre a tela: clique abre, clique/×/Esc fecham */
+.comentario .figura { margin: 14px 0 0; }
+/* a moldura tem o tamanho final antes de a imagem carregar: altura de até
+   380px (ou a da imagem), largura pela proporção, nunca mais que o painel */
+.figura .moldura { display: block; width: calc(min(380px, var(--h) * 1px) * var(--w) / var(--h)); max-width: 100%; aspect-ratio: var(--w) / var(--h); border: 1px solid var(--line); border-radius: var(--r); background: var(--bg-3); overflow: hidden; }
+.comentario .figura img { display: block; width: 100%; height: 100%; object-fit: cover; cursor: zoom-in; }
+.comentario .figura figcaption { margin-top: 8px; font-size: 12.5px; line-height: 1.5; color: var(--ink-2); }
+.figura .credito { display: block; margin-top: 2px; font-size: 11.5px; color: var(--ink-3); }
+.figura .credito a { color: inherit; }
+/* a imagem da própria prova, dentro do cartão: largura natural até a do
+   cartão, altura limitada à tela; clicar amplia */
+.q .banca { margin: 0 0 12px; }
+.q .banca img { display: block; max-width: 100%; max-height: 60vh; width: auto; height: auto; border: 1px solid var(--line); border-radius: var(--r); background: #fff; cursor: zoom-in; }
+.q .banca figcaption { margin-top: 4px; font-size: 11.5px; line-height: 1.4; color: var(--ink-3); }
+.ampliar { position: fixed; inset: 0; z-index: 100; display: flex; align-items: center; justify-content: center; padding: 24px; background: rgba(15, 18, 24, .88); cursor: zoom-out; }
+.ampliar figure { margin: 0; max-width: min(1100px, 100%); text-align: center; }
+.ampliar img { display: block; margin: 0 auto; max-width: 100%; max-height: 78vh; width: auto; height: auto; border-radius: var(--r); background: #000; }
+.ampliar figcaption { margin-top: 12px; color: #fff; font-size: 14px; line-height: 1.5; }
+.ampliar .credito { color: rgba(255, 255, 255, .72); }
+.ampliar .credito a { color: inherit; }
+.ampliar .fechar { position: absolute; top: 10px; right: 16px; border: 0; background: transparent; color: #fff; font: inherit; font-size: 34px; line-height: 1; cursor: pointer; }
+@media (max-width: 720px) {
+  .ampliar { padding: 12px; }
+  .ampliar figcaption { font-size: 13px; }
+  .comentario.materia dl { grid-template-columns: 1fr; gap: 2px 0; }
+  .comentario.materia dd { padding-left: 12px; margin-bottom: 4px; }
+}

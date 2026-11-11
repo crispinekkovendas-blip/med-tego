@@ -1,0 +1,12 @@
+.vercel
+__pycache__
+*.pyc
+.superpowers
+
+.vercel
+pdf
+# rascunho da ferramenta de vídeos (nomes dos canais vistos na descoberta)
+ferramentas/videos/_canais-vistos.json
+pdf/
+figuras/_folha-*.png
+ferramentas/videos/_canais-vistos.json

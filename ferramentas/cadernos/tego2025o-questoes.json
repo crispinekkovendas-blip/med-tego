@@ -1,0 +1,928 @@
+[
+ {
+  "numero": 1,
+  "enunciado": "Secundigesta, 37 semanas, com parto vaginal há quatro anos, comparece à maternidade para avaliação. A gestação atual é gemelar, monocoriônica e diamniótica. Atividade uterina ausente, colo uterino centralizado, grosso, com 2 cm de dilatação. Exame ultrassonográfico recente demonstra primeiro feto cefálico e com dorso à esquerda, peso estimado de 2.820 g. Segundo feto com situação transversa e peso estimado em 2.790 g. Líquido amniótico normal no âmnio e placenta com implantação anterior e fúndica. Exame de Doppler normal em ambos os fetos. Considerando os protocolos assistenciais oficiais, assinale a alternativa correta.",
+  "alternativas": [
+   "Orientar retorno com 38 semanas.",
+   "Orientar retorno com 39 semanas.",
+   "Internar e iniciar indução de parto.",
+   "Internar e indicar interrupção por cesariana."
+  ],
+  "imagem": false,
+  "imagens": [],
+  "area": "obst"
+ },
+ {
+  "numero": 2,
+  "enunciado": "Gestante de 26 anos de idade, G1P0, 28 semanas, sem comorbidades, comparece à consulta de pré-natal com resultado de sorologia para toxoplasmose com IgG e IgM positivos. A ultrassonografia obstétrica evidenciou, além de hepatoesplenomegalia, os achados demonstrados na imagem a seguir. Qual é a conduta mais adequada nesse caso?",
+  "alternativas": [
+   "Iniciar tratamento com pirimetamina, sulfadiazina e ácido folínico imediatamente.",
+   "Solicitar teste de avidez e, se a avidez for baixa, iniciar pirimetamina, sulfadiazina e ácido folínico.",
+   "Iniciar espiramicina, solicitar teste de avidez e, se a avidez for baixa, iniciar pirimetamina, sulfadiazina e ácido folínico.",
+   "Solicitar amniocentese para realização de PCR e, se o resultado for positivo, iniciar tratamento com pirimetamina,"
+  ],
+  "imagem": true,
+  "imagens": [
+   {
+    "arquivo": "tego2025o-02.jpg",
+    "onde": "enunciado",
+    "w": 584,
+    "h": 230
+   }
+  ],
+  "area": "obst"
+ },
+ {
+  "numero": 3,
+  "enunciado": "No segundo período do parto, presentes as condições de aplicação do fórceps, um obstetra bem capacitado conclui que houve falha na prova de tração no parto operatório com o fórceps de Simpson. Com relação ao próximo passo, assinale a alternativa correta.",
+  "alternativas": [
+   "Tentar a locação do fórceps de Kielland, após ampliação do canal de parto com episiotomia.",
+   "Indicar o parto por cesariana, estando preparado para as manobras de desimpactação cefálica.",
+   "Indicar o vácuo-extrator, com a limitação máxima de três trações até completar a deflexão do polo cefálico.",
+   "Após comprovar a ausência de bossa significativa, indicar o uso do vácuo-extrator com pressão entre 350 e 500 mmHg."
+  ],
+  "imagem": false,
+  "imagens": [],
+  "area": "obst"
+ },
+ {
+  "numero": 4,
+  "enunciado": "Primigesta, com 37 semanas de gestação, induzindo trabalho de parto por diagnóstico iminente de eclâmpsia, já em uso de sulfato de magnésio. Foi solicitada analgesia, com 5 cm de dilatação. O anestesista desligou a bomba de infusão e instalou um soro fisiológico de 1000 mL aberto enquanto fazia a punção peridural. A gestante evolui com mal-estar, taquicardia e dessaturação. Qual é o diagnóstico mais provável?",
+  "alternativas": [
+   "Reflexo vagal.",
+   "Choque cardiogênico.",
+   "Edema agudo de pulmão.",
+   "Embolia de líquido amniótico."
+  ],
+  "imagem": false,
+  "imagens": [],
+  "area": "obst"
+ },
+ {
+  "numero": 5,
+  "enunciado": "Gestante com resultado HBsAg positivo com 10 semanas, negando qualquer sintomatologia. São solicitados novos exames, e a paciente retorna com 16 semanas com os seguintes resultados: ALT 20, pesquisa de HBeAg positiva e carga viral HBV (CV) 300.000 UI/ mL. Quanto à indicação do uso de tenofovir, assinale a alternativa correta.",
+  "alternativas": [
+   "Deve-se iniciar tenofovir a partir de 20 semanas até o parto.",
+   "Deve-se iniciar tenofovir imediatamente e manter até 34 semanas.",
+   "Deve-se iniciar tenofovir a partir de 28 semanas e manter até o parto.",
+   "Deve-se iniciar tenofovir imediatamente e repetir a carga viral a cada três meses."
+  ],
+  "imagem": false,
+  "imagens": [],
+  "area": "obst"
+ },
+ {
+  "numero": 6,
+  "enunciado": "Mulher de 25 anos é submetida à cesariana intraparto aos 8 cm de dilatação cervical. Três horas após, já na enfermaria, a paciente apresenta quadro de hemorragia por atonia uterina. São realizadas as medidas farmacológicas iniciais, sem controle do sangramento. Diante desse cenário, a equipe considera a inserção de balão de tamponamento intrauterino, via vaginal, para controle do sangramento. Sobre o uso do balão intrauterino, assinale a alternativa que apresenta a conduta mais indicada nesse caso.",
+  "alternativas": [
+   "Contraindicar o uso do balão, estando indicado laparotomia e sutura compressiva imediatamente.",
+   "Inserir o balão na cavidade uterina e preenchê-lo com solução salina resfriada para promover vasoconstrição e otimizar a hemostasia.",
+   "Inserir o balão na cavidade uterina e mantê-lo por, no mínimo, 24 horas após o controle do sangramento intrauterino.",
+   "Inserir o balão na cavidade uterina e preenchê-lo com volume reduzido de, no máximo, 250 a 300 mL de solução salina e mantê-lo por até 24 horas."
+  ],
+  "imagem": false,
+  "imagens": [],
+  "area": "obst"
+ },
+ {
+  "numero": 7,
+  "enunciado": "Gestante de 12 semanas, com IMC pré-gestacional de 22,5 kg/m², refere preocupação na consulta por apresentar perda ponderal de 1,0 kg. Nega qualquer sintoma ou queixas. Nesse caso, qual é a orientação correta?",
+  "alternativas": [
+   "Prescrever suplementos por via parenteral para evitar deficiências.",
+   "Aumentar a ingesta calórica diária para compensar a perda ponderal.",
+   "Orientar dieta hiperproteica e suplementação de micronutrientes para evitar deficiências.",
+   "Informar que se trata de condição normal nessa fase, uma vez que a paciente se encontra eutrófica."
+  ],
+  "imagem": false,
+  "imagens": [],
+  "area": "obst"
+ },
+ {
+  "numero": 8,
+  "enunciado": "Puérpera retorna no 12º dia após o parto, com aleitamento materno, referindo desconforto mamário intenso em mama direita e saída de pus pelo mamilo. O exame clínico e de ultrassonografia (USG) estão demonstrados nas imagens a seguir (A/B). Nesse caso, qual é a melhor conduta quanto ao tratamento e à orientação da amamentação para essa paciente?",
+  "alternativas": [
+   "Dipirona ou ibuprofeno, drenagem cirúrgica e enfaixamento das mamas para inibir o aleitamento.",
+   "Antibioticoterapia; drenagem cirúrgica e bloqueio farmacológico, com cabergolina, do aleitamento materno.",
+   "Sintomáticos; realizar punção guiada por USG para cultura e manter o aleitamento em livre demanda em ambas mamas.",
+   "Antibioticoterapia; drenagem cirúrgica, manter o esvaziamento das mamas e o aleitamento na mama contralateral."
+  ],
+  "imagem": true,
+  "imagens": [
+   {
+    "arquivo": "tego2025o-08.jpg",
+    "onde": "enunciado",
+    "w": 348,
+    "h": 555
+   }
+  ],
+  "area": "masto"
+ },
+ {
+  "numero": 9,
+  "enunciado": "Primigesta, no período expulsivo do parto a termo, apresenta variedade de posição conforme apresentado na figura a seguir. Com relação à abreviação do período expulsivo na técnica de aplicação do fórcipe de Kielland, assinale a alternativa que descreve os passos da forma e da sequência mais apropriados para a locação das colheres.",
+  "alternativas": [
+   "Locação da colher anterior, utilizando como guia a mão direita e migração pela fronte fetal, seguida pela locação da colher posterior em pega direta, tendo como guia a mão esquerda.",
+   "Locação da colher posterior por pega direta, tendo como guia a mão esquerda, seguida pela locação da colher anterior, utilizando como guia a mão direita e migração pela fronte fetal.",
+   "Locação da colher posterior em pega direta, tendo como guia a mão esquerda, seguida pela locação da colher anterior, utilizando como guia a mão esquerda e migração pelo occipício fetal.",
+   "Locação da colher anterior, tendo como guia a mão esquerda e migração pelo occipício fetal, seguida pela locação da colher posterior em pega direta, utilizando como guia a mão direita."
+  ],
+  "imagem": true,
+  "imagens": [
+   {
+    "arquivo": "tego2025o-09.png",
+    "onde": "enunciado",
+    "w": 372,
+    "h": 293
+   }
+  ],
+  "area": "obst"
+ },
+ {
+  "numero": 10,
+  "enunciado": "Primigesta na 29ª semana procura a maternidade com queixa de edema em membros inferiores. Pré-natal sem intercorrências e sem antecedentes médicos. Ao exame físico: atividade uterina ausente, altura de fundo uterino de 26 cm, frequência cardíaca fetal de 140 bpm, pressão arterial de 150 x 100 mmHg, colo uterino grosso e fechado. Exames complementares: hemoglobina = 10,1 g/dL; presença de esquizócitos; plaquetas = 80.000 mm³; LDH = 610 UI/L; TGO = 85 U/L; TGP = 114 U/L; relação proteinúria/creatinúria = 0,52; creatinina = 0,81 mg/ dL; cardiotocografia normal, ultrassonografia obstétrica e Doppler dentro da normalidade. Nesse caso, qual é a conduta para o melhor cuidado com a paciente?",
+  "alternativas": [
+   "Sulfato de magnésio e cesariana de emergência.",
+   "Suporte clínico e programar o parto com 34 semanas.",
+   "Anti-hipertensivo e controle materno-fetal até 32 semanas.",
+   "Sulfato de magnésio, corticoterapia e, se mantida estabilidade clínica, parto após 48 horas."
+  ],
+  "imagem": false,
+  "imagens": [],
+  "area": "obst"
+ },
+ {
+  "numero": 11,
+  "enunciado": "G5P4, 25 anos de idade, na oitava semana de gestação, tem diagnóstico de carcinoma invasor de colo uterino, medindo aproximadamente 5 cm, acometendo cúpula vaginal e paramétrios bilateralmente, sem atingir a parede pélvica. Diante desse caso, após concordância por assinatura do termo de consentimento livre e esclarecido, qual é a conduta recomendada?",
+  "alternativas": [
+   "Quimioterapia e radioterapia.",
+   "Induzir o abortamento e realizar a histerectomia radical.",
+   "Quimioterapia, radioterapia e histerectomia radical com anectomia bilateral.",
+   "Iniciar quimioterapia e aguardar viabilidade fetal para complementação do tratamento.."
+  ],
+  "imagem": false,
+  "imagens": [],
+  "area": "onco"
+ },
+ {
+  "numero": 12,
+  "enunciado": "Gestante com 10 semanas relata aparecimento, há três dias, de lesão demonstrada na imagem. Nega antecedentes de lesão semelhante. Qual é a conduta para melhor cuidado com essa paciente?",
+  "alternativas": [
+   "Aciclovir creme local e realizar profilaxia intraparto.",
+   "Aciclovir creme local e terapia de supressão a partir de 36 semanas até o parto com aciclovir.",
+   "Aciclovir via oral por cinco a sete dias e terapia de supressão a partir de 36 semanas até o parto.",
+   "Aciclovir via oral, por cinco a sete dias, sem necessidade de terapia de supressão."
+  ],
+  "imagem": true,
+  "imagens": [
+   {
+    "arquivo": "tego2025o-12.jpg",
+    "onde": "enunciado",
+    "w": 405,
+    "h": 393
+   }
+  ],
+  "area": "obst"
+ },
+ {
+  "numero": 13,
+  "enunciado": "Gestante na 12ª semana de gestação comparece à emergência com náuseas e vômitos que se intensificaram há uma semana, com muita dificuldade na ingestão de alimentos e líquidos. Pesa 70 kg e teve perda de 5 kg na última semana. Refere fraqueza e cansaço e observou redução da diurese. Tem histórico de gastrectomia parcial (sleeve gastrectomy) há três anos, com grande perda de peso (45 kg). Nega comorbidades. Ao exame: PA = 96 x 66 mmHg, FC = 100 bpm, mucosas secas e coradas. Enquanto se aguardam resultados de eletrólitos e demais exames, qual é a conduta inicial mais adequada nesse caso?",
+  "alternativas": [
+   "Manter dieta via oral e iniciar solução de ringer lactato intravenoso.",
+   "Indicar jejum e iniciar solução fisiológica e tiamina intravenosa.",
+   "Manter alimentação via oral e repor volume com solução glicofisiológica IV.",
+   "Restringir alimentação via oral, controlar glicemia capilar e iniciar solução glicosada 10% com KCI 10-20 mEq/L IV."
+  ],
+  "imagem": false,
+  "imagens": [],
+  "area": "obst"
+ },
+ {
+  "numero": 14,
+  "enunciado": "Nulípara, 15 anos de idade, nove semanas de gestação, chega na urgência por apresentar vômitos há três dias. Encontra-se descorada, desidratada, sonolenta e refere perda de peso de aproximadamente 5%. Diante desse quadro, as alterações metabólicas e hormonais mais esperadas são:",
+  "alternativas": [
+   "Acidose metabólica, TSH elevado, T4 normal.",
+   "Alcalose metabólica, hiperpotassemia, amilase elevada.",
+   "Alcalose metabólica hipoclorêmica, hipopotassemia, cetose.",
+   "Hemoconcentração, neutropenia, elevação precoce da ureia e da creatinina, aumento de transaminases."
+  ],
+  "imagem": false,
+  "imagens": [],
+  "area": "obst"
+ },
+ {
+  "numero": 15,
+  "enunciado": "Em retorno de consulta pós-parto há 21 dias, lactante refere diminuição gradativa da produção de leite, que inicialmente era abundante, mesmo com a mama ingurgitada. Refere que, nas últimas mamadas, tem ofertado fórmula láctea, assim o recém-nascido fica mais satisfeito e espaça as mamadas durante a madrugada. Nesse caso, que mecanismo justifica a queixa apresentada?",
+  "alternativas": [
+   "Bloqueio de ducto lactífero por ejeção láctea deficitária.",
+   "Apojadura deficiente por produção insuficiente de prolactina.",
+   "Lactopoese inadequada, por sucção ineficiente e ejeção láctea deficitária.",
+   "Lactogênese deficiente, por falta de bloqueio do fator inibidor da prolactina."
+  ],
+  "imagem": false,
+  "imagens": [],
+  "area": "obst"
+ },
+ {
+  "numero": 16,
+  "enunciado": "Gestante com sete semanas comparece à consulta pré-natal de alto risco por diagtnóstico de doença de Graves há um ano. Nega queixas atuais. Está em uso de metimazol 20 mg/dia e folato. Deseja suspender a medicação antitireoidiana por ter conhecimento sobre os riscos fetais associados. Traz exames recentes de função tireoidiana: TSH = 0,08 mU/L (referência: 0,6-4,0) T4 total = 14 mcg/dL (referência: 5,4-10,1) T4 livre = 2,8 ng/dL (referência: 0,8-1,2) TRAb = 6 UI/L (referência: 0-1,5). Ao exame físico, apresenta: PA = 116 x 78 mmHg; FC = 105 bpm. A recomendação apropriada, neste momento, é:",
+  "alternativas": [
+   "manter doses de metimazol e repetir testes em quatro semanas.",
+   "suspender metimazol e repetir os testes laboratoriais em quatro a seis semanas.",
+   "suspender metimazol e iniciar propiltiouracil; repetir testes em quatro semanas.",
+   "reduzir doses de metimazol e associar propiltiouracil; repetir testes em quatro a seis semanas."
+  ],
+  "imagem": false,
+  "imagens": [],
+  "area": "obst"
+ },
+ {
+  "numero": 17,
+  "enunciado": "Gestante com 16 semanas realiza ultrassonografia demonstrada na imagem a seguir. Qual é o diagnóstico provável?",
+  "alternativas": [
+   "Onfalocele.",
+   "Gastrosquise.",
+   "Herniação fisiológica.",
+   "Cisto de cordão umbilical."
+  ],
+  "imagem": true,
+  "imagens": [
+   {
+    "arquivo": "tego2025o-17.jpg",
+    "onde": "enunciado",
+    "w": 538,
+    "h": 398
+   }
+  ],
+  "area": "obst"
+ },
+ {
+  "numero": 18,
+  "enunciado": "As imagens A e B representam os exames histopatológicos de duas placentas de terceiro trimestre, oriundas de duas pacientes diferentes. Analise-as. Com base nos aspectos observados nas imagens A e B, respectivamente, assinale a alternativa correspondente aos diagnósticos mais prováveis.",
+  "alternativas": [
+   "A: hemorragia intervilosa; B: corangiose",
+   "A: pré-eclâmpsia precoce; B: morfologia normal",
+   "A: morfologia normal; B: infecção por toxoplasmose",
+   "A: infecção por parvovírus; B: descolamento prematuro de placenta"
+  ],
+  "imagem": true,
+  "imagens": [
+   {
+    "arquivo": "tego2025o-18.jpg",
+    "onde": "enunciado",
+    "w": 602,
+    "h": 275
+   }
+  ],
+  "area": "obst"
+ },
+ {
+  "numero": 19,
+  "enunciado": "Gestante de 26 anos de idade, 25 semanas, comparece ao pronto atendimento com dor epigástrica moderada, em cólica, associada a náuseas, diarreia líquida e sudorese. Relata que os sintomas surgem cerca de 30 minutos após as refeições. Refere história de cirurgia bariátrica (by-pass gástrico em Y de Roux) realizada há um ano. Nega febre ou sangramento. Ao exame, encontra-se eupneica, PA = 110 x 70 mmHg, FC = 96 bpm, sem sinais de irritação peritoneal. Ultrassonografia obstétrica sem alterações. Qual é o diagnóstico mais provável e qual é a conduta inicial mais adequada nesse caso?",
+  "alternativas": [
+   "Colelitíase sintomática; solicitar ultrassonografia abdominal e iniciar analgesia e jejum.",
+   "Obstrução intestinal parcial; solicitar tomografia de abdome com contraste e manter paciente em jejum absoluto.",
+   "Úlcera marginal anastomótica; solicitar endoscopia digestiva alta e iniciar inibidor da bomba de prótons e sucralfato.",
+   "Síndrome de dumping precoce; orientar fracionamento alimentar, evitar líquidos durante as refeições e reduzir a ingestão de carboidratos simples."
+  ],
+  "imagem": false,
+  "imagens": [],
+  "area": "obst"
+ },
+ {
+  "numero": 20,
+  "enunciado": "Primigesta, 20 anos de idade, 33 semanas de gestação, pré-eclâmpsia sem sinais de gravidade, em uso de metildopa. Ultrassom obstétrico com peso fetal (1730 g) no percentil 8, cardiotocografia computadorizada com STV (short term variation/variação de curto prazo) de 6,0 ms. Considerando-se as imagens apresentadas, qual é a melhor conduta neste momento?",
+  "alternativas": [
+   "Indicar resolução imediata da gestação por via alta.",
+   "Avaliar vitalidade fetal diária, parto com 39 semanas.",
+   "Avaliar vitalidade fetal semanal, parto com 38 semanas.",
+   "Avaliar vitalidade fetal duas vezes por semana, parto com 37 semanas."
+  ],
+  "imagem": true,
+  "imagens": [
+   {
+    "arquivo": "tego2025o-20.jpg",
+    "onde": "enunciado",
+    "w": 602,
+    "h": 197
+   }
+  ],
+  "area": "obst"
+ },
+ {
+  "numero": 21,
+  "enunciado": "Paciente nulípara, 30 anos de idade, gestante de oito semanas, gestação desejada, apresenta aumento do volume da mama associado à retração mamilar importante na mama esquerda, apresenta exame ultrassonográfico para avaliação. Qual é a conduta que melhor beneficia essa gestante?",
+  "alternativas": [
+   "Realizar core biopsy; se o resultado for carcinoma, indicar tratamento cirúrgico radical em up front (inicial).",
+   "Realizar mamotomia; se o resultado for carcinoma, indicar tratamento cirúrgico conservador em up front (inicial).",
+   "Realizar core biopsy; se o resultado for carcinoma, iniciar quimioterapia neoadjuvante após 12 semanas de gestação.",
+   "Realizar mamotomia; caso seja carcinoma, iniciar quimioterapia de imediato e prosseguir o tratamento somente quando a viabilidade fetal for possível."
+  ],
+  "imagem": true,
+  "imagens": [
+   {
+    "arquivo": "tego2025o-21.jpg",
+    "onde": "enunciado",
+    "w": 487,
+    "h": 415
+   }
+  ],
+  "area": "masto"
+ },
+ {
+  "numero": 22,
+  "enunciado": "Secundigesta, com aborto anterior, 21 anos de idade, com antecedente de anemia diagnosticada no \"teste do pezinho\", porém sem tratamento ou acompanhamento específico. Não sabe referir o diagnóstico. Apresenta a seguinte eletroforese de hemoglobina: HbA2 = 2,0; HbS = 44,2%; HbC = 49,2%; HbF = 4,6%. Qual é o diagnóstico?",
+  "alternativas": [
+   "Talassemia.",
+   "Esferocitose.",
+   "Doença falciforme.",
+   "Anemia falciforme."
+  ],
+  "imagem": false,
+  "imagens": [],
+  "area": "obst"
+ },
+ {
+  "numero": 23,
+  "enunciado": "Quartigesta, 28 semanas, três partos pré-termo anteriores entre 28 e 30 semanas, questiona em consulta se pode tomar a vacina contra o vírus respiratório sincicial (VRS). Qual é a orientação correta neste momento?",
+  "alternativas": [
+   "Indicar a vacina contra VRS no período periparto.",
+   "Indicar a realização da vacina contra VRS neste momento.",
+   "Aguardar a 32ª semana para indicar a vacina contra o VRS.",
+   "Contraindicar a vacina contra VRS em função do risco de prematuridade."
+  ],
+  "imagem": false,
+  "imagens": [],
+  "area": "obst"
+ },
+ {
+  "numero": 24,
+  "enunciado": "Gestante com 25 semanas, sem histórico de sífilis, comparece ao pré-natal com exames laboratoriais de rotina: VDRL reagente 1/4, FTA-ABS não reagente; TPHA, não reagente. Assinale a alternativa que representa a correta interpretação dos resultados e a condução do caso.",
+  "alternativas": [
+   "Falso-positivo, não tratar.",
+   "Cicatriz sorológica, não tratar.",
+   "Sífilis recente, tratar com benzilpenicilina-benzatina 2,4 milhões UI, IM, dose única.",
+   "Sífilis latente tardia, tratar com benzilpenicilina-benzatina 2,4 milhões UI, IM, 1x/semana por três semanas."
+  ],
+  "imagem": false,
+  "imagens": [],
+  "area": "obst"
+ },
+ {
+  "numero": 25,
+  "enunciado": "Em relação à técnica para medida da pressão arterial em gestante obesa com circunferência braquial de 42 cm, sem disponibilidade de manguito adequado, em que seja necessário usar a tabela de correção disponível nas imagens, considere a medida de PA (sem correção) de 130 x 90 mmHg. Assinale a alternativa que contém a imagem que representa a forma correta para a avaliação da pressão arterial durante a gestação, e o valor da PAD (pressão arterial diastólica) corrigido.",
+  "alternativas": [
+   "Imagem D; PAD = 81 mmHg",
+   "Imagem B; PAD = 80 mmHg",
+   "Imagem D; PAD = 99 mmHg",
+   "Imagem A; PAD = 118 mmHg"
+  ],
+  "imagem": true,
+  "imagens": [
+   {
+    "arquivo": "tego2025o-25.jpg",
+    "onde": "enunciado",
+    "w": 519,
+    "h": 137
+   },
+   {
+    "arquivo": "tego2025o-25-2.jpg",
+    "onde": "enunciado",
+    "w": 504,
+    "h": 369
+   }
+  ],
+  "area": "obst"
+ },
+ {
+  "numero": 26,
+  "enunciado": "Gestante na 26ª semana, residente na região amazônica, comparece à consulta de pré-natal, relatando febre alta intermitente, calafrios e sudorese há três dias. Ao exame físico, apresenta temperatura de 38,5°C e esplenomegalia leve. Foi realizado o exame de gota espessa, que confirmou a presença de trofozoítos jovens e maduros além de gametócitos em forma de banana (demonstrados na imagem a seguir). Qual é o tratamento mais adequado para essa paciente?",
+  "alternativas": [
+   "Cloroquina",
+   "Tafenoquina",
+   "Primaquina/cloroquina",
+   "Artemeter/lumefantrina"
+  ],
+  "imagem": true,
+  "imagens": [
+   {
+    "arquivo": "tego2025o-26.jpg",
+    "onde": "enunciado",
+    "w": 577,
+    "h": 326
+   }
+  ],
+  "area": "obst"
+ },
+ {
+  "numero": 27,
+  "enunciado": "Primigesta apresenta, nos exames de pré-natal, o teste de imunofluorescência (ELISA) reagente para HTLV1 e teste confirmatório (Western Blot) reagente. Nesse caso, qual é a orientação correta na assistência ao parto e no pós-parto dessa paciente?",
+  "alternativas": [
+   "Via de parto obstétrica, sem restrição à amamentação.",
+   "Parto cesáreo eletivo, com supressão da amamentação.",
+   "Via de parto obstétrica, com supressão da amamentação.",
+   "Profilaxia pré-parto com zidovudina (AZT), liberação da amamentação após imunoglobulina para o RN."
+  ],
+  "imagem": false,
+  "imagens": [],
+  "area": "obst"
+ },
+ {
+  "numero": 28,
+  "enunciado": "Primigesta de 38 semanas encontra-se no segundo período de um parto em apresentação pélvica. A posição é em quatro apoios. O dorso fetal está dirigido para o ventre materno. Após o desprendimento dos ombros fetais, é feito o diagnóstico de cabeça derradeira. Assinale a alternativa que descreve corretamente a manobra inicial indicada.",
+  "alternativas": [
+   "Com uma das mãos espalmada, elevar e pressionar o dorso fetal (em direção ao sacro materno), enquanto a outra mão se apoia sobre o púbis. O auxiliar ajuda na elevação das pernas fetais.",
+   "O operador posiciona os dedos indicador e médio da sua mão dominante nos malares fetais. Os dedos indicador, médio e anelar da outra mão são posicionados sobre o occipital fetal, forçando a extensão da cabeça, enquanto esta é simultaneamente empurrada contra o sacro materno.",
+   "O tórax fetal é apreendido com os dedos polegares na porção ventral dos ombros (sobre as clavículas fetais) e com os demais dedos nas escápulas, sendo, então, o tronco \"empurrado\" para trás, em direção ao ventre materno.",
+   "A posição da parturiente deve ser alterada para litotomia. Com a aplicação dos dedos indicador e médio na base da língua fetal, o polo cefálico fetal deve ser posicionado em occipitopúbica (OP), para aplicação do fórcipe de Piper."
+  ],
+  "imagem": false,
+  "imagens": [],
+  "area": "obst"
+ },
+ {
+  "numero": 29,
+  "enunciado": "Gestante com 10 semanas realiza exame protoparasitológico de fezes, apresentando resultado positivo para Ascaris lumbricoides. Nega dor abdominal, diarreia, vômitos, náuseas e hiporexia. Qual é a conduta para melhor cuidado com essa paciente?",
+  "alternativas": [
+   "Ivermectina 150 a 200 mcg/kg, via oral, em dose única, iniciando 40 dias após o parto.",
+   "Mebendazol 100 mg, de 12 em 12 horas, por três dias, após o término do primeiro trimestre.",
+   "Tiabendazol 500 mg, via oral, 12 em 12 horas, por três dias, em qualquer idade gestacional.",
+   "Metronidazol 250 mg, via oral, de oito em oito horas, por sete dias, após o término do primeiro trimestre."
+  ],
+  "imagem": false,
+  "imagens": [],
+  "area": "obst"
+ },
+ {
+  "numero": 30,
+  "enunciado": "Paciente de 17 anos de idade comparece ao hospital referindo gravidez decorrente de ato de violência sexual. Foi atendida pela equipe multiprofissional, que confirmou a compatibilidade entre o histórico e a idade gestacional. A menor manifestou o desejo de interrupção legal da gestação. Tendo como base a legislação brasileira, assinale a alternativa correta.",
+  "alternativas": [
+   "É necessário o consentimento dos pais ou representante legal e deve ser feita a comunicação ao Conselho Tutelar.",
+   "Caso os pais divirjam quanto ao consentimento para a interrupção legal da gestação, deve prevalecer a opinião materna.",
+   "O caso deve ser notificado à Vigilância Sanitária, mas o consentimento dos pais ou representante legal não é obrigatório.",
+   "Caso a equipe de assistência tenha dúvidas quanto à veracidade das informações, o caso deve ser avaliado pelo Conselho Regional de Medicina."
+  ],
+  "imagem": false,
+  "imagens": [],
+  "area": "obst"
+ },
+ {
+  "numero": 31,
+  "enunciado": "Primigesta com 33 semanas é admitida na emergência obstétrica apresentando PA = 90x 54 mmHg; FC = 122 bpm; FR = 32 irpm; SpO2 = 95%; Tax = 37,8 °C; dinâmica uterina 2/10 min (duração de 30 segundos); BCF = 176 bpm. Toque vaginal: colo 80% apagado, médio, 4 cm de dilatação, apresentação cefálica, plano -1 De Lee, bolsa íntegra. Além das medidas iniciais de suporte clínico, propedêutica laboratorial e antibioticoterapia, qual é a conduta recomendada?",
+  "alternativas": [
+   "Acompanhar evolução do trabalho de parto.",
+   "Iniciar sulfato de magnésio para neuroproteção fetal.",
+   "Indicar resolução imediata da gestação por cesariana.",
+   "Indicar tocólise para corticoterapia para maturação pulmonar fetal."
+  ],
+  "imagem": false,
+  "imagens": [],
+  "area": "obst"
+ },
+ {
+  "numero": 32,
+  "enunciado": "A imagem a seguir representa a circulação fetal no território hepático. Assinale a alternativa cuja letra indica a interconexão existente na circulação fetal que, na restrição de crescimento fetal grave, apresenta alterações de fluxo que indicam aumento da pressão em ventrículo direito do coração.",
+  "alternativas": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "imagem": true,
+  "imagens": [
+   {
+    "arquivo": "tego2025o-32.jpg",
+    "onde": "enunciado",
+    "w": 475,
+    "h": 376
+   }
+  ],
+  "area": "obst"
+ },
+ {
+  "numero": 33,
+  "enunciado": "As medidas do comprimento do colo uterino de uma primigesta na 20ª semana estão demonstradas nas imagens a seguir. Qual é a hipótese diagnóstica e qual é a conduta para o melhor cuidado com a paciente?",
+  "alternativas": [
+   "Compressão excessiva do colo no minuto 1, colo curto no minuto 3; indicar cerclagem.",
+   "Colo normal no minuto 1, contração do istmo no minuto 3; acompanhar no pré-natal habitual.",
+   "Contração do istmo no minuto 1, colo encurtado no minuto 3; iniciar progesterona vaginal.",
+   "Afunilamento do colo uterino no minuto 1, colo curto no minuto 3; indicar pessário cervical."
+  ],
+  "imagem": true,
+  "imagens": [
+   {
+    "arquivo": "tego2025o-33.jpg",
+    "onde": "enunciado",
+    "w": 577,
+    "h": 372
+   }
+  ],
+  "area": "obst"
+ },
+ {
+  "numero": 34,
+  "enunciado": "Mulher de 37 anos de idade, em amenorreia há sete semanas, vem para ultrassonografia transvaginal de datação. Tem história de um parto vaginal sem intercorrência e uma cesariana prévia com hemorragia puerperal. Está preocupada por apresentar sangramento vaginal de volume crescente, mas sem dor, há cinco dias. Ao exame ultrassonográfico, representado na imagem, o saco gestacional localiza-se na parede anterior do útero na região do istmo, com espessura miometrial inferior a 2 mm entre a placenta e a serosa uterina. Os batimentos cardíacos estão presentes e o embrião é compatível com seis semanas de idade gestacional. O diagnóstico e a melhor conduta para o cuidado com essa paciente são:",
+  "alternativas": [
+   "gestação intrauterina em evolução; encaminhamento ao pré-natal de risco habitual.",
+   "gestação ectópica em cicatriz de cesariana; administração de misoprostol e curetagem uterina.",
+   "gestação ectópica em cicatriz de cesariana; administrar metotrexato e posterior procedimento cirúrgico.",
+   "gestação intrauterina em evolução; repetir ecografia em três a quatro semanas para acompanhar evolução e posicionamento do saco gestacional."
+  ],
+  "imagem": true,
+  "imagens": [
+   {
+    "arquivo": "tego2025o-34.jpg",
+    "onde": "enunciado",
+    "w": 515,
+    "h": 426
+   }
+  ],
+  "area": "obst"
+ },
+ {
+  "numero": 35,
+  "enunciado": "Primigesta de 28 anos de idade é admitida na maternidade com 28 semanas de gravidez, para cesariana devido à pré-eclâmpsia associada a comprometimento importante da vitalidade do concepto. Diante do quadro, a equipe decide pela realização de cesariana com histerotomia corporal. Considerando essa técnica operatória, é correto afirmar que:",
+  "alternativas": [
+   "a histerotomia corporal demanda abertura ampla da parede abdominal, exigindo assim uma incisão de pele vertical.",
+   "na histerotomia corporal, após a abertura do peritônio parietal, realiza-se uma incisão longitudinal no corpo uterino.",
+   "a histerorrafia da incisão uterina corporal deve ser feita, em plano único, com fio absorvível e sutura, contínua ou separada.",
+   "a histerotomia corporal requer peritonização para reduzir o risco de rotura uterina em gravidez subsequente."
+  ],
+  "imagem": false,
+  "imagens": [],
+  "area": "obst"
+ },
+ {
+  "numero": 36,
+  "enunciado": "Gestante de 27 anos de idade, G2P1, na 30ª semana, procura atendimento por febre alta há cinco dias, cefaleia intensa, mialgia, dor retro-orbital e fadiga extrema. Nas últimas 24 horas, apresentou episódios de sangramento nasal e redução da diurese. Ao exame físico: PA = 90 x 55 mmHg; FC = 115 bpm; T: 38,7°C. Pele e mucosas descoradas, lesões na pele demonstradas na imagem a seguir. Abdome: fundo uterino = 31 cm; BCF = 135 bpm. Exames laboratoriais: plaquetas = 18.000/mm³, hematócrito = 50%; AST = 320 U/L; ALT = 290 U/L; INR = 2,0; Dímero-D = 2500 ng/mL. USG obstétrica: feto vivo, líquido amniótico normal, placenta sem sinais de deslocamento. Qual é a conduta adequada para o melhor cuidado com essa paciente?",
+  "alternativas": [
+   "Uso de heparina profilática para reduzir risco trombótico.",
+   "Hidratação venosa com cristaloides e monitorização rigorosa materno-fetal.",
+   "Indução do parto imediato devido ao risco de hemorragia e instabilidade materna.",
+   "Administração de transfusão plaquetária imediata para correção da plaquetopenia."
+  ],
+  "imagem": true,
+  "imagens": [
+   {
+    "arquivo": "tego2025o-36.jpg",
+    "onde": "enunciado",
+    "w": 341,
+    "h": 438
+   }
+  ],
+  "area": "obst"
+ },
+ {
+  "numero": 37,
+  "enunciado": "Após a finalização de cesariana de urgência, uma equipe obstétrica é avisada sobre a contagem discordante de compressas cirúrgicas, após conferência cuidadosa. Qual é a conduta mais adequada neste momento?",
+  "alternativas": [
+   "Solicitar ultrassonografia após recuperação anestésica.",
+   "Realizar reabertura imediata para revisão cuidadosa da cavidade.",
+   "Solicitar tomografia computadorizada após a recuperação anestésica.",
+   "Solicitar radiografia simples de abdômen no centro cirúrgico imediatamente."
+  ],
+  "imagem": false,
+  "imagens": [],
+  "area": "obst"
+ },
+ {
+  "numero": 38,
+  "enunciado": "Gestante, G3P2, 32 semanas de gestação, feto único e vivo, em acompanhamento pré-natal de alto risco por apresentar aloimunização ao fator Rh. Na segunda gestação, relata que o recém-nascido necessitou de transfusão de sangue durante a internação neonatal. Na atual gestação, nega realização de procedimento invasivo. Na avaliação ultrassonográfica realizada nesse dia, o Doppler de artéria cerebral média fetal constatou valor do pico de velocidade sistólica maior que 2 múltiplos da mediana. Nesse caso, qual é a conduta para o melhor resultado perinatal?",
+  "alternativas": [
+   "Corticoterapia e resolução da gestação por cesárea.",
+   "Reavaliação do exame de Doppler fetal em uma semana.",
+   "Corticoterapia e cordocentese para investigar anemia fetal.",
+   "Resolução imediata da gestação por comprometimento fetal."
+  ],
+  "imagem": false,
+  "imagens": [],
+  "area": "obst"
+ },
+ {
+  "numero": 39,
+  "enunciado": "Primigesta de 35 anos de idade, 26 semanas de gestação, com tromboembolismo pulmonar. Não apresentava antecedentes pessoais e familiares de fenômenos tromboembólicos. Após sete dias de internação, recebeu alta hospitalar com anticoagulação plena (enoxaparina 1 mg/kg, de 12/12 horas). Quanto ao acompanhamento dessa paciente, assinale a alternativa correta.",
+  "alternativas": [
+   "Substituir a heparina de baixo peso molecular por rivaroxabano via oral, e manter por seis meses.",
+   "Manter a dose de anticoagulação por 60 dias, modificando para dose profilática até seis semanas pós-parto.",
+   "Manter a anticoagulação plena até seis semanas pós-parto, interrompendo apenas para a indução do parto.",
+   "A dose da enoxaparina deve ser ajustada mensalmente pela dosagem do TTPA, que deve se situar entre 1,5 e 2,5 vezes o valor normal."
+  ],
+  "imagem": false,
+  "imagens": [],
+  "area": "obst"
+ },
+ {
+  "numero": 40,
+  "enunciado": "Gestante, G2P0A1, na 18ª semana, compareceu à consulta de pré-natal para avaliação de exame de ultrassonografia realizado na 14ª semana, demonstrado na imagem a seguir. Informa que, na gestação anterior, teve perda fetal indolor na 16ª semana. Nesse caso, qual é a melhor conduta para o cuidado com essa paciente?",
+  "alternativas": [
+   "Realizar cerclagem uterina.",
+   "Indicar uso de pessário cervical.",
+   "Suplementar com progesterona micronizada vaginal.",
+   "Realizar medida seriada do colo uterino a cada duas semanas por ecografia."
+  ],
+  "imagem": true,
+  "imagens": [
+   {
+    "arquivo": "tego2025o-40.jpg",
+    "onde": "enunciado",
+    "w": 527,
+    "h": 344
+   }
+  ],
+  "area": "obst"
+ },
+ {
+  "numero": 41,
+  "enunciado": "Quanto à colocação de dispositivo intrauterino (DIU) pós-parto na cesárea, assinale a alternativa correta.",
+  "alternativas": [
+   "O DIU deve ser inserido via vaginal, logo após o término do procedimento cirúrgico.",
+   "O DIU pode ser posicionado no útero tanto com o aplicador quanto com o dedo indicador e médio da mão dominante.",
+   "O sistema intrauterino liberador de levonorgestrel apresenta maior risco de expulsão quando inserido na cesárea.",
+   "Após a inserção do DIU, o fio deve ser direcionado para o colo uterino, confirmando seu posicionamento pelo toque vaginal."
+  ],
+  "imagem": false,
+  "imagens": [],
+  "area": "repro"
+ },
+ {
+  "numero": 42,
+  "enunciado": "Gestante 35 anos de idade, G2P0A1, com 12 semanas de gravidez, comparece à consulta de pré-natal. Relata um aborto espontâneo no primeiro trimestre e sinaliza que a gravidez atual é oriunda de reprodução assistida. Sem queixas e nega histórico pessoal ou familiar mórbido, mas sinaliza que realizou exames para trombofilias dois meses antes da gravidez, que mostraram os seguintes resultados: • Anticoagulante lúpico: positivo; • Anticorpos anticardiolipina: IgG e IgM negativos; • Anticorpos anti-B2-glicoproteína: IgG e IgM negativos; • Mutação do Fator V de Leiden em heterozigose: presente; • Proteína S e proteína C: normais. Considerando o quadro clínico e laboratorial apresentado, qual é a melhor conduta neste momento?",
+  "alternativas": [
+   "Prescrever heparina em dose profilática.",
+   "Prescrever heparina em dose terapêutica.",
+   "Prescrever AAS em baixas doses (100 a 150 mg).",
+   "Prescrever heparina profilática e AAS em baixas doses (100 mg a 150 mg)."
+  ],
+  "imagem": false,
+  "imagens": [],
+  "area": "obst"
+ },
+ {
+  "numero": 43,
+  "enunciado": "Primigesta, 37 semanas, chega para consulta de pré-natal com intensa cefaleia. Na avaliação inicial, apresenta PA = 170 x 120 mmHg. A equipe assistencial solicita transferência, mas se nega a realizar o sulfato de magnésio, pois não possui bomba de infusão na unidade. Qual é a orientação correta?",
+  "alternativas": [
+   "Contraindicar uso de sulfato de magnésio nessas condições.",
+   "Prescrever sulfato de magnésio tanto de ataque quanto de manutenção, pela via intramuscular.",
+   "Fazer esquema de ataque e manutenção intravenoso de sulfato de magnésio, mesmo sem bomba de infusão.",
+   "Fazer ataque endovenoso e manutenção intramuscular de sulfato de magnésio para transporte seguro da gestante."
+  ],
+  "imagem": false,
+  "imagens": [],
+  "area": "obst"
+ },
+ {
+  "numero": 44,
+  "enunciado": "Puérpera no 10º dia após parto vaginal sem intercorrências encontra-se chorosa e demonstra desinteresse pelo recém-nascido e cuidados pessoais. Refere que durante a gestação fazia uso de antidepressivo por ter sido diagnosticada com depressão, mas interrompeu a medicação no último mês por receio de complicações com a amamentação. Nesse caso, a melhor opção terapêutica e a orientação para essa paciente, além de psicoterapia é:",
+  "alternativas": [
+   "introduzir sertralina e manter o aleitamento.",
+   "reforçar a rede de apoio familiar e manter o aleitamento.",
+   "indicar paroxetina e suspender o aleitamento materno.",
+   "introduzir carbonato de lítio e suspender o aleitamento materno."
+  ],
+  "imagem": false,
+  "imagens": [],
+  "area": "obst"
+ },
+ {
+  "numero": 45,
+  "enunciado": "Primigesta de 12 semanas, com 23 anos de idade, comparece à consulta de pré-natal. Queixa-se de cansaço eventual. Não faz uso de nenhuma medicação. Sem outras queixas ou antecedentes dignos de nota. Na ausculta cardíaca, verifica-se um clique sistólico e um sopro sistólico tardio, mais evidentes na área do ápice cardíaco. Exame de ecocardiografia recente demonstra a presença de prolapso de válvula mitral, com regurgitação moderada. Não foi evidenciada disfunção sistólica do ventrículo esquerdo (VE) ou hipertensão pulmonar. Fração de ejeção em 70% do VE. Quanto à condução desse caso, assinale a alternativa correta.",
+  "alternativas": [
+   "Não é necessária a prescrição de antibiótico para a profilaxia de endocardite durante a gravidez e o parto.",
+   "Deve ser prescrito antibiótico para a profilaxia de endocardite apenas após 36 semanas, mantendo-o até o puerpério.",
+   "Deve ser prescrito antibiótico mensal para a profilaxia de endocardite durante a gravidez e também no momento do parto.",
+   "Não é necessária a prescrição de antibiótico para a profilaxia de endocardite durante a gravidez, mas ele deve ser prescrito no parto."
+  ],
+  "imagem": false,
+  "imagens": [],
+  "area": "obst"
+ },
+ {
+  "numero": 46,
+  "enunciado": "Puérpera de 19 anos de idade apresenta quadro de hemorragia pós-parto. No momento, queixase de sudorese e mal-estar. Ao exame, hipocorada 2+\\4+, frequência cardíaca de 134 bpm, PA = 78 x 58 mmHg. Resultado de hemograma coletado logo após o nascimento indica hemoglobina de 9,8 g/dL. Qual é a classificação da gravidade do choque?",
+  "alternativas": [
+   "Leve.",
+   "Grave.",
+   "Moderado.",
+   "Compensado."
+  ],
+  "imagem": false,
+  "imagens": [],
+  "area": "obst"
+ },
+ {
+  "numero": 47,
+  "enunciado": "Uma paciente de 22 anos de idade, primigesta de 15 semanas, procura atendimento em serviço de urgência devido a sangramento vaginal discreto, sem dor abdominal. Após a realização de ultrassonografia, é diagnosticado óbito fetal. Ao exame, colo uterino fechado. A paciente está estável, sem sinais de choque e deseja a resolução imediata. Qual é a técnica mais adequada para o manejo desse quadro, levando em consideração a segurança e a eficácia do procedimento?",
+  "alternativas": [
+   "Curetagem uterina imediata.",
+   "Aspiração intrauterina imediata.",
+   "Dilatação cervical com velas de Hegar e posterior curetagem ou aspiração uterina.",
+   "Indução farmacológica com misoprostol e curetagem uterina após a expulsão do feto."
+  ],
+  "imagem": false,
+  "imagens": [],
+  "area": "obst"
+ },
+ {
+  "numero": 48,
+  "enunciado": "Considerando uma gestante com o feto em apresentação pélvica, assinale a alternativa com o fator que aumenta a chance de sucesso na versão cefálica externa.",
+  "alternativas": [
+   "Nuliparidade.",
+   "Placenta anterior.",
+   "Posição pélvica completa.",
+   "Peso fetal estimado abaixo do percentil 10."
+  ],
+  "imagem": false,
+  "imagens": [],
+  "area": "obst"
+ },
+ {
+  "numero": 49,
+  "enunciado": "Gestante G1P0, 16 semanas, compareceu à consulta pré-natal para levar resultado de ultrassonografia realizada na 13ª semana, demonstrada na imagem a seguir. Qual é o seguimento ultrassonográfico recomendado para a paciente nesse caso?",
+  "alternativas": [
+   "Mensal.",
+   "Quinzenal.",
+   "Mensal após a 20ª semana.",
+   "Quinzenal após a 20ª semana."
+  ],
+  "imagem": true,
+  "imagens": [
+   {
+    "arquivo": "tego2025o-49.jpg",
+    "onde": "enunciado",
+    "w": 471,
+    "h": 335
+   }
+  ],
+  "area": "obst"
+ },
+ {
+  "numero": 50,
+  "enunciado": "Mulher, 31 anos de idade, G1P0, idade gestacional 35 semanas é admitida na maternidade com quadro de descolamento prematuro de placenta, sendo necessário realizar cesariana de emergência. Durante o procedimento, a paciente apresentou quadro de atonia uterina refratária aos uterotônicos. Considerando esse cenário clínico, as indicações e as técnicas das suturas compressivas, assinale a alternativa correta.",
+  "alternativas": [
+   "Deve-se realizar compressão manual do útero antes de realizar a sutura compressiva para avaliar a capacidade de controlar o sangramento.",
+   "Deve-se preferir a sutura compressiva de Haymann ou Cho, uma vez que são técnicas mais rápidas e mais efetivas que a B-Lynch nesses quadros.",
+   "Deve-se preferir a sutura compressiva de B-Lynch, uma vez que essa técnica controla melhor os sangramentos oriundos dos segmentos uterinos inferiores.",
+   "Deve-se evitar a associação de uma ligadura de artéria uterina com a sutura compressiva pelo alto risco de comprometimento do futuro reprodutivo da paciente."
+  ],
+  "imagem": false,
+  "imagens": [],
+  "area": "obst"
+ },
+ {
+  "numero": 51,
+  "enunciado": "Primigesta, 25 anos de idade, 39 semanas de gestação, em fase ativa do trabalho de parto espontâneo, feto único e vivo, cefálico, com 6 cm de dilatação, membranas rotas e líquido claro. Não apresenta complicações maternas ou fetais. Evolução do trabalho de parto até o momento sem intercorrências. A cardiotocografia realizada está apresentada na imagem a seguir. Nesse caso, qual é a interpretação dessa cardiotocografia e qual é a conduta?",
+  "alternativas": [
+   "Presença de desacelerações tardias; realizar a cesárea.",
+   "Redução da variabilidade; manter cardiotocografia contínua.",
+   "Presença de desacelerações variáveis; realizar amnioinfusão.",
+   "Presença de desacelerações precoces; manter vigilância materna e fetal."
+  ],
+  "imagem": true,
+  "imagens": [
+   {
+    "arquivo": "tego2025o-51.jpg",
+    "onde": "enunciado",
+    "w": 549,
+    "h": 431
+   }
+  ],
+  "area": "obst"
+ },
+ {
+  "numero": 52,
+  "enunciado": "Primigesta, com diagnóstico de hipotireoidismo prévio, é submetida à cesárea por síndrome HELLP e apresenta, no segundo dia pós-operatório, quadro de dor abdominal que piora ao ficar de pé e dificulta a deambulação. Ao exame: afebril, dispneica FR = 18 ipm; FC = 100 bpm; edema de MMII 3+/4+, distensão abdominal importante. Tomografia e radiografia de abdome demonstrados nas imagens a seguir. Diante da história e dos exames apresentados, qual é a principal hipótese diagnóstica?",
+  "alternativas": [
+   "Volvo cecal",
+   "Megacólon tóxico",
+   "Obstrução mecânica",
+   "Síndrome de Ogilvie"
+  ],
+  "imagem": true,
+  "imagens": [
+   {
+    "arquivo": "tego2025o-52.jpg",
+    "onde": "enunciado",
+    "w": 731,
+    "h": 392
+   }
+  ],
+  "area": "obst"
+ },
+ {
+  "numero": 53,
+  "enunciado": "Puérpera com diagnóstico de hemorragia pós-parto vaginal secundária à atonia uterina. Considerando-se esse cenário clínico, qual é o momento mais indicado para iniciar a administração do ácido tranexâmico?",
+  "alternativas": [
+   "Após a falha da ocitocina.",
+   "Após a inserção do balão.",
+   "Após a falha de todos os uterotônicos.",
+   "Imediatamente após o diagnóstico da hemorragia."
+  ],
+  "imagem": false,
+  "imagens": [],
+  "area": "obst"
+ },
+ {
+  "numero": 54,
+  "enunciado": "Mulher, 35 anos de idade, sem acompanhamento pré-natal, G3P2, com histórico de uma cesariana há três anos, tem parto vaginal sem intercorrências. Após 45 minutos do nascimento, não ocorreu a dequitação, apesar do uso de manobras do manejo ativo do terceiro período. Nesse momento, ela apresenta um quadro de hemorragia e, durante a tentativa de retirada manual da placenta, não se identifica plano de clivagem. Diante desse cenário, e considerando as alternativas apresentadas, qual é a conduta mais adequada neste momento?",
+  "alternativas": [
+   "Realizar histerectomia de urgência.",
+   "Realizar a curetagem uterina com cureta puerperal.",
+   "Manter a placenta in situ e administrar metotrexate.",
+   "Realizar a tração do cordão umbilical com manobra de compressão do fundo uterino."
+  ],
+  "imagem": false,
+  "imagens": [],
+  "area": "obst"
+ },
+ {
+  "numero": 55,
+  "enunciado": "Primigesta, 20 anos de idade, 41 semanas de gestação, feto único e vivo, cefálico. Encontra-se em período expulsivo do parto há três horas. Ao exame de toque, a dilatação é total, bolsa rota, variedade de posição OEA, plano +3 de De Lee. Foi indicado o procedimento mostrado na imagem, por exaustão materna. Nesse tipo de parto operatório, qual dos procedimentos revela uma conduta correta?",
+  "alternativas": [
+   "Os dedos indicador e médio não devem ser posicionados no polo cefálico, pois prejudicam o acoplamento da campânula.",
+   "Inicialmente, deve ser realizada a rotação da campânula para promover a rotação do polo cefálico para OP e, posteriormente, a tração.",
+   "A verificação da boa pega é procedimento necessário para confirmar a ausência de tecido materno entre a campânula e a cabeça fetal.",
+   "No procedimento da tração, a campânula é removida antes da exteriorização vulvar da mandíbula fetal para facilitar o desprendimento cefálico."
+  ],
+  "imagem": true,
+  "imagens": [
+   {
+    "arquivo": "tego2025o-55.jpg",
+    "onde": "enunciado",
+    "w": 568,
+    "h": 403
+   }
+  ],
+  "area": "obst"
+ },
+ {
+  "numero": 56,
+  "enunciado": "Puérpera está no segundo dia pós-parto induzido às 35 semanas por pré-eclâmpsia com sinais de gravidade. Está em uso de duas classes de droga anti-hipertensiva, mantendo difícil controle pressórico. Durante o plantão noturno, a paciente chama a equipe reclamando de cefaleia intensa e alteração visual (escotomas), com PA = 170 x 120 mmHg. Para o melhor cuidado com a paciente, qual é a conduta inicial?",
+  "alternativas": [
+   "Diazepam.",
+   "Sulfato de magnésio.",
+   "Nifedipina sublingual.",
+   "Nitroprussiato de sódio."
+  ],
+  "imagem": false,
+  "imagens": [],
+  "area": "obst"
+ },
+ {
+  "numero": 57,
+  "enunciado": "Gestante com 16 semanas dá entrada na emergência, apresentando crises convulsivas tonicoclônicas generalizadas subentrantes. O acompanhante refere que a paciente é portadora de epilepsia desde a infância, porém não tem feito uso de medicação desde que descobriu a gravidez. Nesse caso, a melhor opção terapêutica para as crises convulsivas e o fármaco de manutenção para controle da epilepsia são, respectivamente:",
+  "alternativas": [
+   "fenitoína e levetiracetam.",
+   "gabapentina e valproato.",
+   "diazepam e carbamazepina.",
+   "sulfato de magnésio e lamotrigina."
+  ],
+  "imagem": false,
+  "imagens": [],
+  "area": "obst"
+ },
+ {
+  "numero": 58,
+  "enunciado": "Mulher de 29 anos de idade, no segundo dia do puerpério, previamente diagnosticada com doença de Graves, sem tratamento adequado durante a gestação, apresenta-se com febre alta (39,2°C), agitação psicomotora, náuseas, vômitos, sudorese intensa, intolerância ao calor e tremores finos. Ao exame, está confusa, com exoftalmia bilateral, frequência cardíaca de 148 bpm (irregular), PA = 100 x 60 mmHg. Exames laboratoriais: • TSH: < 0,01 μUI/mL • T4 livre: 4,5 ng/dL • T3 total: 360 ng/dL • Leucocitose com neutrofilia • Glicemia: 168 mg/dL Enzimas hepáticas elevadas. Qual é o diagnóstico e qual é a conduta inicial mais apropriada para esse caso?",
+  "alternativas": [
+   "Sepse; iniciar antibioticoterapia de amplo espectro.",
+   "Tireotoxicose; iniciar betabloqueador e benzodiazepínico.",
+   "Miocardiopatia periparto; iniciar betabloqueador e corticosteroides.",
+   "Crise tireotóxica; iniciar betabloqueador, propiltiouracil e corticosteroides."
+  ],
+  "imagem": false,
+  "imagens": [],
+  "area": "obst"
+ },
+ {
+  "numero": 59,
+  "enunciado": "Gestante hipertensa crônica, com diagnóstico de pré-eclâmpsia sobreposta precoce, chega encaminhada já na vigência de sulfato de magnésio, diurese 40 mL/h, mantendo PA = 170 x 110 mmHg e cefaleia. Foi indicado aumento da dose de manutenção de sulfato de magnésio (2 g/hora) e foi administrada uma ampola de hidralazina endovenosa em bólus (20 mg), com queda da PA para 90 x 60 mmHg em 20 minutos. Considerando esse quadro clínico, assinale a alternativa correta.",
+  "alternativas": [
+   "É preciso avaliar a função renal dessa gestante para definir a dose de sulfato de magnésio.",
+   "É preciso avaliar a magnesemia sérica para definir a dose de manutenção de sulfato de magnésio.",
+   "A dose infundida foi adequada para o controle pressórico, sendo importante manter uma PAD < 100 mmHg para evitar sangramento de SNC.",
+   "A redução brusca de PA pode causar riscos maternos (acidente vascular cerebral, infarto) e fetais (redução da perfusão uteroplacentária)."
+  ],
+  "imagem": false,
+  "imagens": [],
+  "area": "obst"
+ },
+ {
+  "numero": 60,
+  "enunciado": "Gestante com 28 semanas comparece à consulta pré-natal para avaliação de exame demonstrado nas imagens a seguir. Quais são o diagnóstico, o acompanhamento adequado e a idade recomendada para o parto?",
+  "alternativas": [
+   "Suspeita de acidose, interrupção da gestação imediatamente.",
+   "Suspeita de acidose leve, monitoramento a cada dois dias, parto na 32ª semana.",
+   "Insuficiência placentária moderada, monitoramento semanal, parto na 37ª semana.",
+   "Insuficiência placentária grave, monitoramento duas vezes por semana, parto na 34ª semana."
+  ],
+  "imagem": true,
+  "imagens": [
+   {
+    "arquivo": "tego2025o-60.jpg",
+    "onde": "enunciado",
+    "w": 713,
+    "h": 483
+   }
+  ],
+  "area": "obst"
+ }
+]

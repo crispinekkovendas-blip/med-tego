@@ -1,0 +1,8 @@
+# Tudo em LF no disco, em qualquer máquina: o harness e os controles leem os
+# arquivos byte a byte, e um checkout com CRLF faz os controles que plantam
+# texto com quebra de linha deixarem de casar.
+* text=auto eol=lf
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.pdf binary

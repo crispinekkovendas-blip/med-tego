@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<meta name="color-scheme" content="light">
+<title>Revisão dos vídeos — Banco TEGO</title>
+<style>
+  :root { --ink: #10151B; --ink-2: #48525F; --ink-3: #7A8391; --line: #E1E5EA; --accent: #0F4C5C; --accent-2: #17708A; --bg: #F5F7F9; --r: 8px; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.5 "IBM Plex Sans", "Segoe UI", system-ui, sans-serif; }
+  header.topo { background: #fff; border-bottom: 1px solid var(--line); padding: 16px 20px; }
+  header.topo h1 { margin: 0 0 4px; font-size: 20px; }
+  header.topo p { margin: 0; color: var(--ink-2); max-width: 70ch; }
+  main { max-width: 1040px; margin: 0 auto; padding: 16px; display: grid; gap: 14px; }
+  .contagem { margin: 0; font-weight: 600; color: var(--accent); }
+  .rev { background: #fff; border: 1px solid var(--line); border-radius: var(--r); padding: 14px 16px; }
+  .rev header { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 12px; }
+  .rev .id { font-family: ui-monospace, "IBM Plex Mono", monospace; font-weight: 600; color: var(--accent-2); }
+  .rev .origem { font-size: 12px; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-3); }
+  .rev h2 { width: 100%; margin: 2px 0 10px; font-size: 16px; }
+  .picks { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 12px; }
+  .pick { border: 1px solid var(--line); border-radius: var(--r); padding: 10px; }
+  .pick.vazio { border-style: dashed; color: var(--ink-3); }
+  .pick img { width: 100%; height: auto; border-radius: 4px; display: block; }
+  .pick .rot { margin: 8px 0 2px; font-size: 11px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-3); }
+  .pick .tit { margin: 0 0 2px; font-weight: 500; }
+  .pick .tit a { color: var(--ink); text-decoration: none; }
+  .pick .meta { margin: 0; font-size: 13px; color: var(--ink-2); }
+  .mais { margin: 10px 0 0; font-size: 13.5px; }
+  a { color: var(--accent-2); }
+</style>
+</head>
+<body>
+<header class="topo">
+  <h1>Revisão dos vídeos</h1>
+  <p>Cada questão com o vídeo da questão e o vídeo da matéria escolhidos (canais públicos do YouTube, da lista aprovada). Confira e diga quais trocar: a troca é feita com <code>videos.py trocar</code> e um novo deploy; os QR codes do caderno não mudam.</p>
+</header>
+<main id="lista" aria-busy="true"><p class="contagem">Carregando…</p></main>
+<script src="/videos/revisao.js"></script>
+<script>
+fetch("/videos.json", { cache: "no-cache" })
+  .then(function (r) { return r.ok ? r.json() : null; })
+  .catch(function () { return null; })
+  .then(function (v) {
+    var el = document.getElementById("lista");
+    el.setAttribute("aria-busy", "false");
+    el.innerHTML = v ? htmlRevisao(v) : '<p class="contagem">Não foi possível carregar videos.json.</p>';
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+pré-/natal → pré-natal (mantido)
+recém-/nascido → recém-nascido (mantido)
+pré-/eclâmpsia → pré-eclâmpsia (mantido)
+pré-/gestacional → pré-gestacional (mantido)
+D-/dímero → Ddímero

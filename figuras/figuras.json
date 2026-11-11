@@ -1,0 +1,20 @@
+{
+ "obst01": {
+  "src": "figuras/obst01.jpg",
+  "w": 650,
+  "h": 560,
+  "fonte": "Nevit Dilmen · CC BY-SA 3.0 · Wikimedia Commons",
+  "titulo": "File:Pregnancy ultrasound 110324114136 1201400.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Pregnancy_ultrasound_110324114136_1201400.jpg",
+  "bytes": 43877
+ },
+ "obst02": {
+  "src": "figuras/obst02.jpg",
+  "w": 1325,
+  "h": 1321,
+  "fonte": "NIH NIAID Ryan Kissinger · Public domain · Wikimedia Commons",
+  "titulo": "File:Toxoplasma gondii Tachyzoite (NIH BioArt 683).png",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Toxoplasma_gondii_Tachyzoite_(NIH_BioArt_683).png",
+  "bytes": 178398
+ }
+}
