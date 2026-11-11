@@ -12,7 +12,7 @@ linha de `fonte:` para os dados e a linha para figuras/FONTES.md.
 """
 import io, json, os, re, sys, urllib.parse, urllib.request
 
-UA = "banco-tego/1.0 (https://tego.vercel.app; material de estudo)"
+UA = "banco-tego/1.0 (https://tego-febrasgo.vercel.app; material de estudo)"
 API = "https://commons.wikimedia.org/w/api.php"
 ACEITAS = re.compile(r"^(CC0|Public domain|PD|CC BY(-SA)?( [0-9.]+)?)$", re.I)
 TAGS = re.compile(r"<[^>]+>")

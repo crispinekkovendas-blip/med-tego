@@ -298,7 +298,7 @@ table.chave td.pag { font-weight: 400; color: var(--ink-2); width: 18mm; font-si
 @page {
   size: A4 portrait; margin: 16mm 14mm 16mm;
   @top-right { content: "Caderno TEGO · FEBRASGO"; font-family: "Segoe UI", system-ui, sans-serif; font-size: 7.5pt; letter-spacing: .08em; text-transform: uppercase; color: #555; }
-  @bottom-left { content: "tego.vercel.app"; font-family: "Segoe UI", system-ui, sans-serif; font-size: 7.5pt; color: #555; }
+  @bottom-left { content: "tego-febrasgo.vercel.app"; font-family: "Segoe UI", system-ui, sans-serif; font-size: 7.5pt; color: #555; }
   @bottom-right { content: "Página " counter(page) " de " counter(pages); font-family: "Segoe UI", system-ui, sans-serif; font-size: 7.5pt; color: #555; }
 }
 @media print {

@@ -15,7 +15,7 @@ module.exports = {
      prova (a 1ª fase são duas provas de 60); corte = 60% em cada prova (nota 6,00) para
      ser chamado à 2ª fase */
   numeros: { questoes: 120, porArea: 60, alternativas: 4, horas: 4.5, corte: 60 },
-  site: "tego.vercel.app",
+  site: "tego-febrasgo.vercel.app",   /* tego.vercel.app já era de outra conta */
   /* as cinco apostilas, na ordem escolhida pelo usuário; a área de cada questão é dada à
      mão (cadernos/<fonte>-areas.json), porque as provas são só "Ginecologia" e "Obstetrícia".
      As áreas entram uma a uma, conforme são escritas (a linha sai do comentário e ESPERADO

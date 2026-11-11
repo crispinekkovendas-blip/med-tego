@@ -51,8 +51,10 @@ image when the question depends on one, printable caderno, PDFs at `/pdf/`.
 
 - `med/tego/` — git repo (`main` = production), private GitHub remote
   `med-tego` under the same account as `med-amrigs`.
-- Vercel project **`tego`** → `tego.vercel.app` (free on 2026-11-11: the URL
-  answers DEPLOYMENT_NOT_FOUND; `meta.site` records whatever it ends up being).
+- Vercel project **`tego`** → **`tego-febrasgo.vercel.app`** (`tego.vercel.app`
+  answered DEPLOYMENT_NOT_FOUND but turned out to be reserved by another account;
+  the project's own domain is `tego-pi.vercel.app`, and `tego-febrasgo` was added
+  as the project domain, so every production deploy serves it).
   Static, no build. Deploy: `python ferramentas/pdf.py` then
   `npx vercel deploy --prod --yes`. `vercel.json` keeps git auto-deploy off
   (`pdf/` is outside git), as in AMRIGS.

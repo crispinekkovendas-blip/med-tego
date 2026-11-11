@@ -33,7 +33,7 @@ window.BANCO = {
       "horas": 4.5,
       "corte": 60
     },
-    "site": "tego.vercel.app",
+    "site": "tego-febrasgo.vercel.app",
     "areas": [
       {
         "id": "obst",

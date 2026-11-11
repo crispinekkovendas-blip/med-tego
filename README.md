@@ -14,11 +14,11 @@ marca-texto e post-its em OpenDyslexic, uma apostila por área).
 
 | O quê | Onde |
 |---|---|
-| Banco na tela | https://tego.vercel.app/ |
-| Caderno para imprimir | https://tego.vercel.app/caderno/ |
-| Vídeos — página de revisão (para o cliente) | https://tego.vercel.app/videos/ (os links curtos dos QR codes: `/v/<id>/q`, `/m`, `/mais`, `/flash`, `/mapa`) |
-| Deploy | `python ferramentas/pdf.py` e depois `npx vercel deploy --prod --yes`, a partir de `med/tego/` (projeto `tego`; git em `main`, remoto privado `crispinekkovendas-blip/med-tego`). Só pela CLI: `vercel.json` desliga o deploy automático do GitHub, porque um build a partir do git não teria os PDFs |
-| PDFs prontos | https://tego.vercel.app/pdf/caderno-obst.pdf (`gine`, `onco`, `repro` e `masto` quando existirem): uma apostila por área, paginada — links no painel do caderno |
+| Banco na tela | https://tego-febrasgo.vercel.app/ |
+| Caderno para imprimir | https://tego-febrasgo.vercel.app/caderno/ |
+| Vídeos — página de revisão (para o cliente) | https://tego-febrasgo.vercel.app/videos/ (os links curtos dos QR codes: `/v/<id>/q`, `/m`, `/mais`, `/flash`, `/mapa`) |
+| Deploy | `python ferramentas/pdf.py` e depois `npx vercel deploy --prod --yes`, a partir de `med/tego/` (projeto `tego`, domínio `tego-febrasgo.vercel.app` — `tego.vercel.app` já era de outra conta; git em `main`, remoto privado `crispinekkovendas-blip/med-tego`). Só pela CLI: `vercel.json` desliga o deploy automático do GitHub, porque um build a partir do git não teria os PDFs |
+| PDFs prontos | https://tego-febrasgo.vercel.app/pdf/caderno-obst.pdf (`gine`, `onco`, `repro` e `masto` quando existirem): uma apostila por área, paginada — links no painel do caderno |
 
 ## Números (2026-11-11, sessão 0: banco de fumaça)
 
