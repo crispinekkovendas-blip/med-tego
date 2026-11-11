@@ -29,7 +29,7 @@ const exige = (c, m) => { n++; if (!c) erro(m); };
 
 /* quantas questões cada área deve ter: 1 no esboço; a tarefa de conteúdo de
    cada área sobe para o número final dela */
-const ESPERADO = { obst: 50 };
+const ESPERADO = { obst: 50, gine: 50 };
 /* "Sobre a matéria": opcional enquanto a primeira área está sendo escrita;
    vira obrigatória (true) a partir da primeira área completa */
 const EXIGE_MATERIA = true;

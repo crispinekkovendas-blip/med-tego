@@ -51,3 +51,16 @@ repetiam um tema já coberto por outra questão da mesma prova:
 
 As 59 questões obstétricas de **Obstetrícia 2022** ficam disponíveis para uma
 segunda apostila de Obstetrícia ou para trocas que o cliente peça.
+
+## Ginecologia (sessão 2, 2026-11-11 — 50 questões: 29 de 2025 e 21 de 2022)
+
+Entram todas as 29 ginecológicas (mapa de áreas) da prova de Ginecologia de
+2025 — nº 1, 2, 5, 7, 10, 11, 12, 13, 14, 19, 21, 22, 29, 31, 32, 33, 34, 37, 39,
+42, 43, 44, 46, 48, 49, 54, 57, 58, 60 (`gine01`–`gine29`) — e 21 das 25 de 2022:
+nº 2, 8, 14, 17, 19, 22, 23, 24, 25, 27, 28, 29, 30, 31, 44, 50, 51, 52, 53, 59, 60
+(`gine30`–`gine50`). Ficaram de fora, de 2022, quatro cujo tema 2025 já cobre:
+
+- 18 (SUA pela FIGO com imagem — a 43 e a 48 de 2025 fazem o mesmo);
+- 21 (vaginose citolítica — a 46, a 54 e a 58 de 2025 cobrem as vulvovaginites);
+- 56 (incontinência de esforço — a 5 de 2025 e a 29 de 2022 cobrem a uroginecologia);
+- 58 (profilaxia pós-estupro — igual à 60 de 2025).

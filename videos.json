@@ -398,5 +398,405 @@
   "q": null,
   "m": null,
   "busca": "RCF precoce com diástole zero na umbilical — vigilância e parto com 34"
+ },
+ "gine01": {
+  "fonte": "tego2025g",
+  "numero": 1,
+  "tema": "Cistite de repetição na pós-menopausa — estrogênio e novo parceiro",
+  "q": null,
+  "m": null,
+  "busca": "Cistite de repetição na pós-menopausa — estrogênio e novo parceiro"
+ },
+ "gine02": {
+  "fonte": "tego2025g",
+  "numero": 2,
+  "tema": "Fio de poliglactina — absorção e força remanescente",
+  "q": null,
+  "m": null,
+  "busca": "Fio de poliglactina — absorção e força remanescente"
+ },
+ "gine03": {
+  "fonte": "tego2025g",
+  "numero": 5,
+  "tema": "Incontinência urinária de esforço — fisioterapia antes da cirurgia",
+  "q": null,
+  "m": null,
+  "busca": "Incontinência urinária de esforço — fisioterapia antes da cirurgia"
+ },
+ "gine04": {
+  "fonte": "tego2025g",
+  "numero": 7,
+  "tema": "Vestibulodinia provocada — lidocaína tópica",
+  "q": null,
+  "m": null,
+  "busca": "Vestibulodinia provocada — lidocaína tópica"
+ },
+ "gine05": {
+  "fonte": "tego2025g",
+  "numero": 10,
+  "tema": "Condilomatose vulvar extensa na mulher com HIV — exérese",
+  "q": null,
+  "m": null,
+  "busca": "Condilomatose vulvar extensa na mulher com HIV — exérese"
+ },
+ "gine06": {
+  "fonte": "tego2025g",
+  "numero": 11,
+  "tema": "Íleo pós-operatório — hidratação e eletrólitos",
+  "q": null,
+  "m": null,
+  "busca": "Íleo pós-operatório — hidratação e eletrólitos"
+ },
+ "gine07": {
+  "fonte": "tego2025g",
+  "numero": 12,
+  "tema": "Segurança do paciente — o que é um near miss",
+  "q": null,
+  "m": null,
+  "busca": "Segurança do paciente — o que é um near miss"
+ },
+ "gine08": {
+  "fonte": "tego2025g",
+  "numero": 13,
+  "tema": "Fasciite necrosante pós-histerectomia — exploração cirúrgica",
+  "q": null,
+  "m": null,
+  "busca": "Fasciite necrosante pós-histerectomia — exploração cirúrgica"
+ },
+ "gine09": {
+  "fonte": "tego2025g",
+  "numero": 14,
+  "tema": "SUA agudo na adolescente — estrogênio em dose alta",
+  "q": null,
+  "m": null,
+  "busca": "SUA agudo na adolescente — estrogênio em dose alta"
+ },
+ "gine10": {
+  "fonte": "tego2025g",
+  "numero": 19,
+  "tema": "Endometrite pós-aborto — antibiótico venoso até a melhora clínica",
+  "q": null,
+  "m": null,
+  "busca": "Endometrite pós-aborto — antibiótico venoso até a melhora clínica"
+ },
+ "gine11": {
+  "fonte": "tego2025g",
+  "numero": 21,
+  "tema": "Cistoscopia normal — mucosa vesical sem lesão",
+  "q": null,
+  "m": null,
+  "busca": "Cistoscopia normal — mucosa vesical sem lesão"
+ },
+ "gine12": {
+  "fonte": "tego2025g",
+  "numero": 22,
+  "tema": "Vaginismo — dessensibilização sistemática",
+  "q": null,
+  "m": null,
+  "busca": "Vaginismo — dessensibilização sistemática"
+ },
+ "gine13": {
+  "fonte": "tego2025g",
+  "numero": 29,
+  "tema": "Endometriose inicial sem desejo de gestar — contraceptivo contínuo",
+  "q": null,
+  "m": null,
+  "busca": "Endometriose inicial sem desejo de gestar — contraceptivo contínuo"
+ },
+ "gine14": {
+  "fonte": "tego2025g",
+  "numero": 31,
+  "tema": "Ponto de Palmer — entrada alternativa na laparoscopia",
+  "q": null,
+  "m": null,
+  "busca": "Ponto de Palmer — entrada alternativa na laparoscopia"
+ },
+ "gine15": {
+  "fonte": "tego2025g",
+  "numero": 32,
+  "tema": "Transtorno disfórico pré-menstrual — os critérios do DSM-5",
+  "q": null,
+  "m": null,
+  "busca": "Transtorno disfórico pré-menstrual — os critérios do DSM-5"
+ },
+ "gine16": {
+  "fonte": "tego2025g",
+  "numero": 33,
+  "tema": "Prolapso avançado na idosa sem vida sexual — pessário",
+  "q": null,
+  "m": null,
+  "busca": "Prolapso avançado na idosa sem vida sexual — pessário"
+ },
+ "gine17": {
+  "fonte": "tego2025g",
+  "numero": 34,
+  "tema": "Ligamento uterossacro — a visão posterior da pelve",
+  "q": null,
+  "m": null,
+  "busca": "Ligamento uterossacro — a visão posterior da pelve"
+ },
+ "gine18": {
+  "fonte": "tego2025g",
+  "numero": 37,
+  "tema": "Síndrome de Herlyn-Werner-Wunderlich — a tríade",
+  "q": null,
+  "m": null,
+  "busca": "Síndrome de Herlyn-Werner-Wunderlich — a tríade"
+ },
+ "gine19": {
+  "fonte": "tego2025g",
+  "numero": 39,
+  "tema": "Febre e íleo no 5º pós-operatório — corpo estranho na tomografia",
+  "q": null,
+  "m": null,
+  "busca": "Febre e íleo no 5º pós-operatório — corpo estranho na tomografia"
+ },
+ "gine20": {
+  "fonte": "tego2025g",
+  "numero": 42,
+  "tema": "Sangramento genital na criança — prolapso uretral",
+  "q": null,
+  "m": null,
+  "busca": "Sangramento genital na criança — prolapso uretral"
+ },
+ "gine21": {
+  "fonte": "tego2025g",
+  "numero": 43,
+  "tema": "Pólipo e mioma submucoso na histeroscopia — SUA-P e SUA-L",
+  "q": null,
+  "m": null,
+  "busca": "Pólipo e mioma submucoso na histeroscopia — SUA-P e SUA-L"
+ },
+ "gine22": {
+  "fonte": "tego2025g",
+  "numero": 44,
+  "tema": "Pielonefrite — febre após 48 h de antibiótico indica internação",
+  "q": null,
+  "m": null,
+  "busca": "Pielonefrite — febre após 48 h de antibiótico indica internação"
+ },
+ "gine23": {
+  "fonte": "tego2025g",
+  "numero": 46,
+  "tema": "Vaginose bacteriana recorrente — suspender as duchas vaginais",
+  "q": null,
+  "m": null,
+  "busca": "Vaginose bacteriana recorrente — suspender as duchas vaginais"
+ },
+ "gine24": {
+  "fonte": "tego2025g",
+  "numero": 48,
+  "tema": "Leiomioma com sangramento refratário e prole completa — histerectomia",
+  "q": null,
+  "m": null,
+  "busca": "Leiomioma com sangramento refratário e prole completa — histerectomia"
+ },
+ "gine25": {
+  "fonte": "tego2025g",
+  "numero": 49,
+  "tema": "Sífilis tratada com sintomas neurológicos — investigar o liquor",
+  "q": null,
+  "m": null,
+  "busca": "Sífilis tratada com sintomas neurológicos — investigar o liquor"
+ },
+ "gine26": {
+  "fonte": "tego2025g",
+  "numero": 54,
+  "tema": "Vaginose bacteriana ao Gram — metronidazol antes do DIU",
+  "q": null,
+  "m": null,
+  "busca": "Vaginose bacteriana ao Gram — metronidazol antes do DIU"
+ },
+ "gine27": {
+  "fonte": "tego2025g",
+  "numero": 57,
+  "tema": "Prolapso de cúpula com abdome operado — fixação sacroespinhal",
+  "q": null,
+  "m": null,
+  "busca": "Prolapso de cúpula com abdome operado — fixação sacroespinhal"
+ },
+ "gine28": {
+  "fonte": "tego2025g",
+  "numero": 58,
+  "tema": "Odor vaginal com células-guia a fresco — vaginose bacteriana",
+  "q": null,
+  "m": null,
+  "busca": "Odor vaginal com células-guia a fresco — vaginose bacteriana"
+ },
+ "gine29": {
+  "fonte": "tego2025g",
+  "numero": 60,
+  "tema": "Profilaxias após violência sexual — a lista do Ministério da Saúde",
+  "q": null,
+  "m": null,
+  "busca": "Profilaxias após violência sexual — a lista do Ministério da Saúde"
+ },
+ "gine30": {
+  "fonte": "tego2022g",
+  "numero": 2,
+  "tema": "Ductos de Müller — a ausência do hormônio antimülleriano decide",
+  "q": null,
+  "m": null,
+  "busca": "Ductos de Müller — a ausência do hormônio antimülleriano decide"
+ },
+ "gine31": {
+  "fonte": "tego2022g",
+  "numero": 8,
+  "tema": "Sangramento intenso e intermenstrual com útero normal — mioma",
+  "q": null,
+  "m": null,
+  "busca": "Sangramento intenso e intermenstrual com útero normal — mioma"
+ },
+ "gine32": {
+  "fonte": "tego2022g",
+  "numero": 14,
+  "tema": "Amenorreia primária com útero rudimentar — malformação mülleriana",
+  "q": null,
+  "m": null,
+  "busca": "Amenorreia primária com útero rudimentar — malformação mülleriana"
+ },
+ "gine33": {
+  "fonte": "tego2022g",
+  "numero": 17,
+  "tema": "Sangramento intenso desde a menarca — pesquisar coagulopatia",
+  "q": null,
+  "m": null,
+  "busca": "Sangramento intenso desde a menarca — pesquisar coagulopatia"
+ },
+ "gine34": {
+  "fonte": "tego2022g",
+  "numero": 19,
+  "tema": "Adenomiose na ultrassonografia — miométrio heterogêneo e cistos",
+  "q": null,
+  "m": null,
+  "busca": "Adenomiose na ultrassonografia — miométrio heterogêneo e cistos"
+ },
+ "gine35": {
+  "fonte": "tego2022g",
+  "numero": 22,
+  "tema": "Resposta sorológica ao tratamento da sífilis — queda de dois títulos",
+  "q": null,
+  "m": null,
+  "busca": "Resposta sorológica ao tratamento da sífilis — queda de dois títulos"
+ },
+ "gine36": {
+  "fonte": "tego2022g",
+  "numero": 23,
+  "tema": "Condiloma plano da sífilis secundária — penicilina benzatina",
+  "q": null,
+  "m": null,
+  "busca": "Condiloma plano da sífilis secundária — penicilina benzatina"
+ },
+ "gine37": {
+  "fonte": "tego2022g",
+  "numero": 24,
+  "tema": "Herpes genital recorrente — supressão com aciclovir por seis meses",
+  "q": null,
+  "m": null,
+  "busca": "Herpes genital recorrente — supressão com aciclovir por seis meses"
+ },
+ "gine38": {
+  "fonte": "tego2022g",
+  "numero": 25,
+  "tema": "Infecção gonocócica disseminada — ceftriaxona",
+  "q": null,
+  "m": null,
+  "busca": "Infecção gonocócica disseminada — ceftriaxona"
+ },
+ "gine39": {
+  "fonte": "tego2022g",
+  "numero": 27,
+  "tema": "Dor pélvica, febre e corrimento com peritonismo — DIP",
+  "q": null,
+  "m": null,
+  "busca": "Dor pélvica, febre e corrimento com peritonismo — DIP"
+ },
+ "gine40": {
+  "fonte": "tego2022g",
+  "numero": 28,
+  "tema": "Abscesso tubo-ovariano em usuária de DIU — retirar o dispositivo",
+  "q": null,
+  "m": null,
+  "busca": "Abscesso tubo-ovariano em usuária de DIU — retirar o dispositivo"
+ },
+ "gine41": {
+  "fonte": "tego2022g",
+  "numero": 29,
+  "tema": "Bexiga hiperativa com glaucoma de ângulo fechado — agonista beta-3",
+  "q": null,
+  "m": null,
+  "busca": "Bexiga hiperativa com glaucoma de ângulo fechado — agonista beta-3"
+ },
+ "gine42": {
+  "fonte": "tego2022g",
+  "numero": 30,
+  "tema": "Miomas intramurais com sangramento — SIU de levonorgestrel",
+  "q": null,
+  "m": null,
+  "busca": "Miomas intramurais com sangramento — SIU de levonorgestrel"
+ },
+ "gine43": {
+  "fonte": "tego2022g",
+  "numero": 31,
+  "tema": "Endometriose profunda — ressonância magnética da pelve",
+  "q": null,
+  "m": null,
+  "busca": "Endometriose profunda — ressonância magnética da pelve"
+ },
+ "gine44": {
+  "fonte": "tego2022g",
+  "numero": 44,
+  "tema": "Líquen escleroso na criança — corticoide tópico, sem biópsia",
+  "q": null,
+  "m": null,
+  "busca": "Líquen escleroso na criança — corticoide tópico, sem biópsia"
+ },
+ "gine45": {
+  "fonte": "tego2022g",
+  "numero": 50,
+  "tema": "Histerectomia vaginal por prolapso — o que não se faz pela vagina",
+  "q": null,
+  "m": null,
+  "busca": "Histerectomia vaginal por prolapso — o que não se faz pela vagina"
+ },
+ "gine46": {
+  "fonte": "tego2022g",
+  "numero": 51,
+  "tema": "Profilaxia antimicrobiana na obesa — cefazolina 3 g",
+  "q": null,
+  "m": null,
+  "busca": "Profilaxia antimicrobiana na obesa — cefazolina 3 g"
+ },
+ "gine47": {
+  "fonte": "tego2022g",
+  "numero": 52,
+  "tema": "Cistoscopia intraoperatória — a ejaculação ureteral",
+  "q": null,
+  "m": null,
+  "busca": "Cistoscopia intraoperatória — a ejaculação ureteral"
+ },
+ "gine48": {
+  "fonte": "tego2022g",
+  "numero": 53,
+  "tema": "Perfuração uterina na histeroscopia — retirar o instrumental",
+  "q": null,
+  "m": null,
+  "busca": "Perfuração uterina na histeroscopia — retirar o instrumental"
+ },
+ "gine49": {
+  "fonte": "tego2022g",
+  "numero": 59,
+  "tema": "Cisto hemorrágico roto com hemoperitônio e choque — laparoscopia",
+  "q": null,
+  "m": null,
+  "busca": "Cisto hemorrágico roto com hemoperitônio e choque — laparoscopia"
+ },
+ "gine50": {
+  "fonte": "tego2022g",
+  "numero": 60,
+  "tema": "Imagem da paciente em aula — autorização específica",
+  "q": null,
+  "m": null,
+  "busca": "Imagem da paciente em aula — autorização específica"
  }
 }

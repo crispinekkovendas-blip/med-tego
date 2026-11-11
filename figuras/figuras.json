@@ -448,5 +448,455 @@
   "titulo": "File:Pregnancy ultrasound 110315160146 1604310.jpg",
   "pagina": "https://commons.wikimedia.org/wiki/File:Pregnancy_ultrasound_110315160146_1604310.jpg",
   "bytes": 76076
+ },
+ "gine01": {
+  "src": "figuras/gine01.jpg",
+  "w": 1400,
+  "h": 1018,
+  "fonte": "Photo by Eric Erbe, digital colorization by Christopher Pooley, both of USDA, AR · Public domain · Wikimedia Commons",
+  "titulo": "File:E coli at 10000x, original.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:E_coli_at_10000x,_original.jpg",
+  "bytes": 223057
+ },
+ "gine02": {
+  "src": "figuras/gine02.jpg",
+  "w": 1400,
+  "h": 1046,
+  "fonte": "Saltanat ebli · CC BY-SA 3.0 · Wikimedia Commons",
+  "titulo": "File:Vicryl surgical suture 3-0.31mm.JPG",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Vicryl_surgical_suture_3-0.31mm.JPG",
+  "bytes": 233306
+ },
+ "gine03": {
+  "src": "figuras/gine03.jpg",
+  "w": 1400,
+  "h": 1020,
+  "fonte": "OpenStax · CC BY 4.0 · Wikimedia Commons",
+  "titulo": "File:1115 Muscles of the Pelvic Floor.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:1115_Muscles_of_the_Pelvic_Floor.jpg",
+  "bytes": 143522
+ },
+ "gine04": {
+  "src": "figuras/gine04.jpg",
+  "w": 1066,
+  "h": 1165,
+  "fonte": "Baricco · CC BY-SA 4.0 · Wikimedia Commons",
+  "titulo": "File:Vulval vestibule.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Vulval_vestibule.jpg",
+  "bytes": 167477
+ },
+ "gine05": {
+  "src": "figuras/gine05.jpg",
+  "w": 1400,
+  "h": 933,
+  "fonte": "Nephron · CC BY-SA 3.0 · Wikimedia Commons",
+  "titulo": "File:Condyloma acuminatum - low mag.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Condyloma_acuminatum_-_low_mag.jpg",
+  "bytes": 360700
+ },
+ "gine06": {
+  "src": "figuras/gine06.jpg",
+  "w": 601,
+  "h": 434,
+  "fonte": "Igboeze · CC BY-SA 4.0 · Wikimedia Commons",
+  "titulo": "File:1. Bowel-obstruction-x-ray.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:1._Bowel-obstruction-x-ray.jpg",
+  "bytes": 39804
+ },
+ "gine07": {
+  "src": "figuras/gine07.jpg",
+  "w": 754,
+  "h": 1400,
+  "fonte": "Mikael Häggström, M.D. Author info - Reusing images- Conflicts of interest: Non · CC0 · Wikimedia Commons",
+  "titulo": "File:Copper IUD.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Copper_IUD.jpg",
+  "bytes": 189681
+ },
+ "gine08": {
+  "src": "figuras/gine08.jpg",
+  "w": 1400,
+  "h": 804,
+  "fonte": "Piotr Smuszkiewicz, Iwona Trojanowska and Hanna Tomczak · CC BY 2.0 · Wikimedia Commons",
+  "titulo": "File:Necrotizing fasciitis left leg.JPEG",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Necrotizing_fasciitis_left_leg.JPEG",
+  "bytes": 237443
+ },
+ "gine09": {
+  "src": "figuras/gine09.jpg",
+  "w": 1400,
+  "h": 1050,
+  "fonte": "Béria Lima de Rodríguez · CC BY-SA 3.0 · Wikimedia Commons",
+  "titulo": "File:Combined oral contraceptive pill (2).JPG",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Combined_oral_contraceptive_pill_(2).JPG",
+  "bytes": 242319
+ },
+ "gine10": {
+  "src": "figuras/gine10.jpg",
+  "w": 1400,
+  "h": 933,
+  "fonte": "kenna takahashi · CC BY 2.0 · Wikimedia Commons",
+  "titulo": "File:Out of danger.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Out_of_danger.jpg",
+  "bytes": 164619
+ },
+ "gine11": {
+  "src": "figuras/gine11.jpg",
+  "w": 946,
+  "h": 1400,
+  "fonte": "Fæ Cancer_Research_UK_uploader derivative work: M1llx (zgłoś błąd) · CC BY-SA 4.0 · Wikimedia Commons",
+  "titulo": "File:Diagram showing a cystoscopy for a man and a woman CRUK 064 pl.png",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Diagram_showing_a_cystoscopy_for_a_man_and_a_woman_CRUK_064_pl.png",
+  "bytes": 112493
+ },
+ "gine12": {
+  "src": "figuras/gine12.jpg",
+  "w": 1400,
+  "h": 922,
+  "fonte": "Lloydjane · CC BY-SA 4.0 · Wikimedia Commons",
+  "titulo": "File:Plastic and Silicone vaginal dilators.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Plastic_and_Silicone_vaginal_dilators.jpg",
+  "bytes": 81295
+ },
+ "gine13": {
+  "src": "figuras/gine13.jpg",
+  "w": 720,
+  "h": 576,
+  "fonte": "Hic et nunc · Public domain · Wikimedia Commons",
+  "titulo": "File:Perforierte Endometriosezyste.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Perforierte_Endometriosezyste.jpg",
+  "bytes": 86625
+ },
+ "gine14": {
+  "src": "figuras/gine14.jpg",
+  "w": 930,
+  "h": 693,
+  "fonte": "Hiroharu Kobayashi, Shinichi Shibuya, Kentaro Iga, Keiichiro Kato, Airi Kato · CC BY 4.0 · Wikimedia Commons",
+  "titulo": "File:Intraoperative findings from laparoscopy.with cysts.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Intraoperative_findings_from_laparoscopy.with_cysts.jpg",
+  "bytes": 71313
+ },
+ "gine15": {
+  "src": "figuras/gine15.jpg",
+  "w": 480,
+  "h": 486,
+  "fonte": "CK-12 Foundation · CC BY-SA 4.0 · Wikimedia Commons",
+  "titulo": "File:Typical mentrual monthly cycle.png",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Typical_mentrual_monthly_cycle.png",
+  "bytes": 38156
+ },
+ "gine16": {
+  "src": "figuras/gine16.jpg",
+  "w": 1400,
+  "h": 891,
+  "fonte": "? · CC BY 4.0 · Wikimedia Commons",
+  "titulo": "File:Occlusive pessary Wellcome L0001456.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Occlusive_pessary_Wellcome_L0001456.jpg",
+  "bytes": 359603
+ },
+ "gine17": {
+  "src": "figuras/gine17.jpg",
+  "w": 1183,
+  "h": 512,
+  "fonte": "From A. F. Dixon, Cunningham's Text-book of Anatomy · Public domain · Wikimedia Commons",
+  "titulo": "File:EB1911 Reproductive System, in Anatomy - A. uterus and broad ligament; B. uterine cavity.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:EB1911_Reproductive_System,_in_Anatomy_-_A._uterus_and_broad_ligament;_B._uterine_cavity.jpg",
+  "bytes": 152139
+ },
+ "gine18": {
+  "src": "figuras/gine18.jpg",
+  "w": 1157,
+  "h": 762,
+  "fonte": "Mme Mim · CC BY-SA 4.0 · Wikimedia Commons",
+  "titulo": "File:Uterus didelphys 0001.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Uterus_didelphys_0001.jpg",
+  "bytes": 108560
+ },
+ "gine19": {
+  "src": "figuras/gine19.jpg",
+  "w": 1230,
+  "h": 623,
+  "fonte": "Atlas of Medical Foreign Bodies · CC BY-SA 2.0 · Wikimedia Commons",
+  "titulo": "File:Gossypiboma textiloma - Brain (50839051136).jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Gossypiboma_textiloma_-_Brain_(50839051136).jpg",
+  "bytes": 211804
+ },
+ "gine20": {
+  "src": "figuras/gine20.jpg",
+  "w": 1013,
+  "h": 1338,
+  "fonte": "OpenStax College · CC BY 4.0 · Wikimedia Commons",
+  "titulo": "File:Female and Male Urethra-es.png",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Female_and_Male_Urethra-es.png",
+  "bytes": 266836
+ },
+ "gine21": {
+  "src": "figuras/gine21.jpg",
+  "w": 1200,
+  "h": 927,
+  "fonte": "BruceBlaus · CC BY-SA 4.0 · Wikimedia Commons",
+  "titulo": "File:Hysteroscopy.png",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Hysteroscopy.png",
+  "bytes": 101938
+ },
+ "gine22": {
+  "src": "figuras/gine22.jpg",
+  "w": 1400,
+  "h": 1050,
+  "fonte": "Nephron · CC BY-SA 3.0 · Wikimedia Commons",
+  "titulo": "File:Xanthogranulomatous pyelonephritis cd68.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Xanthogranulomatous_pyelonephritis_cd68.jpg",
+  "bytes": 461832
+ },
+ "gine23": {
+  "src": "figuras/gine23.jpg",
+  "w": 1280,
+  "h": 960,
+  "fonte": "Dr. F.C. Turner · Public domain · Wikimedia Commons",
+  "titulo": "File:G.vaginalis.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:G.vaginalis.jpg",
+  "bytes": 116297
+ },
+ "gine24": {
+  "src": "figuras/gine24.jpg",
+  "w": 800,
+  "h": 600,
+  "fonte": "Nevit Dilmen · CC BY-SA 3.0 · Wikimedia Commons",
+  "titulo": "File:Ultrasound Scan ND 0112154645 1552050.png",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Ultrasound_Scan_ND_0112154645_1552050.png",
+  "bytes": 48379
+ },
+ "gine25": {
+  "src": "figuras/gine25.jpg",
+  "w": 1400,
+  "h": 936,
+  "fonte": "CDC/ Robert Sumpter · Public domain · Wikimedia Commons",
+  "titulo": "File:Secondary Syphilis on palms CDC 6809 lores.rsh.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Secondary_Syphilis_on_palms_CDC_6809_lores.rsh.jpg",
+  "bytes": 206302
+ },
+ "gine26": {
+  "src": "figuras/gine26.jpg",
+  "w": 569,
+  "h": 804,
+  "fonte": "Graham Beards · CC BY-SA 4.0 · Wikimedia Commons",
+  "titulo": "File:Bacterial vaginosis Gram stain.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Bacterial_vaginosis_Gram_stain.jpg",
+  "bytes": 153950
+ },
+ "gine27": {
+  "src": "figuras/gine27.jpg",
+  "w": 500,
+  "h": 600,
+  "fonte": "Mikael Häggström. When using this image in external works, it may be cited as: · Public domain · Wikimedia Commons",
+  "titulo": "File:Greater sciatic foramen.png",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Greater_sciatic_foramen.png",
+  "bytes": 86265
+ },
+ "gine28": {
+  "src": "figuras/gine28.jpg",
+  "w": 809,
+  "h": 611,
+  "fonte": "Mikael Häggström, M.D. Author info - Reusing images- Conflicts of interest: Non · CC0 · Wikimedia Commons",
+  "titulo": "File:Vaginal wet mount with clue cell - annotated.png",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Vaginal_wet_mount_with_clue_cell_-_annotated.png",
+  "bytes": 105841
+ },
+ "gine29": {
+  "src": "figuras/gine29.jpg",
+  "w": 707,
+  "h": 707,
+  "fonte": "No machine-readable author provided. Ragesoss assumed (based on copyright claims · Public domain · Wikimedia Commons",
+  "titulo": "File:Acyclovir pills.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Acyclovir_pills.jpg",
+  "bytes": 43248
+ },
+ "gine30": {
+  "src": "figuras/gine30.jpg",
+  "w": 494,
+  "h": 477,
+  "fonte": "Teixeira, J., Rueda, B.R., and Pru, J.K., Uterine Stem cells (September 30, 2008 · CC BY 3.0 · Wikimedia Commons",
+  "titulo": "File:The uterus differentiates from the fetal Müllerian ducts..jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:The_uterus_differentiates_from_the_fetal_M%C3%BCllerian_ducts..jpg",
+  "bytes": 34183
+ },
+ "gine31": {
+  "src": "figuras/gine31.jpg",
+  "w": 1400,
+  "h": 896,
+  "fonte": "https://www.myupchar.com/en · CC BY-SA 4.0 · Wikimedia Commons",
+  "titulo": "File:Depiction of a lady who has Uterine Fibroids.png",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Depiction_of_a_lady_who_has_Uterine_Fibroids.png",
+  "bytes": 163814
+ },
+ "gine32": {
+  "src": "figuras/gine32.jpg",
+  "w": 730,
+  "h": 528,
+  "fonte": "Dr. Antonio Jose Marrero Ochoa. Josea69 · CC BY-SA 2.5 · Wikimedia Commons",
+  "titulo": "File:Agenesia de vagina2.png",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Agenesia_de_vagina2.png",
+  "bytes": 62126
+ },
+ "gine33": {
+  "src": "figuras/gine33.jpg",
+  "w": 1400,
+  "h": 1090,
+  "fonte": "Courtesy of NIAID Ryan Kissinger · Public domain · Wikimedia Commons",
+  "titulo": "File:Von Willebrand Factor (NIH BioArt 968 - 803812).png",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Von_Willebrand_Factor_(NIH_BioArt_968_-_803812).png",
+  "bytes": 45536
+ },
+ "gine34": {
+  "src": "figuras/gine34.jpg",
+  "w": 472,
+  "h": 554,
+  "fonte": "ShaoShan Tang, LiPing Huang, Yao Wang and YiJiao Wang · CC BY 4.0 · Wikimedia Commons",
+  "titulo": "File:Ultrasound of gallbladder adenomyosis.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Ultrasound_of_gallbladder_adenomyosis.jpg",
+  "bytes": 62695
+ },
+ "gine35": {
+  "src": "figuras/gine35.jpg",
+  "w": 1400,
+  "h": 1050,
+  "fonte": "Netha Hussain · CC BY-SA 3.0 · Wikimedia Commons",
+  "titulo": "File:VDRL slide 2.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:VDRL_slide_2.jpg",
+  "bytes": 183287
+ },
+ "gine36": {
+  "src": "figuras/gine36.jpg",
+  "w": 1362,
+  "h": 1400,
+  "fonte": "NIAID · CC BY 2.0 · Wikimedia Commons",
+  "titulo": "File:Treponema pallidum Bacteria (Syphilis) (cropped).jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Treponema_pallidum_Bacteria_(Syphilis)_(cropped).jpg",
+  "bytes": 250198
+ },
+ "gine37": {
+  "src": "figuras/gine37.jpg",
+  "w": 1400,
+  "h": 1050,
+  "fonte": "Me · CC BY-SA 3.0 · Wikimedia Commons",
+  "titulo": "File:Genital herpes female.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Genital_herpes_female.jpg",
+  "bytes": 188133
+ },
+ "gine38": {
+  "src": "figuras/gine38.jpg",
+  "w": 1400,
+  "h": 788,
+  "fonte": "Dr Graham Beards · CC BY 4.0 · Wikimedia Commons",
+  "titulo": "File:Neisseria gonorrhoeae bacteria (Gram stain).jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Neisseria_gonorrhoeae_bacteria_(Gram_stain).jpg",
+  "bytes": 102146
+ },
+ "gine39": {
+  "src": "figuras/gine39.jpg",
+  "w": 1400,
+  "h": 974,
+  "fonte": "BruceBlaus · CC BY 3.0 · Wikimedia Commons",
+  "titulo": "File:Blausen 0732 PID-Sites.png",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Blausen_0732_PID-Sites.png",
+  "bytes": 135488
+ },
+ "gine40": {
+  "src": "figuras/gine40.jpg",
+  "w": 1283,
+  "h": 1400,
+  "fonte": "Hic et nunc · Public domain · Wikimedia Commons",
+  "titulo": "File:Mirena IntraUterine System.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Mirena_IntraUterine_System.jpg",
+  "bytes": 104221
+ },
+ "gine41": {
+  "src": "figuras/gine41.jpg",
+  "w": 637,
+  "h": 603,
+  "fonte": "AntoineLaramee · CC BY-SA 4.0 · Wikimedia Commons",
+  "titulo": "File:Myrbetriq-50mg.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Myrbetriq-50mg.jpg",
+  "bytes": 56745
+ },
+ "gine42": {
+  "src": "figuras/gine42.jpg",
+  "w": 1400,
+  "h": 1050,
+  "fonte": "Sarahmirk · CC BY-SA 4.0 · Wikimedia Commons",
+  "titulo": "File:Mirena IUD 2016.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Mirena_IUD_2016.jpg",
+  "bytes": 197947
+ },
+ "gine43": {
+  "src": "figuras/gine43.jpg",
+  "w": 1200,
+  "h": 782,
+  "fonte": "Nevit Dilmen · CC BY-SA 3.0 · Wikimedia Commons",
+  "titulo": "File:Trichromatic Color MRI of ovarian cysts.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Trichromatic_Color_MRI_of_ovarian_cysts.jpg",
+  "bytes": 190908
+ },
+ "gine44": {
+  "src": "figuras/gine44.jpg",
+  "w": 800,
+  "h": 1066,
+  "fonte": "Masryyy · CC BY-SA 4.0 · Wikimedia Commons",
+  "titulo": "File:Lichen sclerosus my new photo.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Lichen_sclerosus_my_new_photo.jpg",
+  "bytes": 86224
+ },
+ "gine45": {
+  "src": "figuras/gine45.jpg",
+  "w": 700,
+  "h": 855,
+  "fonte": "Authors: E. J. M. Lensen, M. I. J. Withagen, K. B. Kluivers, A. L. Milani, M. E · Public domain · Wikimedia Commons",
+  "titulo": "File:Hippocrates treatment for prolapse.png",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Hippocrates_treatment_for_prolapse.png",
+  "bytes": 99732
+ },
+ "gine46": {
+  "src": "figuras/gine46.jpg",
+  "w": 1400,
+  "h": 992,
+  "fonte": "MarinaVladivostok · CC0 · Wikimedia Commons",
+  "titulo": "File:Cefazolin ball-and-stick.png",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Cefazolin_ball-and-stick.png",
+  "bytes": 54056
+ },
+ "gine47": {
+  "src": "figuras/gine47.jpg",
+  "w": 1400,
+  "h": 930,
+  "fonte": "--メルビル 08:10, 28 January 2011 (UTC) · CC BY-SA 3.0 · Wikimedia Commons",
+  "titulo": "File:Indigo carmine.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Indigo_carmine.jpg",
+  "bytes": 92593
+ },
+ "gine48": {
+  "src": "figuras/gine48.jpg",
+  "w": 670,
+  "h": 639,
+  "fonte": "Vivii.Zambrano · CC BY-SA 4.0 · Wikimedia Commons",
+  "titulo": "File:Tabique.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Tabique.jpg",
+  "bytes": 61396
+ },
+ "gine49": {
+  "src": "figuras/gine49.jpg",
+  "w": 503,
+  "h": 453,
+  "fonte": "Mikael Häggström. When using this image in external works, it may be cited as: · CC0 · Wikimedia Commons",
+  "titulo": "File:Hemorrhagic ovarian cyst postpartum.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Hemorrhagic_ovarian_cyst_postpartum.jpg",
+  "bytes": 43094
+ },
+ "gine50": {
+  "src": "figuras/gine50.jpg",
+  "w": 1400,
+  "h": 933,
+  "fonte": "Intel Free Press · CC BY-SA 2.0 · Wikimedia Commons",
+  "titulo": "File:Telemedicine Consult.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Telemedicine_Consult.jpg",
+  "bytes": 278067
  }
 }
