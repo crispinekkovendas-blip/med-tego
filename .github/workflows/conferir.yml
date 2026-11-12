@@ -1,0 +1,81 @@
+# Conferência e publicação do banco TEGO no GitHub Actions (a pedido do usuário,
+# 2026-11-12: os scripts não rodam mais na máquina local).
+#
+# conferir  — os gerados batem com o commit (montar.js, videos.py gerar), harness
+#             (verificar.js), testes (testes.py), README (conferir_readme.js) e
+#             os controles negativos (controles.js).
+# apostilas — imprime as apostilas com pdf.py (Chrome do runner, PyMuPDF confere
+#             as páginas), guarda os PDFs como artefato e, se o repositório tiver o
+#             segredo VERCEL_TOKEN, publica em produção com `vercel deploy --prod`
+#             (o deploy automático do GitHub está desligado em vercel.json, porque
+#             um build a partir do git não teria os PDFs — o Actions imprime e
+#             publica no mesmo job).
+name: Conferir e publicar
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  conferir:
+    name: Harness, testes, README e controles
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Gerados batem com o commit (banco.js, videos.json)
+        run: |
+          node ferramentas/montar.js
+          python ferramentas/videos.py gerar
+          git diff --stat --exit-code -- banco.js videos.json
+      - name: Harness (verificar.js)
+        run: node verificar.js
+      - name: Testes (testes.py)
+        run: python ferramentas/testes.py
+      - name: README bate com o banco
+        run: node ferramentas/conferir_readme.js
+      - name: Controles negativos (controles.js)
+        run: node controles.js
+
+  apostilas:
+    name: Apostilas em PDF e produção
+    needs: conferir
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      VERCEL_ORG_ID: team_zvWAc1BvyTk1K1pI6fHWEzio
+      VERCEL_PROJECT_ID: prj_kbsyt5WCm7IKgdsC1izdfqXLl8us
+      VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: PyMuPDF (conferência das páginas)
+        run: pip install pymupdf
+      - name: Imprimir as apostilas (pdf.py, Chrome do runner)
+        env:
+          CHROME: /usr/bin/google-chrome
+        run: python ferramentas/pdf.py
+      - name: Guardar os PDFs como artefato
+        uses: actions/upload-artifact@v4
+        with:
+          name: apostilas
+          path: pdf/*.pdf
+          if-no-files-found: error
+      - name: Publicar em produção (vercel deploy --prod)
+        if: env.VERCEL_TOKEN != ''
+        run: npx vercel@latest deploy --prod --yes --token "$VERCEL_TOKEN"
+      - name: Sem o segredo VERCEL_TOKEN, não publica
+        if: env.VERCEL_TOKEN == ''
+        run: echo "Segredo VERCEL_TOKEN ausente no repositório - os PDFs ficaram no artefato 'apostilas' e a produção não mudou."

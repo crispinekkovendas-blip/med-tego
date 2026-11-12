@@ -1118,5 +1118,125 @@
   "q": null,
   "m": null,
   "busca": "Laqueadura sem consentimento na laparotomia — não é ética"
+ },
+ "onco01": {
+  "fonte": "tego2025g",
+  "numero": 9,
+  "tema": "Hiperplasia atípica na infértil de 39 anos — SIU-LNG e nova biópsia",
+  "q": null,
+  "m": null,
+  "busca": "Hiperplasia atípica na infértil de 39 anos — SIU-LNG e nova biópsia"
+ },
+ "onco02": {
+  "fonte": "tego2025g",
+  "numero": 18,
+  "tema": "Margem da EZT comprometida só por NIC 1 — citologia em 6 e 12 meses",
+  "q": null,
+  "m": null,
+  "busca": "Margem da EZT comprometida só por NIC 1 — citologia em 6 e 12 meses"
+ },
+ "onco03": {
+  "fonte": "tego2025g",
+  "numero": 23,
+  "tema": "Colo com tumor de 3 cm na nuligesta — traquelectomia radical",
+  "q": null,
+  "m": null,
+  "busca": "Colo com tumor de 3 cm na nuligesta — traquelectomia radical"
+ },
+ "onco04": {
+  "fonte": "tego2025g",
+  "numero": 40,
+  "tema": "NIVA de alto grau na tabagista com NIV prévia — vaporização a laser",
+  "q": null,
+  "m": null,
+  "busca": "NIVA de alto grau na tabagista com NIV prévia — vaporização a laser"
+ },
+ "onco05": {
+  "fonte": "tego2025g",
+  "numero": 59,
+  "tema": "Colposcopia com HSIL — a área com sinais de invasão",
+  "q": null,
+  "m": null,
+  "busca": "Colposcopia com HSIL — a área com sinais de invasão"
+ },
+ "onco06": {
+  "fonte": "tego2025o",
+  "numero": 11,
+  "tema": "Câncer do colo IIB com 8 semanas de gestação — quimiorradioterapia",
+  "q": null,
+  "m": null,
+  "busca": "Câncer do colo IIB com 8 semanas de gestação — quimiorradioterapia"
+ },
+ "onco07": {
+  "fonte": "tego2022g",
+  "numero": 15,
+  "tema": "Hemorragia do câncer do colo IIIB — tamponamento vaginal",
+  "q": null,
+  "m": null,
+  "busca": "Hemorragia do câncer do colo IIIB — tamponamento vaginal"
+ },
+ "onco08": {
+  "fonte": "tego2022g",
+  "numero": 16,
+  "tema": "Sangramento em uso de tamoxifeno com Pipelle negativa — histeroscopia",
+  "q": null,
+  "m": null,
+  "busca": "Sangramento em uso de tamoxifeno com Pipelle negativa — histeroscopia"
+ },
+ "onco09": {
+  "fonte": "tego2022g",
+  "numero": 42,
+  "tema": "BRCA1 aos 40 anos — salpingo-ooforectomia e mastectomia redutoras",
+  "q": null,
+  "m": null,
+  "busca": "BRCA1 aos 40 anos — salpingo-ooforectomia e mastectomia redutoras"
+ },
+ "onco10": {
+  "fonte": "tego2022g",
+  "numero": 43,
+  "tema": "Vacina contra o HPV — mais eficaz antes da sexarca, útil depois",
+  "q": null,
+  "m": null,
+  "busca": "Vacina contra o HPV — mais eficaz antes da sexarca, útil depois"
+ },
+ "onco11": {
+  "fonte": "tego2022g",
+  "numero": 45,
+  "tema": "LSIL repetida e achados menores — sem biópsia, citologia em 12 meses",
+  "q": null,
+  "m": null,
+  "busca": "LSIL repetida e achados menores — sem biópsia, citologia em 12 meses"
+ },
+ "onco12": {
+  "fonte": "tego2022g",
+  "numero": 46,
+  "tema": "HSIL com achado maior e zona de transformação visível — excisão",
+  "q": null,
+  "m": null,
+  "busca": "HSIL com achado maior e zona de transformação visível — excisão"
+ },
+ "onco13": {
+  "fonte": "tego2022g",
+  "numero": 47,
+  "tema": "Endometrioide IA grau 2 sem invasão angiolinfática — só seguimento",
+  "q": null,
+  "m": null,
+  "busca": "Endometrioide IA grau 2 sem invasão angiolinfática — só seguimento"
+ },
+ "onco14": {
+  "fonte": "tego2022g",
+  "numero": 48,
+  "tema": "Massa anexial na pós-menopausa com CA-125 de 103 — carcinoma seroso",
+  "q": null,
+  "m": null,
+  "busca": "Massa anexial na pós-menopausa com CA-125 de 103 — carcinoma seroso"
+ },
+ "onco15": {
+  "fonte": "tego2022g",
+  "numero": 49,
+  "tema": "Disgerminoma aos 12 anos — ooforectomia unilateral e linfadenectomia",
+  "q": null,
+  "m": null,
+  "busca": "Disgerminoma aos 12 anos — ooforectomia unilateral e linfadenectomia"
  }
 }

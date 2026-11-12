@@ -72,10 +72,22 @@ Entram todas as 40 questões que o mapa de áreas marca como Reprodução — a
 sem repetir tema. Da prova de Ginecologia de 2025, nº 3, 4, 15, 16, 17, 20, 25,
 26, 27, 30, 35, 36, 38, 41, 50, 52, 53, 55, 56 (`repro01`–`repro19`); da de
 Ginecologia de 2022, nº 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 20, 26, 32, 33, 34,
-38, 39, 57 (`repro20`–`repro38`); da de Obstetrícia de 2025, nº 41, o DIU na
-cesárea (`repro39`); da de Obstetrícia de 2022, nº 58, a laqueadura sem
+38, 39, 57 (`repro21`–`repro39`); da de Obstetrícia de 2025, nº 41, o DIU na
+cesárea (`repro20`); da de Obstetrícia de 2022, nº 58, a laqueadura sem
 consentimento (`repro40`). Três temas aparecem duas vezes e ficaram os dois,
 porque a resposta muda com o caso: contracepção de emergência (2025 nº 38 e 2022
 nº 1 e 12), hidrossalpinge (2022 nº 26 e 38) e SOP (2025 nº 16, 2022 nº 4, 7 e
 20, cada uma com uma pergunta diferente — induzir, diabetes, pele, hirsutismo
 refratário).
+
+## Oncologia (sessão 4, 2026-11-12 — 15 questões: 5 + 1 + 9)
+
+Entram todas as 15 questões que o mapa de áreas marca como Oncologia — é tudo o
+que as duas edições têm, e a apostila sai com 15. Da prova de Ginecologia de
+2025, nº 9, 18, 23, 40, 59 (`onco01`–`onco05`); da de Obstetrícia de 2025, nº 11,
+o câncer do colo com oito semanas de gestação (`onco06`); da de Ginecologia de
+2022, nº 15, 16, 42, 43, 45, 46, 47, 48, 49 (`onco07`–`onco15`). O colo do útero
+domina (nove das 15: lesões precursoras, colposcopia, vacina, carcinoma invasor
+e a sua hemorragia), e o resto é endométrio (hiperplasia atípica, tamoxifeno,
+adjuvância), ovário (massa anexial, disgerminoma), vagina (NIVA) e BRCA1. A
+mama é Mastologia. Nenhuma repete tema de outra.

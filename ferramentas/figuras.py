@@ -150,27 +150,42 @@ CONSULTAS = {
   "repro17": ["female marathon runner", "woman athlete running track", "leptin hormone structure"],
   "repro18": ["mammography machine", "mammogram examination", "colonoscopy procedure"],
   "repro19": ["androgen receptor structure", "androgen insensitivity syndrome", "karyotype 46 XY"],
-  "repro20": ["levonorgestrel emergency contraception", "emergency contraceptive pill", "levonorgestrel tablets"],
-  "repro21": ["fibrous dysplasia skull x-ray", "cafe au lait spot skin", "fibrous dysplasia bone"],
-  "repro22": ["oral glucose tolerance test", "blood glucose meter", "woman walking exercise park"],
-  "repro23": ["fluoxetine capsules", "fluoxetine", "antidepressant capsules"],
-  "repro24": ["gonadotropin releasing hormone structure", "hand x-ray bone age child", "pituitary gland anatomy"],
-  "repro25": ["polycystic ovary ultrasound", "hirsutism face", "combined oral contraceptive pill pack"],
-  "repro26": ["migraine aura scintillating scotoma", "migraine aura", "ischemic stroke MRI"],
-  "repro27": ["deep vein thrombosis leg", "deep vein thrombosis ultrasound", "copper intrauterine device"],
-  "repro28": ["Nexplanon implant", "contraceptive implant", "teenage girl doctor consultation"],
-  "repro29": ["copper IUD x-ray pelvis", "intrauterine device", "chemotherapy infusion"],
-  "repro30": ["oocyte cryopreservation", "liquid nitrogen cryopreservation tank", "human oocyte microscope"],
-  "repro31": ["spironolactone tablets", "spironolactone", "hirsutism"],
-  "repro32": ["hydrosalpinx hysterosalpingography", "hysterosalpingography", "Chlamydia trachomatis inclusion"],
-  "repro33": ["estradiol transdermal patch", "hormone replacement therapy patch", "estradiol patch skin"],
-  "repro34": ["osteoporosis vertebral compression fracture x-ray", "osteoporotic bone", "woman smoking"],
-  "repro35": ["gabapentin capsules", "gabapentin", "menopause hot flash"],
-  "repro36": ["hydrosalpinx laparoscopy", "hydrosalpinx ultrasound", "salpingectomy laparoscopic"],
-  "repro37": ["estradiol valerate ampoule", "estradiol tablets", "transgender woman portrait"],
-  "repro38": ["intracytoplasmic sperm injection", "embryo transfer IVF", "IVF laboratory embryologist"],
-  "repro39": ["cesarean section surgery uterus", "caesarean section operation", "copper intrauterine device"],
+  "repro21": ["levonorgestrel emergency contraception", "emergency contraceptive pill", "levonorgestrel tablets"],
+  "repro22": ["fibrous dysplasia skull x-ray", "cafe au lait spot skin", "fibrous dysplasia bone"],
+  "repro23": ["oral glucose tolerance test", "blood glucose meter", "woman walking exercise park"],
+  "repro24": ["fluoxetine capsules", "fluoxetine", "antidepressant capsules"],
+  "repro25": ["gonadotropin releasing hormone structure", "hand x-ray bone age child", "pituitary gland anatomy"],
+  "repro26": ["polycystic ovary ultrasound", "hirsutism face", "combined oral contraceptive pill pack"],
+  "repro27": ["migraine aura scintillating scotoma", "migraine aura", "ischemic stroke MRI"],
+  "repro28": ["deep vein thrombosis leg", "deep vein thrombosis ultrasound", "copper intrauterine device"],
+  "repro29": ["Nexplanon implant", "contraceptive implant", "teenage girl doctor consultation"],
+  "repro30": ["copper IUD x-ray pelvis", "intrauterine device", "chemotherapy infusion"],
+  "repro31": ["oocyte cryopreservation", "liquid nitrogen cryopreservation tank", "human oocyte microscope"],
+  "repro32": ["spironolactone tablets", "spironolactone", "hirsutism"],
+  "repro33": ["hydrosalpinx hysterosalpingography", "hysterosalpingography", "Chlamydia trachomatis inclusion"],
+  "repro34": ["estradiol transdermal patch", "hormone replacement therapy patch", "estradiol patch skin"],
+  "repro35": ["osteoporosis vertebral compression fracture x-ray", "osteoporotic bone", "woman smoking"],
+  "repro36": ["gabapentin capsules", "gabapentin", "menopause hot flash"],
+  "repro37": ["hydrosalpinx laparoscopy", "hydrosalpinx ultrasound", "salpingectomy laparoscopic"],
+  "repro38": ["estradiol valerate ampoule", "estradiol tablets", "transgender woman portrait"],
+  "repro39": ["intracytoplasmic sperm injection", "embryo transfer IVF", "IVF laboratory embryologist"],
+  "repro20": ["cesarean section surgery uterus", "caesarean section operation", "copper intrauterine device"],
   "repro40": ["tubal ligation illustration", "tubal ligation", "fallopian tube anatomy"],
+  "onco01": ["levonorgestrel intrauterine system", "hysteroscopy endometrial polyp", "endometrial hyperplasia histology"],
+  "onco02": ["loop electrosurgical excision procedure cervix", "cervical conization specimen", "colposcopy examination cervix"],
+  "onco03": ["radical trachelectomy", "cervical cancer stages diagram", "uterus cervix anatomy illustration"],
+  "onco04": ["CO2 laser surgery gynecology", "vaginal intraepithelial neoplasia", "carbon dioxide laser medical"],
+  "onco05": ["colposcopy invasive cervical cancer", "colposcope examination", "squamous cell carcinoma cervix gross"],
+  "onco06": ["radiotherapy linear accelerator patient", "cisplatin chemotherapy infusion", "first trimester pregnancy ultrasound"],
+  "onco07": ["vaginal packing gauze", "surgical gauze roll", "cervical cancer stage IIIB diagram"],
+  "onco08": ["tamoxifen tablets", "tamoxifen molecule structure", "hysteroscopy endometrial polyp"],
+  "onco09": ["BRCA1 protein structure", "ovary fallopian tube anatomy", "laparoscopic salpingo-oophorectomy"],
+  "onco10": ["HPV vaccine vial Gardasil", "HPV vaccination girl", "human papillomavirus capsid structure"],
+  "onco11": ["Pap smear low grade squamous intraepithelial lesion", "koilocyte cytology", "cervical cytology microscope"],
+  "onco12": ["high grade squamous intraepithelial lesion cytology", "electrosurgical loop excision", "LEEP electrosurgical unit"],
+  "onco13": ["endometrial adenocarcinoma histology", "endometrial cancer stages diagram", "hysterectomy specimen endometrial carcinoma"],
+  "onco14": ["serous cystadenocarcinoma ovary", "ovarian cancer ultrasound", "high grade serous carcinoma ovary histology"],
+  "onco15": ["dysgerminoma histology", "dysgerminoma ovary gross", "ovarian germ cell tumor MRI"],
 }
 
 MIN_LADO = 400
@@ -301,10 +316,29 @@ CONSULTAS4 = {
 CONSULTAS5 = {
   # 5ª rodada (Reprodução): a 1ª deu um raio X com marca d'água (repro21), gráficos e ônibus "GTT" (repro22),
   # uma cantora e moedas para "oocyte cryopreservation" (repro30) e um corredor de hospital (repro36)
-  "repro21": ["fibrous dysplasia radiograph femur", "McCune-Albright syndrome", "cafe-au-lait macule neurofibromatosis"],
-  "repro22": ["glucometer blood glucose test strip", "blood glucose meter finger", "glucose tolerance test drink"],
-  "repro30": ["liquid nitrogen dewar cryogenic storage", "cryopreservation straws liquid nitrogen", "IVF laboratory cryostorage"],
-  "repro36": ["hydrosalpinx", "fallopian tube hydrosalpinx laparoscopy", "hydrosalpinx MRI"],
+  "repro22": ["fibrous dysplasia radiograph femur", "McCune-Albright syndrome", "cafe-au-lait macule neurofibromatosis"],
+  "repro23": ["glucometer blood glucose test strip", "blood glucose meter finger", "glucose tolerance test drink"],
+  "repro31": ["liquid nitrogen dewar cryogenic storage", "cryopreservation straws liquid nitrogen", "IVF laboratory cryostorage"],
+  "repro37": ["hydrosalpinx", "fallopian tube hydrosalpinx laparoscopy", "hydrosalpinx MRI"],
+}
+
+
+CONSULTAS6 = {
+  "onco02": ["cervical conization", "cone biopsy cervix", "cervical intraepithelial neoplasia 3 histology"],
+  "onco04": ["carbon dioxide laser", "CO2 laser", "laser surgery operating room"],
+  "onco05": ["squamous cell carcinoma of the cervix", "cervical cancer gross specimen", "cervix carcinoma"],
+  "onco06": ["linear accelerator radiotherapy", "Varian linear accelerator", "radiation therapy machine"],
+  "onco07": ["sterile gauze", "gauze bandage roll", "gauze pads"],
+  "onco08": ["Tamoxifen", "tamoxifen pills", "Nolvadex"],
+  "onco10": ["Gardasil", "HPV vaccine", "Gardasil 9 vial"],
+  "onco12": ["high grade squamous intraepithelial lesion", "HSIL Pap smear", "cervical intraepithelial neoplasia histology"],
+  "onco15": ["dysgerminoma", "ovarian dysgerminoma", "ovarian germ cell tumor"],
+  # as versões "(hy)" dos diagramas do CRUK têm rótulos em armênio: procurar a original
+  "onco03": ["Diagram showing stage 1B cervical cancer", "cervical cancer stage 1B diagram", "Diagram showing the size of cervical cancer"],
+  "onco07": ["Diagram showing stage 3B cervical cancer", "cervical cancer stage 3B diagram", "advanced cervical cancer diagram"],
+  # só há versões em armênio e árabe (a original é SVG): anatomia e peça macroscópica
+  "onco03": ["uterus anatomy diagram", "cervix uteri", "female reproductive system diagram"],
+  "onco07": ["cervical cancer gross pathology", "carcinoma of cervix specimen", "cervix cancer exophytic"],
 }
 
 
@@ -390,6 +424,8 @@ if __name__ == "__main__":
         candidatos2(CONSULTAS4)
     elif modo == "candidatos5":
         candidatos2(CONSULTAS5)
+    elif modo == "candidatos6":
+        candidatos2(CONSULTAS6)
     elif modo == "escolher":
         escolher()
     elif modo == "baixar":

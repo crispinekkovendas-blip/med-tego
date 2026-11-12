@@ -20,12 +20,12 @@ module.exports = {
      mão (cadernos/<fonte>-areas.json), porque as provas são só "Ginecologia" e "Obstetrícia".
      As áreas entram uma a uma, conforme são escritas (a linha sai do comentário e ESPERADO
      no harness ganha a contagem dela):
-       { id: "onco",  nome: "Oncologia",   curto: "Onco"  },
        { id: "masto", nome: "Mastologia",  curto: "Masto" }, */
   areas: [
     { id: "obst",  nome: "Obstetrícia", curto: "Obst"  },
     { id: "gine",  nome: "Ginecologia", curto: "Gine"  },
     { id: "repro", nome: "Reprodução",  curto: "Repro" },
+    { id: "onco",  nome: "Oncologia",   curto: "Onco"  },
   ],
   /* uma fonte por prova (a FEBRASGO numera Ginecologia e Obstetrícia de 1 a 60, cada
      uma); os cadernos oficiais de 2023 a 2026 só existem na área do candidato (eduCAT),

@@ -24,7 +24,18 @@ const questoes = [];
 for (const a of meta.areas) {
   const arq = path.join(__dirname, "entrada", a.id + ".js");
   const entradas = fs.existsSync(arq) ? require(arq) : [];
+  /* O arquivo de entrada tem de estar nesta ordem antes de ser ordenado: os ids
+     (<area>NN) são dados pela posição, e legendas.js e as CONSULTAS do figuras.py
+     são chaveados por id — na Reprodução, o bloco de Obstetrícia 2025 escrito
+     depois do de Ginecologia 2022 deslocou figura e legenda de 20 questões. */
+  const antes = entradas.map(e => e.fonte + "#" + e.numero);
   entradas.sort((x, y) => (ordemFonte[x.fonte] - ordemFonte[y.fonte]) || (x.numero - y.numero));
+  const foraDeOrdem = antes.findIndex((c, i) => c !== entradas[i].fonte + "#" + entradas[i].numero);
+  if (foraDeOrdem >= 0) {
+    throw new Error(`entrada/${a.id}.js fora da ordem de meta.fontes a partir de ${antes[foraDeOrdem]} ` +
+      `(posição ${foraDeOrdem + 1}, esperado ${entradas[foraDeOrdem].fonte}#${entradas[foraDeOrdem].numero}): ` +
+      "reordene o arquivo, porque os ids e as legendas dependem da posição");
+  }
   /* "Sobre a matéria": opcional por questão enquanto está sendo escrita; uma
      chave que não é entrada nenhuma é erro (número trocado) */
   const arqM = path.join(__dirname, "materia", a.id + ".js");
