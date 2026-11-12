@@ -798,5 +798,325 @@
   "q": null,
   "m": null,
   "busca": "Imagem da paciente em aula — autorização específica"
+ },
+ "repro01": {
+  "fonte": "tego2025g",
+  "numero": 3,
+  "tema": "Contracepção na lactante de um mês — pílula de progestagênio",
+  "q": null,
+  "m": null,
+  "busca": "Contracepção na lactante de um mês — pílula de progestagênio"
+ },
+ "repro02": {
+  "fonte": "tego2025g",
+  "numero": 4,
+  "tema": "AMH baixo na mulher sem infertilidade — não prevê gravidez natural",
+  "q": null,
+  "m": null,
+  "busca": "AMH baixo na mulher sem infertilidade — não prevê gravidez natural"
+ },
+ "repro03": {
+  "fonte": "tego2025g",
+  "numero": 15,
+  "tema": "Hipertensa com pré-eclâmpsia prévia — implante de etonogestrel",
+  "q": null,
+  "m": null,
+  "busca": "Hipertensa com pré-eclâmpsia prévia — implante de etonogestrel"
+ },
+ "repro04": {
+  "fonte": "tego2025g",
+  "numero": 16,
+  "tema": "SOP com desejo de gestar — letrozol para induzir a ovulação",
+  "q": null,
+  "m": null,
+  "busca": "SOP com desejo de gestar — letrozol para induzir a ovulação"
+ },
+ "repro05": {
+  "fonte": "tego2025g",
+  "numero": 17,
+  "tema": "Doença da vesícula sintomática — trocar para progestagênio isolado",
+  "q": null,
+  "m": null,
+  "busca": "Doença da vesícula sintomática — trocar para progestagênio isolado"
+ },
+ "repro06": {
+  "fonte": "tego2025g",
+  "numero": 20,
+  "tema": "Insuficiência ovariana prematura aos 21 — combinado sem pausa",
+  "q": null,
+  "m": null,
+  "busca": "Insuficiência ovariana prematura aos 21 — combinado sem pausa"
+ },
+ "repro07": {
+  "fonte": "tego2025g",
+  "numero": 25,
+  "tema": "Metabolismo ósseo — osteoporose primária e o papel do estradiol",
+  "q": null,
+  "m": null,
+  "busca": "Metabolismo ósseo — osteoporose primária e o papel do estradiol"
+ },
+ "repro08": {
+  "fonte": "tego2025g",
+  "numero": 26,
+  "tema": "Homem trans em testosterona — contracepção de qualquer tipo",
+  "q": null,
+  "m": null,
+  "busca": "Homem trans em testosterona — contracepção de qualquer tipo"
+ },
+ "repro09": {
+  "fonte": "tego2025g",
+  "numero": 27,
+  "tema": "Osteopenia com fratura prévia e FRAX alto — bisfosfonato",
+  "q": null,
+  "m": null,
+  "busca": "Osteopenia com fratura prévia e FRAX alto — bisfosfonato"
+ },
+ "repro10": {
+  "fonte": "tego2025g",
+  "numero": 30,
+  "tema": "Ciclo endometrial — a fase menstrual e o reparo pela camada basal",
+  "q": null,
+  "m": null,
+  "busca": "Ciclo endometrial — a fase menstrual e o reparo pela camada basal"
+ },
+ "repro11": {
+  "fonte": "tego2025g",
+  "numero": 35,
+  "tema": "Cirrose compensada e útero bicorno — qualquer método não intrauterino",
+  "q": null,
+  "m": null,
+  "busca": "Cirrose compensada e útero bicorno — qualquer método não intrauterino"
+ },
+ "repro12": {
+  "fonte": "tego2025g",
+  "numero": 36,
+  "tema": "Tabagista de 34 anos bem adaptada ao combinado — manter até os 35",
+  "q": null,
+  "m": null,
+  "busca": "Tabagista de 34 anos bem adaptada ao combinado — manter até os 35"
+ },
+ "repro13": {
+  "fonte": "tego2025g",
+  "numero": 38,
+  "tema": "Contracepção de emergência no câncer de mama — DIU de cobre",
+  "q": null,
+  "m": null,
+  "busca": "Contracepção de emergência no câncer de mama — DIU de cobre"
+ },
+ "repro14": {
+  "fonte": "tego2025g",
+  "numero": 41,
+  "tema": "Ectopia cervical ao especular — não impede a inserção do DIU",
+  "q": null,
+  "m": null,
+  "busca": "Ectopia cervical ao especular — não impede a inserção do DIU"
+ },
+ "repro15": {
+  "fonte": "tego2025g",
+  "numero": 50,
+  "tema": "Adolescente de 14 anos pede DIU de cobre — inserir",
+  "q": null,
+  "m": null,
+  "busca": "Adolescente de 14 anos pede DIU de cobre — inserir"
+ },
+ "repro16": {
+  "fonte": "tego2025g",
+  "numero": 52,
+  "tema": "Implante de etonogestrel — onde inserir no braço",
+  "q": null,
+  "m": null,
+  "busca": "Implante de etonogestrel — onde inserir no braço"
+ },
+ "repro17": {
+  "fonte": "tego2025g",
+  "numero": 53,
+  "tema": "Amenorreia da atleta — balanço energético e gordura corporal",
+  "q": null,
+  "m": null,
+  "busca": "Amenorreia da atleta — balanço energético e gordura corporal"
+ },
+ "repro18": {
+  "fonte": "tego2025g",
+  "numero": 55,
+  "tema": "Perimenopausa aos 52 sem riscos — lipídios, colonoscopia e mamografia",
+  "q": null,
+  "m": null,
+  "busca": "Perimenopausa aos 52 sem riscos — lipídios, colonoscopia e mamografia"
+ },
+ "repro19": {
+  "fonte": "tego2025g",
+  "numero": 56,
+  "tema": "Mamas sem pelos e LH alto — insensibilidade androgênica",
+  "q": null,
+  "m": null,
+  "busca": "Mamas sem pelos e LH alto — insensibilidade androgênica"
+ },
+ "repro20": {
+  "fonte": "tego2025o",
+  "numero": 41,
+  "tema": "DIU na cesárea — com o aplicador ou com a mão",
+  "q": null,
+  "m": null,
+  "busca": "DIU na cesárea — com o aplicador ou com a mão"
+ },
+ "repro21": {
+  "fonte": "tego2022g",
+  "numero": 1,
+  "tema": "Preservativo rompido na adolescente — levonorgestrel 1,5 mg",
+  "q": null,
+  "m": null,
+  "busca": "Preservativo rompido na adolescente — levonorgestrel 1,5 mg"
+ },
+ "repro22": {
+  "fonte": "tego2022g",
+  "numero": 3,
+  "tema": "Sangramento aos 4 anos com mancha café com leite — McCune-Albright",
+  "q": null,
+  "m": null,
+  "busca": "Sangramento aos 4 anos com mancha café com leite — McCune-Albright"
+ },
+ "repro23": {
+  "fonte": "tego2022g",
+  "numero": 4,
+  "tema": "SOP com pré-diabetes — dieta e atividade física primeiro",
+  "q": null,
+  "m": null,
+  "busca": "SOP com pré-diabetes — dieta e atividade física primeiro"
+ },
+ "repro24": {
+  "fonte": "tego2022g",
+  "numero": 5,
+  "tema": "Bulimia com amenorreia — inibidor da recaptação de serotonina",
+  "q": null,
+  "m": null,
+  "busca": "Bulimia com amenorreia — inibidor da recaptação de serotonina"
+ },
+ "repro25": {
+  "fonte": "tego2022g",
+  "numero": 6,
+  "tema": "Puberdade precoce central — o teste de estímulo com GnRH",
+  "q": null,
+  "m": null,
+  "busca": "Puberdade precoce central — o teste de estímulo com GnRH"
+ },
+ "repro26": {
+  "fonte": "tego2022g",
+  "numero": 7,
+  "tema": "SOP na jovem com hirsutismo e acne — combinado é a primeira escolha",
+  "q": null,
+  "m": null,
+  "busca": "SOP na jovem com hirsutismo e acne — combinado é a primeira escolha"
+ },
+ "repro27": {
+  "fonte": "tego2022g",
+  "numero": 9,
+  "tema": "Enxaqueca com aura — só progestagênio, nada de estrogênio",
+  "q": null,
+  "m": null,
+  "busca": "Enxaqueca com aura — só progestagênio, nada de estrogênio"
+ },
+ "repro28": {
+  "fonte": "tego2022g",
+  "numero": 10,
+  "tema": "Trombose venosa prévia — DIU de cobre",
+  "q": null,
+  "m": null,
+  "busca": "Trombose venosa prévia — DIU de cobre"
+ },
+ "repro29": {
+  "fonte": "tego2022g",
+  "numero": 11,
+  "tema": "Adolescente antes da sexarca — implante de etonogestrel",
+  "q": null,
+  "m": null,
+  "busca": "Adolescente antes da sexarca — implante de etonogestrel"
+ },
+ "repro30": {
+  "fonte": "tego2022g",
+  "numero": 12,
+  "tema": "DIU de cobre vencido no câncer de mama — levonorgestrel 1,5 mg",
+  "q": null,
+  "m": null,
+  "busca": "DIU de cobre vencido no câncer de mama — levonorgestrel 1,5 mg"
+ },
+ "repro31": {
+  "fonte": "tego2022g",
+  "numero": 13,
+  "tema": "Óvulos antes da quimioterapia da leucemia — estimular sem risco",
+  "q": null,
+  "m": null,
+  "busca": "Óvulos antes da quimioterapia da leucemia — estimular sem risco"
+ },
+ "repro32": {
+  "fonte": "tego2022g",
+  "numero": 20,
+  "tema": "Hirsutismo que não cede ao combinado — somar espironolactona",
+  "q": null,
+  "m": null,
+  "busca": "Hirsutismo que não cede ao combinado — somar espironolactona"
+ },
+ "repro33": {
+  "fonte": "tego2022g",
+  "numero": 26,
+  "tema": "Hidrossalpinge na histerossalpingografia — sequela de clamídia",
+  "q": null,
+  "m": null,
+  "busca": "Hidrossalpinge na histerossalpingografia — sequela de clamídia"
+ },
+ "repro34": {
+  "fonte": "tego2022g",
+  "numero": 32,
+  "tema": "Menopausa recente na hipertensa — hormônios pela via transdérmica",
+  "q": null,
+  "m": null,
+  "busca": "Menopausa recente na hipertensa — hormônios pela via transdérmica"
+ },
+ "repro35": {
+  "fonte": "tego2022g",
+  "numero": 33,
+  "tema": "Fatores de risco para osteoporose — menopausa precoce, família, tabaco",
+  "q": null,
+  "m": null,
+  "busca": "Fatores de risco para osteoporose — menopausa precoce, família, tabaco"
+ },
+ "repro36": {
+  "fonte": "tego2022g",
+  "numero": 34,
+  "tema": "Fogachos após câncer de mama — gabapentina",
+  "q": null,
+  "m": null,
+  "busca": "Fogachos após câncer de mama — gabapentina"
+ },
+ "repro37": {
+  "fonte": "tego2022g",
+  "numero": 38,
+  "tema": "Hidrossalpinge bilateral — salpingectomia antes da FIV",
+  "q": null,
+  "m": null,
+  "busca": "Hidrossalpinge bilateral — salpingectomia antes da FIV"
+ },
+ "repro38": {
+  "fonte": "tego2022g",
+  "numero": 39,
+  "tema": "Hormonização no SUS — 18 anos, saúde mental e consentimento",
+  "q": null,
+  "m": null,
+  "busca": "Hormonização no SUS — 18 anos, saúde mental e consentimento"
+ },
+ "repro39": {
+  "fonte": "tego2022g",
+  "numero": 57,
+  "tema": "Resolução CFM 2.294/2021 — gestação compartilhada no casal de mulheres",
+  "q": null,
+  "m": null,
+  "busca": "Resolução CFM 2.294/2021 — gestação compartilhada no casal de mulheres"
+ },
+ "repro40": {
+  "fonte": "tego2022o",
+  "numero": 58,
+  "tema": "Laqueadura sem consentimento na laparotomia — não é ética",
+  "q": null,
+  "m": null,
+  "busca": "Laqueadura sem consentimento na laparotomia — não é ética"
  }
 }

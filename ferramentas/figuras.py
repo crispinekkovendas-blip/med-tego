@@ -129,6 +129,48 @@ CONSULTAS = {
   "gine48": ["hysteroscopy", "hysteroscope", "uterine perforation"],
   "gine49": ["hemorrhagic ovarian cyst ultrasound", "ovarian cyst", "laparoscopy ovary"],
   "gine50": ["telemedicine consultation", "informed consent form", "telemedicine"],
+  # Reprodução — repro01–repro19 = Ginecologia 2025 nº 3, 4, 15, 16, 17, 20, 25, 26, 27, 30, 35, 36, 38, 41, 50, 52, 53, 55, 56;
+  # repro20–repro38 = Ginecologia 2022 nº 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 20, 26, 32, 33, 34, 38, 39, 57; repro39 = Obstetrícia 2025 nº 41; repro40 = Obstetrícia 2022 nº 58
+  "repro01": ["progestogen only pill blister", "breastfeeding mother infant", "contraceptive pills blister"],
+  "repro02": ["antral follicles ovary ultrasound", "ovary histology follicles", "blood sample tubes laboratory"],
+  "repro03": ["etonogestrel implant", "contraceptive implant arm", "blood pressure measurement"],
+  "repro04": ["polycystic ovary ultrasound", "letrozole tablets", "polycystic ovary syndrome"],
+  "repro05": ["gallstones gallbladder specimen", "gallbladder stones", "cholecystectomy laparoscopic"],
+  "repro06": ["hypothalamic pituitary ovarian axis", "ovary primordial follicles histology", "hot flash woman"],
+  "repro07": ["osteoclast bone resorption", "osteoporosis trabecular bone", "osteoporosis bone micrograph"],
+  "repro08": ["testosterone cypionate vial", "testosterone injection vial", "transgender pride flag"],
+  "repro09": ["alendronate tablets", "distal radius fracture x-ray", "osteoporosis hip x-ray"],
+  "repro10": ["menstrual cycle diagram endometrium", "proliferative endometrium histology", "secretory endometrium histology"],
+  "repro11": ["bicornuate uterus ultrasound", "bicornuate uterus", "liver cirrhosis gross"],
+  "repro12": ["woman smoking cigarette", "cigarette smoke", "oral contraceptive pills"],
+  "repro13": ["copper intrauterine device", "copper IUD T 380", "intrauterine device"],
+  "repro14": ["cervical ectropion", "cervix speculum examination photograph", "cervical ectropion colposcopy"],
+  "repro15": ["intrauterine device insertion", "IUD insertion illustration", "copper intrauterine device"],
+  "repro16": ["contraceptive implant insertion arm", "Implanon insertion", "etonogestrel implant"],
+  "repro17": ["female marathon runner", "woman athlete running track", "leptin hormone structure"],
+  "repro18": ["mammography machine", "mammogram examination", "colonoscopy procedure"],
+  "repro19": ["androgen receptor structure", "androgen insensitivity syndrome", "karyotype 46 XY"],
+  "repro20": ["levonorgestrel emergency contraception", "emergency contraceptive pill", "levonorgestrel tablets"],
+  "repro21": ["fibrous dysplasia skull x-ray", "cafe au lait spot skin", "fibrous dysplasia bone"],
+  "repro22": ["oral glucose tolerance test", "blood glucose meter", "woman walking exercise park"],
+  "repro23": ["fluoxetine capsules", "fluoxetine", "antidepressant capsules"],
+  "repro24": ["gonadotropin releasing hormone structure", "hand x-ray bone age child", "pituitary gland anatomy"],
+  "repro25": ["polycystic ovary ultrasound", "hirsutism face", "combined oral contraceptive pill pack"],
+  "repro26": ["migraine aura scintillating scotoma", "migraine aura", "ischemic stroke MRI"],
+  "repro27": ["deep vein thrombosis leg", "deep vein thrombosis ultrasound", "copper intrauterine device"],
+  "repro28": ["Nexplanon implant", "contraceptive implant", "teenage girl doctor consultation"],
+  "repro29": ["copper IUD x-ray pelvis", "intrauterine device", "chemotherapy infusion"],
+  "repro30": ["oocyte cryopreservation", "liquid nitrogen cryopreservation tank", "human oocyte microscope"],
+  "repro31": ["spironolactone tablets", "spironolactone", "hirsutism"],
+  "repro32": ["hydrosalpinx hysterosalpingography", "hysterosalpingography", "Chlamydia trachomatis inclusion"],
+  "repro33": ["estradiol transdermal patch", "hormone replacement therapy patch", "estradiol patch skin"],
+  "repro34": ["osteoporosis vertebral compression fracture x-ray", "osteoporotic bone", "woman smoking"],
+  "repro35": ["gabapentin capsules", "gabapentin", "menopause hot flash"],
+  "repro36": ["hydrosalpinx laparoscopy", "hydrosalpinx ultrasound", "salpingectomy laparoscopic"],
+  "repro37": ["estradiol valerate ampoule", "estradiol tablets", "transgender woman portrait"],
+  "repro38": ["intracytoplasmic sperm injection", "embryo transfer IVF", "IVF laboratory embryologist"],
+  "repro39": ["cesarean section surgery uterus", "caesarean section operation", "copper intrauterine device"],
+  "repro40": ["tubal ligation illustration", "tubal ligation", "fallopian tube anatomy"],
 }
 
 MIN_LADO = 400
@@ -256,6 +298,15 @@ CONSULTAS4 = {
   "obst46": ["vacuum extraction cup newborn", "ventouse obstetric cup", "obstetric vacuum delivery illustration"],
   "obst50": ["ductus venosus doppler waveform", "fetal doppler ultrasound waveform", "small for gestational age fetus ultrasound"],
 }
+CONSULTAS5 = {
+  # 5ª rodada (Reprodução): a 1ª deu um raio X com marca d'água (repro21), gráficos e ônibus "GTT" (repro22),
+  # uma cantora e moedas para "oocyte cryopreservation" (repro30) e um corredor de hospital (repro36)
+  "repro21": ["fibrous dysplasia radiograph femur", "McCune-Albright syndrome", "cafe-au-lait macule neurofibromatosis"],
+  "repro22": ["glucometer blood glucose test strip", "blood glucose meter finger", "glucose tolerance test drink"],
+  "repro30": ["liquid nitrogen dewar cryogenic storage", "cryopreservation straws liquid nitrogen", "IVF laboratory cryostorage"],
+  "repro36": ["hydrosalpinx", "fallopian tube hydrosalpinx laparoscopy", "hydrosalpinx MRI"],
+}
+
 
 def candidatos2(tabela=None):
     c = json.load(open(CANDIDATOS, encoding="utf-8"))
@@ -337,6 +388,8 @@ if __name__ == "__main__":
         candidatos2(CONSULTAS3)
     elif modo == "candidatos4":
         candidatos2(CONSULTAS4)
+    elif modo == "candidatos5":
+        candidatos2(CONSULTAS5)
     elif modo == "escolher":
         escolher()
     elif modo == "baixar":

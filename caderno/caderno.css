@@ -100,7 +100,7 @@ h3 { font-family: var(--sans); font-size: 11pt; font-weight: 600; margin: 7mm 0 
 .capa .area-capa { font-family: var(--sans); font-size: 15pt; font-weight: 600; letter-spacing: .02em; color: var(--accent); margin: 0 0 5mm; padding: 2mm 0 2mm 4mm; border-left: 4px solid var(--accent-2); }
 .cabecalho-corrido { display: none; }
 .capa .lema { font-size: 12pt; color: var(--ink-2); margin: 0 0 9mm; max-width: 62ch; }
-.fatos { display: grid; grid-template-columns: repeat(4, 1fr); gap: 3mm; margin: 0 0 9mm; }
+.fatos { display: grid; grid-template-columns: repeat(auto-fit, minmax(28mm, 1fr)); gap: 3mm; margin: 0 0 9mm; }   /* auto-fit: a capa da Reprodução tem cinco caixas (Questões + quatro provas) e com quatro colunas a quinta descia e a capa transbordava */
 .fatos div { padding: 3mm 4mm; border: 1px solid var(--line); border-top: 3px solid var(--accent-2); border-radius: 2px; background: #fff; }
 .fatos dt { font-family: var(--sans); font-size: 8pt; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-3); }
 .fatos dd { margin: 1mm 0 0; font-family: var(--mono); font-size: 16pt; color: var(--ink); }

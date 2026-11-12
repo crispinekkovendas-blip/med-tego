@@ -64,3 +64,18 @@ nº 2, 8, 14, 17, 19, 22, 23, 24, 25, 27, 28, 29, 30, 31, 44, 50, 51, 52, 53, 59
 - 21 (vaginose citolítica — a 46, a 54 e a 58 de 2025 cobrem as vulvovaginites);
 - 56 (incontinência de esforço — a 5 de 2025 e a 29 de 2022 cobrem a uroginecologia);
 - 58 (profilaxia pós-estupro — igual à 60 de 2025).
+
+## Reprodução (sessão 3, 2026-11-11 — 40 questões: 19 + 19 + 1 + 1)
+
+Entram todas as 40 questões que o mapa de áreas marca como Reprodução — a
+área não chega a 50 com as duas edições, e a apostila sai com o que existe,
+sem repetir tema. Da prova de Ginecologia de 2025, nº 3, 4, 15, 16, 17, 20, 25,
+26, 27, 30, 35, 36, 38, 41, 50, 52, 53, 55, 56 (`repro01`–`repro19`); da de
+Ginecologia de 2022, nº 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 20, 26, 32, 33, 34,
+38, 39, 57 (`repro20`–`repro38`); da de Obstetrícia de 2025, nº 41, o DIU na
+cesárea (`repro39`); da de Obstetrícia de 2022, nº 58, a laqueadura sem
+consentimento (`repro40`). Três temas aparecem duas vezes e ficaram os dois,
+porque a resposta muda com o caso: contracepção de emergência (2025 nº 38 e 2022
+nº 1 e 12), hidrossalpinge (2022 nº 26 e 38) e SOP (2025 nº 16, 2022 nº 4, 7 e
+20, cada uma com uma pergunta diferente — induzir, diabetes, pele, hirsutismo
+refratário).

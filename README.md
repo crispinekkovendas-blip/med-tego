@@ -18,20 +18,23 @@ marca-texto e post-its em OpenDyslexic, uma apostila por área).
 | Caderno para imprimir | https://tego-febrasgo.vercel.app/caderno/ |
 | Vídeos — página de revisão (para o cliente) | https://tego-febrasgo.vercel.app/videos/ (os links curtos dos QR codes: `/v/<id>/q`, `/m`, `/mais`, `/flash`, `/mapa`) |
 | Deploy | `python ferramentas/pdf.py` e depois `npx vercel deploy --prod --yes`, a partir de `med/tego/` (projeto `tego`, domínio `tego-febrasgo.vercel.app` — `tego.vercel.app` já era de outra conta; git em `main`, remoto privado `crispinekkovendas-blip/med-tego`). Só pela CLI: `vercel.json` desliga o deploy automático do GitHub, porque um build a partir do git não teria os PDFs |
-| PDFs prontos | https://tego-febrasgo.vercel.app/pdf/caderno-obst.pdf (`gine`, `onco`, `repro` e `masto` quando existirem): uma apostila por área, paginada, com o índice dizendo a página de cada ficha — links no painel do caderno |
+| PDFs prontos | https://tego-febrasgo.vercel.app/pdf/caderno-obst.pdf, `caderno-gine.pdf` e `caderno-repro.pdf` (`onco` e `masto` quando existirem): uma apostila por área, paginada, com o índice dizendo a página de cada ficha — links no painel do caderno |
 
-## Números (2026-11-11, sessão 2: Obstetrícia e Ginecologia completas)
+## Números (2026-11-11, sessão 3: Obstetrícia, Ginecologia e Reprodução completas)
 
 | Área | TEGO Ginecologia 2025 | TEGO Obstetrícia 2025 | TEGO Ginecologia 2022 | TEGO Obstetrícia 2022 | Total |
 |---|---|---|---|---|---|
 | Obstetrícia | 0 | 50 | 0 | 0 | 50 |
 | Ginecologia | 29 | 0 | 21 | 0 | 50 |
-| **Total** | **29** | **50** | **21** | **0** | **100** |
+| Reprodução | 19 | 1 | 19 | 1 | 40 |
+| **Total** | **48** | **51** | **40** | **1** | **140** |
 
-Hoje o banco tem **100 questões** — as apostilas de **Obstetrícia** (as 50 da
+Hoje o banco tem **140 questões** — as apostilas de **Obstetrícia** (as 50 da
 prova de Obstetrícia do TEGO 2025; a prova tem 56 obstétricas, e seis que
-repetiam tema ficaram de fora) e de **Ginecologia** (as 29 ginecológicas de
-2025 e 21 das 25 de 2022) completas — ver `selecao.md`; as áreas entram uma a uma, na ordem Obstetrícia → Ginecologia →
+repetiam tema ficaram de fora), de **Ginecologia** (as 29 ginecológicas de
+2025 e 21 das 25 de 2022) e de **Reprodução** (as 40 que as quatro provas
+têm: 19 de cada prova de Ginecologia e uma de cada prova de Obstetrícia —
+uma apostila de 40, porque as duas edições não rendem 50) completas — ver `selecao.md`; as áreas entram uma a uma, na ordem Obstetrícia → Ginecologia →
 Oncologia → Reprodução → Mastologia, cada uma com as suas questões, figuras e
 mini-aulas. Ids `obst01–obst50`, `gine01–…`, `onco01–…`, `repro01–…`,
 `masto01–…`; dentro da área, as fontes na ordem de `meta.fontes`
