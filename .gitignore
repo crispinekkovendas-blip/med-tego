@@ -5,6 +5,9 @@ __pycache__
 
 .vercel
 pdf
+# os PDFs-fonte (cadernos e guia dos cursinhos) ficam fora do git desde que o
+# repositório é público (2026-11-12): URL, tamanho e md5 em ferramentas/cadernos/FONTES.md
+ferramentas/cadernos/*.pdf
 # rascunho da ferramenta de vídeos (nomes dos canais vistos na descoberta)
 ferramentas/videos/_canais-vistos.json
 pdf/

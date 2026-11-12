@@ -84,7 +84,9 @@ reproduzida no Guia da Aprovação TEGO 2026 do Estratégia MED** (o PDF é de
 outubro de 2025 e nenhuma questão citada nos recursos do TEGO 2026 está nele;
 os comentários do cursinho não são usados — só o texto da prova, as figuras e
 o gabarito). Tudo em `ferramentas/cadernos/`, com URL, tamanho e md5 em
-`FONTES.md`. Nenhuma questão anulada nas duas edições. A FEBRASGO não
+`FONTES.md` — os PDFs ficam fora do git desde que o repositório é público
+(2026-11-12; baixe-os das URLs de `FONTES.md`, e `testes.py` confere o md5
+dos que estão na pasta). Nenhuma questão anulada nas duas edições. A FEBRASGO não
 publica justificativas de recursos: `cadernos/<fonte>-recursos.json` fica
 vazio e nenhum comentário tem o parágrafo "Nos recursos, a banca".
 

@@ -38,9 +38,13 @@ FONTES_TEGO = ("tego2025g", "tego2025o", "tego2022g", "tego2022o")
 
 @teste
 def test_fontes_tego_baixadas():
+    # Os PDFs ficam fora do git desde que o repositório é público (2026-11-12): no
+    # GitHub Actions eles não existem, e o teste confere só os que estão na pasta.
     for nome, (h, tam) in FONTES_PDF.items():
         p = os.path.join(CADERNOS, nome)
-        assert os.path.exists(p), f"falta {nome} (node ferramentas/baixar.js)"
+        if not os.path.exists(p):
+            print(f"    (sem {nome} na pasta: fora do git; a URL está em FONTES.md)")
+            continue
         assert os.path.getsize(p) == tam and md5(p) == h, f"{nome} não é o documento esperado"
     fontes = ler("FONTES.md")
     for nome in FONTES_PDF:

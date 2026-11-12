@@ -6,6 +6,13 @@ público são as cópias hospedadas pelos cursinhos, listadas aqui. Nada foi
 retocado: o texto das questões é o da banca, e os comentários do Guia do
 Estratégia MED **não** são usados (só o texto da prova, as figuras e o gabarito).
 
+**Os PDFs ficam fora do git** desde que o repositório é público (2026-11-12),
+porque são documentos dos cursinhos e da FEBRASGO, não nossos: `.gitignore`
+exclui `ferramentas/cadernos/*.pdf`. Para refazer a extração, baixe cada um da
+URL da tabela para esta pasta; `testes.py` confere tamanho e md5 dos que estão
+aqui e pula os ausentes. O texto extraído (`<fonte>.txt`, `-questoes.json`,
+`-gabarito.txt`) e as imagens da banca continuam no git.
+
 | Arquivo | O que é | De onde | Conferência |
 |---|---|---|---|
 | `tego2022g-caderno.pdf` | Caderno oficial, Prova de Ginecologia, TEGO 2022, com "Gabarito da prova" | https://med.estrategia.com/portal/wp-content/uploads/2022/07/ginecologia-tego-2022.pdf | 1 990 776 bytes; gabarito idêntico ao do Medgrupo |
